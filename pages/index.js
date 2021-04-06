@@ -512,7 +512,7 @@ export default function Home() {
           </div>
         </section>
       </section>
-      <Footer link="https://github.com/minor/envisionweb/" />
+      <Footer link="https://github.com/minor/envisionweb/edit/main/pages/index.js" />
     </div>
   );
 }

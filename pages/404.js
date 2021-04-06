@@ -37,7 +37,7 @@ export default function Contact() {
           <br></br>
         </div>
       </div>
-      <Footer link="" />
+      <Footer link="https://github.com/minor/envisionweb/edit/main/pages/404.js" />
     </div>
   );
 }

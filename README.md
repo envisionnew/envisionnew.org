@@ -1,15 +1,15 @@
-# Ataraxia HomePage
+# Project enVision Website
 
 <img src="./screenshots/home.jpg" />
 
-This is the current deployment of Ataraxia's webpage located at [https://ataraxia.envisionnew.org/](https://ataraxia.envisionnew.org/).
+This is the current deployment of Project enVision's webpage located at [https://envisionnew.org/](https://envisionnew.org/).
 
 ## Getting Started
 
 First, clone/run the development server:
 
 ```bash
-$ git clone https://github.com/minor/ataraxiaweb.git
+$ git clone https://github.com/minor/envisionweb.git
 $ cd web
 $ yarn
 # or
@@ -29,8 +29,6 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Links & Contact
 
-Project Link – [https://ataraxia.envisionnew.org/](https://ataraxia.envisionnew.org/)
+Project Link – [https://envisionnew.org/](https://envisionnew.org/)
 
-Project GitHub – [https://github.com/minor/ataraxiaweb/](https://github.com/minor/ataraxiaweb/)
-
-Template Link – [https://nine4.app](https://nine4.app)
+Project GitHub – [https://github.com/minor/envisionweb/](https://github.com/minor/envisionweb/)
