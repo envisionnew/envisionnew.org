@@ -1,16 +1,22 @@
-# NINE4 TEMPLATE #1
-<img src="./img/main-page.png"></img>
+# Ataraxia HomePage
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="./screenshots/home.jpg" />
+
+This is the current deployment of Ataraxia's webpage located at [https://ataraxia.envisionnew.org/](https://ataraxia.envisionnew.org/).
 
 ## Getting Started
 
-First, run the development server:
+First, clone/run the development server:
 
 ```bash
-npm run dev
+$ git clone https://github.com/minor/ataraxiaweb.git
+$ cd web
+$ yarn
 # or
-yarn dev
+$ npm install
+$ yarn dev
+# or
+$ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -21,17 +27,10 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Links & Contact
 
-To learn more about Next.js, take a look at the following resources:
+Project Link – [https://ataraxia.envisionnew.org/](https://ataraxia.envisionnew.org/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Project GitHub – [https://github.com/minor/ataraxiaweb/](https://github.com/minor/ataraxiaweb/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Template Link – [https://nine4.app](https://nine4.app)
