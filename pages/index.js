@@ -52,30 +52,30 @@ export default function Home() {
       <Header />
       <section className="text-black body-font lg:pt-20">
         <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
-          <div className="flex flex-col w-full mb-2 text-left md:text-center ">
-            <h1 className="mt-10 mb-2 text-6xl font-bold tracking-tighter text-black lg:text-8xl md:text-7xl">
+          <div className="flex flex-col w-full mb-2 text-center md:text-center sm:text-center">
+            <h1 className="mt-10 mb-2 text-5xl font-bold tracking-tighter text-black lg:text-8xl md:text-6xl sm:text-5xl">
               <span>
                 We help <Highlight>students</Highlight>{" "}
               </span>
-              <br className="hidden lg:block"></br>
+              <br />
               <Typing />
             </h1>
             <br></br>
             <div className="container flex flex-col items-center justify-center py-8 mx-auto rounded-lg ">
               <img
-                className="object-cover object-center w-1/4 mb-10 rounded-lg g327"
+                className="object-cover object-center w-4/5 mb-10 rounded-lg lg:w-1/4 g327"
                 alt="Conversations"
                 src="/images/conversation.svg"
               ></img>
             </div>
-            <p className="mx-auto text-3xl font-normal leading-relaxed text-gray-600 dark:text-gray-300 lg:w-2/3">
+            <p className="mx-auto text-3xl font-normal leading-relaxed text-left text-gray-600 dark:text-gray-300 lg:w-2/3">
               Project enVision is a nonprofit accelerator focused on providing
               volunteer and educational services to young people everywhere.
             </p>
             <section className="text-gray-600 body-font">
               <div className="container px-5 py-10 mx-auto mt-5">
                 <div className="flex flex-wrap -m-4 text-center">
-                  <div className="w-1/2 p-4 sm:w-1/3">
+                  <div className="w-1/3 p-4">
                     <h2 className="text-3xl font-medium text-black title-font sm:text-5xl">
                       <CountUp end={950} redraw={true}>
                         {({ countUpRef, start }) => (
@@ -88,8 +88,8 @@ export default function Home() {
                     </h2>
                     <p className="leading-relaxed">Students Helped</p>
                   </div>
-                  <div className="w-1/2 p-4 sm:w-1/3">
-                    <h2 className="text-3xl font-medium text-black title-font sm:text-5xl">
+                  <div className="w-1/3 p-4">
+                    <h2 className="text-4xl font-medium text-black title-font sm:text-5xl">
                       <CountUp end={15} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
@@ -101,8 +101,8 @@ export default function Home() {
                     </h2>
                     <p className="leading-relaxed">Volunteers</p>
                   </div>
-                  <div className="w-1/2 p-4 sm:w-1/3">
-                    <h2 className="text-3xl font-medium text-black title-font sm:text-4xl">
+                  <div className="w-1/3 p-4">
+                    <h2 className="text-4xl font-medium text-black title-font sm:text-5xl">
                       <CountUp end={15} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
@@ -126,6 +126,7 @@ export default function Home() {
                   <span className="justify-center">Learn More</span>
                 </div>
               </a>
+              <br class="sm:hidden" />
               <a
                 className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent bg-black rounded px-7 lg:ml-11 md:ml-11 text-md md:mt-0 hover:text-white hover:bg-black focus:shadow-outline"
                 href="https://donorbox.org/project-envision"
@@ -309,7 +310,7 @@ export default function Home() {
                         src="/images/video.svg"
                       ></img>
                       <div className="w-full">
-                        <a href="#">
+                        <a href="/programs/tutoring">
                           <h2 className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
                             Project enVision Tutoring
                           </h2>

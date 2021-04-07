@@ -7,11 +7,11 @@ const Element = styled.span`
 `;
 
 const words = [
-  "learn new skills.",
-  "volunteer their own way.",
-  "lead their communities.",
-  "build impactful nonprofits.",
-  "launch amazing events.",
+  'learn new <span class="underline">skills</span>.',
+  'volunteer their <br class="sm:hidden" /><span class="underline">own way</span>.',
+  'lead their <br class="sm:hidden" /><span class="underline">communities</span>.',
+  'build impactful <br class="sm:hidden" /><span class="underline">nonprofits</span>.',
+  'launch amazing <br class="sm:hidden" /><span class="underline">events</span>.',
 ];
 
 class Typing extends React.Component {

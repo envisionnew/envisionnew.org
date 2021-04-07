@@ -2,9 +2,7 @@ import Head from "next/head";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import React from "react";
-import { useForm } from "react-hook-form";
 import { NextSeo } from "next-seo";
-import ReCAPTCHA from "react-google-recaptcha";
 import styled from "styled-components";
 
 const Highlight = styled.span`
