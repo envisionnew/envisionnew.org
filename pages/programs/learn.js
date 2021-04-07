@@ -66,7 +66,7 @@ export default function Learn() {
           <div className="container px-5 mx-auto">
             <div className="mb-20 text-center">
               <span className="px-3 pb-2.5 mb-3 rounded-10 badge badge-success-soft">
-                Courses
+                <p className="mt-2">Courses</p>
               </span>
               <h2 className="mb-4 font-medium text-black sm:text-5xl title-font">
                 View our offered courses.
@@ -154,7 +154,7 @@ export default function Learn() {
                   </div>
                   <div className="p-4 lg:w-full md:w-full">
                     <div className="flex flex-col items-center h-full text-center">
-                      <div className="w-1/4">
+                      <div className="lg:w-1/4 sm:w-full">
                         <h2 className="text-xl font-medium text-black title-font">
                           Debate
                         </h2>
