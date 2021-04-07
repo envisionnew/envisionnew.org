@@ -631,7 +631,10 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="w-full p-2">
-                        <button className="flex px-8 py-2 mx-auto text-lg text-black bg-white border-2 rounded hover:bg-black hover:text-white">
+                        <button
+                          type="submit"
+                          className="flex px-8 py-2 mx-auto text-lg text-black bg-white border-2 rounded hover:bg-black hover:text-white"
+                        >
                           Apply
                         </button>
                       </div>

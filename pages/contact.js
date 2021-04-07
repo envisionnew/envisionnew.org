@@ -4,30 +4,25 @@ import Footer from "../components/Footer";
 import React from "react";
 import { useForm } from "react-hook-form";
 import { NextSeo } from "next-seo";
+import ReCAPTCHA from "react-google-recaptcha";
 
 export default function Contact() {
-  const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm();
-  const onSubmit = (data) => console.log(data);
-
-  console.log(watch("example")); // watch input value by passing the name of it
-
   return (
-    <div className="text-black bg-white">
+    <div className="max-h-full text-black bg-white">
       <NextSeo
-        title="Contact: nine4"
-        description="Contact Us!"
-        canonical="https://nine4-1.vercel.app/contact"
+        title="Contact | Project enVision U.S."
+        description="Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere."
+        canonical="https://envisionnew.org/contact/"
         openGraph={{
-          url: "https://nine4-1.vercel.app/contact",
+          url: "https://envisionnew.org/contact/",
+          title: "Project enVision U.S.",
+          description:
+            "Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.",
+          site_name: "Project enVision U.S.",
         }}
       />
       <Head>
-        <title>Create Next App</title>
+        <title>Contact | Project enVision</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
@@ -37,77 +32,91 @@ export default function Contact() {
             <h1 className="mb-4 text-2xl font-semibold text-black sm:text-5xl title-font">
               Contact Us
             </h1>
-            <p className="mx-auto text-base font-semibold leading-relaxed lg:w-2/3">
-              Contact us if you have any issues with the website or just want to
-              ask a question!
+            <p className="mx-auto text-base font-semibold leading-relaxed text-gray-900 lg:w-2/3">
+              Want to reach out? Fill out the form below and we'll get back to
+              you as quickly as we can!
             </p>
           </div>
           <div className="mx-auto lg:w-1/2 md:w-2/3">
-            <div className="flex flex-wrap -m-2">
-              <div className="w-1/2 p-2">
-                <div className="relative">
-                  <label
-                    for="name"
-                    className="text-sm font-semibold leading-7 text-black"
+            <form
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfw7717IenntIJbLCOCfizrmu6g3mXIoKMR3ZVbyD_QrfUITw/formResponse"
+              method="post"
+            >
+              <div className="flex flex-wrap -m-2">
+                <div className="w-1/2 p-2">
+                  <div className="relative">
+                    <label
+                      for="contactName"
+                      className="text-sm font-semibold leading-7 text-black"
+                    >
+                      Full Name <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      id="contactName"
+                      placeholder="John Smith"
+                      name="entry.314971597"
+                      required
+                      className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
+                    ></input>
+                  </div>
+                </div>
+                <div className="w-1/2 p-2">
+                  <div className="relative">
+                    <label
+                      for="contactEmail"
+                      className="text-sm font-semibold leading-7 text-black"
+                    >
+                      Email <span className="text-red-500">*</span>
+                    </label>
+                    <input
+                      type="email"
+                      id="contactEmail"
+                      placeholder="john@smith.com"
+                      name="entry.2111510422"
+                      required
+                      className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
+                    ></input>
+                  </div>
+                </div>
+                <div className="w-full p-2">
+                  <div className="relative">
+                    <label
+                      for="contactMessage"
+                      className="text-sm font-semibold leading-7 text-black"
+                    >
+                      Message <span className="text-red-500">*</span>
+                    </label>
+                    <textarea
+                      id="contactMessage"
+                      name="entry.1147726578"
+                      placeholder="Tell us what we can help you with!"
+                      required
+                      className="w-full h-32 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none resize-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
+                    ></textarea>
+                  </div>
+                </div>
+                <div className="w-full p-2">
+                  <button
+                    type="submit"
+                    className="flex px-8 py-2 mx-auto text-lg text-black bg-white border-2 rounded"
                   >
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
-                  ></input>
+                    Send
+                  </button>
+                </div>
+                <div className="w-full p-2 pt-8 mt-8 text-center border-t border-gray-500">
+                  <a className="text-indigo-500">support@envisionnew.org</a>
+                  <p className="my-5 leading-normal">
+                    San Jose, California, United States
+                  </p>
                 </div>
               </div>
-              <div className="w-1/2 p-2">
-                <div className="relative">
-                  <label
-                    for="email"
-                    className="text-sm font-semibold leading-7 text-black"
-                  >
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-black bg-opacity-50 border border-gray-300 rounded outline-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
-                  ></input>
-                </div>
-              </div>
-              <div className="w-full p-2">
-                <div className="relative">
-                  <label
-                    for="message"
-                    className="text-sm font-semibold leading-7 text-black"
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    className="w-full h-32 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-black bg-opacity-50 border border-gray-300 rounded outline-none resize-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
-                  ></textarea>
-                </div>
-              </div>
-              <div className="w-full p-2">
-                <button className="flex px-8 py-2 mx-auto text-lg text-black bg-white border-0 rounded">
-                  Send
-                </button>
-              </div>
-              <div className="w-full p-2 pt-8 mt-8 text-center border-t border-gray-200">
-                <a className="text-indigo-500">contact@website.com</a>
-                <p className="my-5 leading-normal">
-                  Mountain View, California, United States
-                </p>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
       </section>
       <br></br>
-      <Footer />
+      <Footer link="https://github.com/minor/envisionweb/edit/main/pages/contact.js" />
     </div>
   );
 }

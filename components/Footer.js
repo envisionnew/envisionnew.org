@@ -20,6 +20,10 @@ export default function Footer({ link }) {
           <span className="ml-3 text-xl">PROJECT ENVISION U.S.</span>
         </a>
         <Border />
+        <p className="flex items-center justify-center ml-5 text-sm font-medium title-font md:justify-start">
+          EIN: 81-5333016
+        </p>
+        <Border />
         <a
           className="flex items-center justify-center font-medium title-font md:justify-start"
           href={link}
