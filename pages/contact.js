@@ -23,16 +23,16 @@ export default function Contact() {
       />
       <Head>
         <title>Contact | Project enVision</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Header />
       <section className="relative text-gray-600 body-font">
         <div className="container px-5 pt-24 pb-16 mx-auto">
           <div className="flex flex-col w-full mb-12 text-center">
-            <h1 className="mb-4 text-2xl font-semibold text-black sm:text-5xl title-font">
+            <h1 className="mb-6 text-6xl font-semibold text-black title-font">
               Contact Us
             </h1>
-            <p className="mx-auto text-base font-semibold leading-relaxed text-gray-900 lg:w-2/3">
+            <p className="mx-auto text-base text-xl font-semibold leading-relaxed text-gray-900 lg:w-2/3">
               Want to reach out? Fill out the form below and we'll get back to
               you as quickly as we can!
             </p>

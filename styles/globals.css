@@ -174,3 +174,21 @@ a.badge:focus {
 .text-dotted-adaptive:hover {
   text-decoration-color: #0af5f4;
 }
+
+.fsac4 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 32px;
+}
+
+@media (min-width: 720px) {
+  .fsac4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.ktq4 {
+  background-color: #101111;
+  padding: 2rem;
+  border-radius: 10px;
+}
