@@ -10,7 +10,7 @@ export default function Header() {
           className="flex pr-4 mb-4 font-medium text-gray-900 title-font md:mb-0"
           href="/"
         >
-          <h1 class="text-2xl">PROJECT ENVISION U.S.</h1>
+          <h1 className="text-2xl">PROJECT ENVISION U.S.</h1>
           {/* <img src="/images/brand.svg" alt="Project enVision U.S. Logo"></img> */}
         </a>
         <button
@@ -28,7 +28,7 @@ export default function Header() {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="feather feather-menu"
+            class="feather feather-menu"
           >
             <line x1="3" y1="12" x2="21" y2="12"></line>
             <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -55,7 +55,7 @@ export default function Header() {
             <a className="mr-6 hover:text-gray-900" href="#volunteer">
               Volunteer
             </a>
-            <a className="mr-6 hover:text-gray-900" href="#contact">
+            <a className="mr-6 hover:text-gray-900" href="/contact">
               Contact
             </a>
           </nav>

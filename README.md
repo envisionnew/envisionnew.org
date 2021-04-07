@@ -1,5 +1,6 @@
 # Project enVision Website
 
+![Demo of the Website](https://imgur.com/a/C7ULiZC)
 <img src="./screenshots/home.jpg" />
 
 This is the current deployment of Project enVision's webpage located at [https://envisionnew.org/](https://envisionnew.org/).

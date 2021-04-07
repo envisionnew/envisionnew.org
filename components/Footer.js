@@ -11,22 +11,22 @@ const Border = styled.span`
 
 export default function Footer({ link }) {
   return (
-    <footer class="text-black body-font">
-      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <footer className="text-black body-font">
+      <div className="container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row">
         <a
-          class="flex title-font font-medium items-center md:justify-start justify-center"
+          className="flex items-center justify-center font-medium title-font md:justify-start"
           href="/"
         >
-          <span class="ml-3 text-xl">PROJECT ENVISION U.S.</span>
+          <span className="ml-3 text-xl">PROJECT ENVISION U.S.</span>
         </a>
         <Border />
         <a
-          class="flex title-font font-medium items-center md:justify-start justify-center"
+          className="flex items-center justify-center font-medium title-font md:justify-start"
           href={link}
         >
-          <span class="ml-5 text-sm">Edit on GitHub</span>
+          <span className="ml-5 text-sm">Edit on GitHub</span>
         </a>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
           <a href="mailto:support@envisionnew.org">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ export default function Footer({ link }) {
               />
             </svg>
           </a>
-          <a class="ml-3" href="https://twitter.com/envisionnew">
+          <a className="ml-3" href="https://twitter.com/envisionnew">
             <svg
               fill="currentColor"
               strokeLinecap="round"
@@ -55,7 +55,7 @@ export default function Footer({ link }) {
               <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
             </svg>
           </a>
-          <a class="ml-3" href="https://instagram.com/project.envision">
+          <a className="ml-3" href="https://instagram.com/project.envision">
             <svg
               fill="none"
               stroke="currentColor"
@@ -70,7 +70,7 @@ export default function Footer({ link }) {
             </svg>
           </a>
           <a
-            class="ml-3"
+            className="ml-3"
             href="https://www.linkedin.com/company/projectenvision"
           >
             <svg
@@ -89,7 +89,7 @@ export default function Footer({ link }) {
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
             </svg>
           </a>
-          <a class="ml-3" href="https://github.com/envisionnew/">
+          <a className="ml-3" href="https://github.com/envisionnew/">
             <svg
               data-v-54e46119=""
               width="30"
