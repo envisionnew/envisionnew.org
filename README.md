@@ -1,6 +1,5 @@
 # Project enVision Website
 
-![Demo of the Website](https://imgur.com/a/C7ULiZC)
 <img src="./screenshots/home.jpg" />
 
 This is the current deployment of Project enVision's webpage located at [https://envisionnew.org/](https://envisionnew.org/).
@@ -33,3 +32,5 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 Project Link – [https://envisionnew.org/](https://envisionnew.org/)
 
 Project GitHub – [https://github.com/minor/envisionweb/](https://github.com/minor/envisionweb/)
+
+Demo of the Project - [https://imgur.com/a/C7ULiZC](https://imgur.com/a/C7ULiZC)
