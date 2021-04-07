@@ -49,10 +49,10 @@ export default function Header() {
             <a className="mr-6 hover:text-gray-900" href="/about">
               About
             </a>
-            <a className="mr-6 hover:text-gray-900" href="#programs">
+            <a className="mr-6 hover:text-gray-900" href="/#programs">
               Programs
             </a>
-            <a className="mr-6 hover:text-gray-900" href="#volunteer">
+            <a className="mr-6 hover:text-gray-900" href="/#volunteer">
               Volunteer
             </a>
             <a className="mr-6 hover:text-gray-900" href="/contact">
