@@ -68,7 +68,7 @@ export default function About() {
                 Project enVision U.S. has been a leading non-profit since 2015.
               </p>
               <div className="flex justify-center mt-6">
-                <div className="inline-flex w-16 h-1 bg-white rounded-full"></div>
+                <div className="inline-flex w-16 h-1 bg-black rounded-full"></div>
               </div>
               <div className="container px-5 py-16 mx-auto">
                 <div className="flex flex-wrap -m-4">
@@ -139,9 +139,9 @@ export default function About() {
                 Let us help answer the most common questions you might have.
               </p>
               <div className="flex justify-center mt-6">
-                <div className="inline-flex w-16 h-1 bg-white rounded-full"></div>
+                <div className="inline-flex w-16 h-1 bg-black rounded-full"></div>
               </div>
-              <div className="max-w-4xl pt-6 mx-auto fsac4">
+              <div className="max-w-4xl pt-10 mx-auto fsac4">
                 <div class="ktq4">
                   <h3 class="font-semibold text-center text-2xl text-white">
                     I want to be a volunteer, what's the time commitment?

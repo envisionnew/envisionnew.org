@@ -1,10 +1,30 @@
 import React from "react";
+import Head from "next/head";
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   return (
     <header className="fixed top-0 z-50 w-full text-gray-900 clearNav body-font">
+      <Head>
+        <meta charset="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="author" content="Project enVision U.S." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={`/images/brand_og.png`} />
+        <meta property="twitter:image" content={`/images/brand_og.png`} />
+        <meta
+          name="google-site-verification"
+          content="SIjCpAkrChhv5gxAW9PcjzHvnOvnK0ttzzCpq4u1qx0"
+        />
+        <meta
+          name="description"
+          content="Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere."
+        />
+      </Head>
       <div className="container flex flex-wrap p-5 mx-auto md:flex-row">
         <a
           className="flex pr-4 mb-4 font-medium text-gray-900 title-font md:mb-0"
