@@ -510,7 +510,7 @@ export default function Home() {
                         <div className="relative">
                           <label
                             for="name"
-                            className="text-sm font-semibold leading-7 text-black"
+                            className="font-semibold leading-7 text-black text-md"
                           >
                             Full Name <span className="text-red-500">*</span>
                           </label>
@@ -528,7 +528,7 @@ export default function Home() {
                         <div className="relative">
                           <label
                             for="email"
-                            className="text-sm font-semibold leading-7 text-black"
+                            className="font-semibold leading-7 text-black text-md"
                           >
                             Email <span className="text-red-500">*</span>
                           </label>
@@ -546,7 +546,7 @@ export default function Home() {
                         <div className="relative">
                           <label
                             for="name"
-                            className="text-sm font-semibold leading-7 text-black"
+                            className="font-semibold leading-7 text-black text-md"
                           >
                             Number <span className="text-red-500">*</span>
                           </label>
@@ -564,7 +564,7 @@ export default function Home() {
                         <div className="relative">
                           <label
                             for="name"
-                            className="text-sm font-semibold leading-7 text-black"
+                            className="font-semibold leading-7 text-black text-md"
                           >
                             Age <span className="text-red-500">*</span>
                           </label>
@@ -582,7 +582,7 @@ export default function Home() {
                         <div className="relative">
                           <label
                             for="message"
-                            className="text-sm font-semibold leading-7 text-black"
+                            className="font-semibold leading-7 text-black text-md"
                           >
                             Why do you want to join Project enVision?{" "}
                             <span className="text-red-500">*</span>
@@ -600,7 +600,7 @@ export default function Home() {
                         <div className="relative">
                           <label
                             for="message"
-                            className="text-sm font-semibold leading-7 text-black"
+                            className="font-semibold leading-7 text-black text-md"
                           >
                             What do you hope to gain from Project enVision?{" "}
                             <span className="text-red-500">*</span>
@@ -618,7 +618,7 @@ export default function Home() {
                         <div className="relative">
                           <label
                             for="message"
-                            className="text-sm font-semibold leading-7 text-black"
+                            className="font-semibold leading-7 text-black text-md"
                           >
                             Anything else we should know about you?
                           </label>

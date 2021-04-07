@@ -47,7 +47,7 @@ export default function Contact() {
                   <div className="relative">
                     <label
                       for="contactName"
-                      className="text-sm font-semibold leading-7 text-black"
+                      className="font-semibold leading-7 text-black text-md"
                     >
                       Full Name <span className="text-red-500">*</span>
                     </label>
@@ -65,7 +65,7 @@ export default function Contact() {
                   <div className="relative">
                     <label
                       for="contactEmail"
-                      className="text-sm font-semibold leading-7 text-black"
+                      className="font-semibold leading-7 text-black text-md"
                     >
                       Email <span className="text-red-500">*</span>
                     </label>
@@ -83,7 +83,7 @@ export default function Contact() {
                   <div className="relative">
                     <label
                       for="contactMessage"
-                      className="text-sm font-semibold leading-7 text-black"
+                      className="font-semibold leading-7 text-black text-md"
                     >
                       Message <span className="text-red-500">*</span>
                     </label>
