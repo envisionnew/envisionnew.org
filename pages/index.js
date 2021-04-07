@@ -7,11 +7,19 @@ import VisibilitySensor from "react-visibility-sensor";
 import Typing from "../components/Typing";
 import { NextSeo } from "next-seo";
 import styled from "styled-components";
-import { Parallax, Background } from "react-parallax";
+import { Parallax } from "react-parallax";
 
 const Highlight = styled.span`
   background-color: #0af5f4;
 `;
+
+const insideStyles = {
+  padding: 20,
+  width: "40rem",
+  position: "absolute",
+  top: "32%",
+  left: "30%",
+};
 
 export default function Home() {
   return (
@@ -38,7 +46,7 @@ export default function Home() {
           <div className="flex flex-col w-full mb-2 text-left md:text-center ">
             <h1 className="mt-10 mb-2 text-6xl font-bold tracking-tighter text-black lg:text-8xl md:text-7xl">
               <span>
-                We help <Highlight> students </Highlight>
+                We help <Highlight>students</Highlight>{" "}
               </span>
               <br className="hidden lg:block"></br>
               <Typing />
@@ -222,9 +230,30 @@ export default function Home() {
         <Parallax
           strength={500}
           bgImage="/images/class.jpg"
-          contentClassName="py-xl overlay overlay-black overlay-60"
+          contentClassName="py-xl"
           bgImageAlt="A Project enVision class at a title one school."
-        ></Parallax>
+          bgStyle={{
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+          }}
+        >
+          <div className="w-full h-full m-auto bg-black bg-opacity-50">
+            <div style={{ height: "50rem" }}>
+              <div style={insideStyles}>
+                <h2 className="mb-3 text-3xl text-white font-lg title-font">
+                  "Project enVision established programs at our school that will
+                  bring STEM closer to thousands of students. Their efforts will
+                  bring invaluable opportunities to our students to see that
+                  they belong in this new high tech society for years to come."
+                </h2>
+                <p className="mb-3 text-lg text-gray-300 font-lg title-font">
+                  - Kim Sheffield, Principal of Stonegate Elementary School
+                  (Title I School)
+                </p>
+              </div>
+            </div>
+          </div>
+        </Parallax>
         <section className="text-gray-600 body-font">
           <div className="container flex flex-wrap px-5 py-24 mx-auto">
             <div className="w-full mb-10 overflow-hidden rounded-lg lg:w-1/2 lg:mb-0">

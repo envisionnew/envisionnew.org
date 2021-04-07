@@ -9,7 +9,7 @@ const Border = styled.span`
   }
 `;
 
-export default function Footer(link) {
+export default function Footer({ link }) {
   return (
     <footer class="text-black body-font">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
@@ -27,7 +27,7 @@ export default function Footer(link) {
           <span class="ml-5 text-sm">Edit on GitHub</span>
         </a>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <a href="mailto:support@envisionnew.org/">
+          <a href="mailto:support@envisionnew.org">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-5 h-5"

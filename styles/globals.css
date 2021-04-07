@@ -158,48 +158,12 @@ a.badge:focus {
   color: #080808;
 }
 
-.overlay {
-  position: relative;
-}
-.overlay::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: inherit;
-}
-
-.overlay-black::before {
-  background-color: #162c26;
-}
-
-.overlay-60::before {
-  opacity: 0.6;
-}
-
 .flex-100 {
   flex: 0 0 58.33333%;
   max-width: 58.33333%;
 }
-
-.blockquote {
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-}
-
-.blockquote-footer {
-  display: block;
-  font-size: 0.75rem;
-  color: #61a5c2;
-}
-.blockquote-footer::before {
-  content: "\2014\00A0";
-}
-
 .py-xl {
-  margin: 55rem 0 0;
+  margin: 0rem 0 0;
 }
 
 .text-dotted-adaptive {
