@@ -169,7 +169,7 @@ export default function Tutoring() {
         </section>
       </section>
       <br />
-      <Footer link="https://github.com/minor/envisionweb/edit/main/pages/about.js" />
+      <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/tutoring.js" />
     </div>
   );
 }

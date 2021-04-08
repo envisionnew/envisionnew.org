@@ -23,7 +23,7 @@ export default function Unavailable() {
           Return Home
         </a>
       </div>
-      <Footer link="https://github.com/envision/envisionnew.org/edit/main/pages/404.js" />
+      <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/404.js" />
     </div>
   );
 }
