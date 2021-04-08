@@ -59,7 +59,7 @@ export default function About() {
                 About
               </span>
               <h2 className="mb-4 font-medium text-black sm:text-5xl title-font">
-                We're building a <span className="text-dotted">community</span>.
+                We're building a <span className="underline">community</span>.
               </h2>
               <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
                 Project enVision U.S. has been a leading non-profit since 2015.
