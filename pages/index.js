@@ -45,9 +45,7 @@ export default function Home() {
         <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
           <div className="flex flex-col w-full mb-2 text-center md:text-center sm:text-center">
             <h1 className="mt-10 mb-2 text-5xl font-bold tracking-tighter text-black lg:text-8xl md:text-6xl sm:text-5xl">
-              <span>
-                We help <Highlight>students</Highlight>{" "}
-              </span>
+              We help <Highlight>students</Highlight>
               <br />
               <Typing />
             </h1>
