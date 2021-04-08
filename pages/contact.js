@@ -114,7 +114,7 @@ export default function Contact() {
         </div>
       </section>
       <br></br>
-      <Footer link="https://github.com/minor/envisionweb/edit/main/pages/contact.js" />
+      <Footer link="https://github.com/envision/envisionnew.org/edit/main/pages/contact.js" />
     </div>
   );
 }
