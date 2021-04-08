@@ -13,20 +13,18 @@ export default function Tutoring() {
   return (
     <div className="max-h-full text-black bg-white">
       <NextSeo
-        title="Learn | Project enVision U.S."
-        description="Get the opportunity to take free classes in a variety of different subjects!"
-        canonical="https://envisionnew.org/programs/learn/"
+        title="Tutoring | Project enVision U.S."
+        description="Get free tutoring by successful high school students."
+        canonical="https://envisionnew.org/tutoring/"
         openGraph={{
-          url: "https://envisionnew.org/programs/learn/",
-          title: "Project enVision U.S.",
-          description:
-            "Get the opportunity to take free classes in a variety of different subjects!",
+          url: "https://envisionnew.org/tutoring",
+          title: "Tutoring | Project enVision U.S.",
+          description: "Get free tutoring by successful high school students.",
           site_name: "Project enVision U.S.",
         }}
       />
       <Head>
         <title>Tutoring | Project enVision</title>
-        <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Header />
       <section className="relative text-gray-600 body-font">

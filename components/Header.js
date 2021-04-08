@@ -14,12 +14,13 @@ export default function Header() {
         />
         <meta name="author" content="Project enVision U.S." />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={`/images/brand_og.png`} />
-        <meta property="twitter:image" content={`/images/brand_og.png`} />
+        <meta property="og:image" content={`/favicon/brand_og.png`} />
+        <meta property="twitter:image" content={`/favicon/brand_og.png`} />
         <meta
           name="google-site-verification"
           content="SIjCpAkrChhv5gxAW9PcjzHvnOvnK0ttzzCpq4u1qx0"
         />
+        <link rel="icon" href="/favicon/favicon.ico" />
         <meta
           name="description"
           content="Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere."
@@ -31,7 +32,7 @@ export default function Header() {
           href="/"
         >
           <h1 className="text-2xl">PROJECT ENVISION U.S.</h1>
-          {/* <img src="/images/brand.svg" alt="Project enVision U.S. Logo"></img> */}
+          {/* <img src="/favicon/brand.svg" alt="Project enVision U.S. Logo"></img> */}
         </a>
         <button
           className="block py-1 pb-3 ml-auto text-xl leading-none text-gray-900 bg-transparent border border-transparent border-solid rounded outline-none cursor-pointer md:hidden focus:outline-none"

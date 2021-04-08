@@ -8,7 +8,7 @@ export default function Unavailable() {
     <div className="text-black bg-white">
       <Head>
         <title>404 – Unavailable</title>
-        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
       <Header />
 

@@ -39,7 +39,6 @@ export default function Home() {
       />
       <Head>
         <title>Project enVision U.S.</title>
-        <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Header />
       <section className="text-black body-font lg:pt-20">

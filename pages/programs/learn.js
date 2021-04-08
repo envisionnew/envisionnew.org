@@ -26,7 +26,6 @@ export default function Learn() {
       />
       <Head>
         <title>Learn | Project enVision</title>
-        <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <Header />
       <section className="relative text-gray-600 body-font">
