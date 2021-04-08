@@ -139,7 +139,7 @@ export default function Home() {
                 Mission
               </span>
               <h2 className="mb-4 font-medium text-black sm:text-5xl title-font">
-                For Students <span className="text-dotted">By Students</span>
+                For Students <span className="underline">By Students</span>
               </h2>
               <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
                 Project enVision U.S. is led by students focused on education
