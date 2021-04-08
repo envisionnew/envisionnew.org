@@ -59,7 +59,7 @@ export default function Home() {
                 src="/images/conversation.svg"
               ></img>
             </div>
-            <p className="mx-auto text-3xl font-normal leading-relaxed text-left text-gray-600 dark:text-gray-300 lg:w-2/3">
+            <p className="mx-auto text-3xl font-normal leading-relaxed text-center text-gray-600 lg:text-left dark:text-gray-300 lg:w-2/3">
               Project enVision is a nonprofit accelerator focused on providing
               volunteer and educational services to young people everywhere.
             </p>
