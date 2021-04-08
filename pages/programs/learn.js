@@ -170,7 +170,7 @@ export default function Learn() {
         </section>
       </section>
       <br />
-      <Footer link="https://github.com/minor/envisionweb/edit/main/pages/about.js" />
+      <Footer link="https://github.com/minor/envisionweb/edit/main/pages/programs/learn.js" />
     </div>
   );
 }
