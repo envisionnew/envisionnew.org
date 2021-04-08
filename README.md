@@ -9,7 +9,7 @@ This is the current deployment of Project enVision's website located at [https:/
 First, clone/run the development server:
 
 ```bash
-$ git clone https://github.com/minor/envisionweb.git
+$ git clone https://github.com/envisionnew/envisionnew.org.git
 $ cd web
 $ yarn
 # or
