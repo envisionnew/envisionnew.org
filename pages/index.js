@@ -9,7 +9,7 @@ import styled from "styled-components";
 import { Parallax } from "react-parallax";
 import React from "react";
 
-const Highlight = styled.span`
+const Highlighting = styled.span`
   background-color: #0af5f4;
 `;
 
@@ -45,7 +45,9 @@ export default function Home() {
         <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
           <div className="flex flex-col w-full mb-2 text-center md:text-center sm:text-center">
             <h1 className="mt-10 mb-2 text-5xl font-bold tracking-tighter text-black lg:text-8xl md:text-6xl sm:text-5xl">
-              We help <Highlight>students</Highlight>
+              <span>
+                We help <Highlighting>students</Highlighting>{" "}
+              </span>
               <br />
               <Typing />
             </h1>
