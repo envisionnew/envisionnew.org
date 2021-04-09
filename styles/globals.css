@@ -205,6 +205,10 @@ a.badge:focus {
   left: 30%;
 }
 
+.highlighting {
+  background-color: #0af5f4;
+}
+
 @media (max-width: 720px) {
   .insideStyles {
     width: 20rem;

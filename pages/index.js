@@ -9,10 +9,6 @@ import styled from "styled-components";
 import { Parallax } from "react-parallax";
 import React from "react";
 
-const Highlighting = styled.span`
-  background-color: #0af5f4;
-`;
-
 const Border = styled.span`
   border-left: 0.1rem solid black;
   height: 1.25rem;
@@ -46,7 +42,7 @@ export default function Home() {
           <div className="flex flex-col w-full mb-2 text-center md:text-center sm:text-center">
             <h1 className="mt-10 mb-2 text-5xl font-bold tracking-tighter text-black lg:text-8xl md:text-6xl sm:text-5xl">
               <span>
-                We help <Highlighting>students</Highlighting>{" "}
+                We help <span className="highlighting">students</span>{" "}
               </span>
               <br />
               <Typing />
