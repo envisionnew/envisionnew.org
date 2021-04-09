@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import "flickity/css/flickity.css";
-import { Parallax, Background } from "react-parallax";
+import { Parallax } from "react-parallax";
 
 function MyApp({ Component, pageProps }) {
   return (

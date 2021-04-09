@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { NextSeo } from "next-seo";
 
 export default function Unavailable() {
   return (
@@ -18,6 +17,7 @@ export default function Unavailable() {
         </h1>
         <a
           className="w-64 p-1 mx-auto font-bold text-center text-black border border-gray-500 rounded-lg sm:p-4 hover:text-white hover:bg-black"
+          aria-label="home"
           href="/"
         >
           Return Home

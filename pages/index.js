@@ -107,6 +107,7 @@ export default function Home() {
             <div className="mt-6 ml-6 text-center">
               <a
                 className="inline-flex items-center py-3 mb-8 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 bg-gradient-to-r from-blue-500 to-blue-800 text-md md:mt-0 focus:shadow-outline"
+                aria-label="learn more"
                 href="#about"
               >
                 <div className="flex text-lg">
@@ -116,6 +117,7 @@ export default function Home() {
               <br className="sm:hidden" />
               <a
                 className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent bg-black rounded px-7 lg:ml-11 md:ml-11 text-md md:mt-0 hover:text-white hover:bg-black focus:shadow-outline"
+                aria-label="donate"
                 href="https://donorbox.org/project-envision"
               >
                 <div className="flex text-lg">
@@ -297,7 +299,7 @@ export default function Home() {
                         src="/images/video.svg"
                       ></img>
                       <div className="w-full">
-                        <a href="/programs/tutoring">
+                        <a href="#">
                           <h2 className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
                             Project enVision Tutoring
                           </h2>
@@ -504,7 +506,7 @@ export default function Home() {
                       <div className="w-1/2 p-2 xl:w-1/3">
                         <div className="relative">
                           <label
-                            htmlFor="name"
+                            for="name"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             Full Name <span className="text-red-500">*</span>
@@ -522,7 +524,7 @@ export default function Home() {
                       <div className="w-1/2 p-2 xl:w-1/3">
                         <div className="relative">
                           <label
-                            htmlFor="email"
+                            for="email"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             Email <span className="text-red-500">*</span>
@@ -540,7 +542,7 @@ export default function Home() {
                       <div className="w-1/2 p-2 xl:w-1/4">
                         <div className="relative">
                           <label
-                            htmlFor="name"
+                            for="name"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             Number <span className="text-red-500">*</span>
@@ -558,7 +560,7 @@ export default function Home() {
                       <div className="w-1/2 p-2 xl:w-1/12">
                         <div className="relative">
                           <label
-                            htmlFor="name"
+                            for="name"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             Age <span className="text-red-500">*</span>
@@ -576,7 +578,7 @@ export default function Home() {
                       <div className="w-full p-2">
                         <div className="relative">
                           <label
-                            htmlFor="message"
+                            for="message"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             Why do you want to join Project enVision?{" "}
@@ -594,7 +596,7 @@ export default function Home() {
                       <div className="w-full p-2">
                         <div className="relative">
                           <label
-                            htmlFor="message"
+                            for="message"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             What do you hope to gain from Project enVision?{" "}
@@ -612,7 +614,7 @@ export default function Home() {
                       <div className="w-full p-2">
                         <div className="relative">
                           <label
-                            htmlFor="message"
+                            for="message"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             Anything else we should know about you?
@@ -628,6 +630,7 @@ export default function Home() {
                       <div className="w-full p-2">
                         <button
                           type="submit"
+                          aria-label="submit"
                           className="flex px-8 py-2 mx-auto text-lg text-black bg-white border-2 rounded hover:bg-black hover:text-white"
                         >
                           Apply

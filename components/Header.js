@@ -29,6 +29,7 @@ export default function Header() {
       <div className="container flex flex-wrap p-5 mx-auto md:flex-row">
         <a
           className="flex pr-4 mb-4 font-medium text-gray-900 title-font md:mb-0"
+          aria-label="logo"
           href="/"
         >
           <h1 className="text-2xl">PROJECT ENVISION U.S.</h1>
@@ -81,7 +82,10 @@ export default function Header() {
             </a>
           </nav>
           <a href="https://donorbox.org/project-envision">
-            <button className="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-r from-purple-200 via-pink-300 to-red-300 dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+            <button
+              aria-label="donate"
+              className="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-r from-purple-200 via-pink-300 to-red-300 dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            >
               Donate
             </button>
           </a>

@@ -31,7 +31,7 @@ export default function Footer({ link }) {
           <span className="ml-5 text-sm">Edit on GitHub</span>
         </a>
         <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
-          <a href="mailto:support@envisionnew.org">
+          <a aria-label="mail" href="mailto:support@envisionnew.org">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5"
@@ -47,7 +47,11 @@ export default function Footer({ link }) {
               />
             </svg>
           </a>
-          <a className="ml-3" href="https://twitter.com/envisionnew">
+          <a
+            aria-label="twitter"
+            className="ml-3"
+            href="https://twitter.com/envisionnew"
+          >
             <svg
               fill="currentColor"
               strokeLinecap="round"
@@ -59,7 +63,11 @@ export default function Footer({ link }) {
               <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
             </svg>
           </a>
-          <a className="ml-3" href="https://instagram.com/project.envision">
+          <a
+            aria-label="instagram"
+            className="ml-3"
+            href="https://instagram.com/project.envision"
+          >
             <svg
               fill="none"
               stroke="currentColor"
@@ -74,6 +82,7 @@ export default function Footer({ link }) {
             </svg>
           </a>
           <a
+            aria-label="linkedin"
             className="ml-3"
             href="https://www.linkedin.com/company/projectenvision"
           >
@@ -93,7 +102,11 @@ export default function Footer({ link }) {
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
             </svg>
           </a>
-          <a className="ml-3" href="https://github.com/envisionnew/">
+          <a
+            aria-label="github"
+            className="ml-3"
+            href="https://github.com/envisionnew/"
+          >
             <svg
               data-v-54e46119=""
               width="30"
