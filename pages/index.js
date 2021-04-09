@@ -541,7 +541,7 @@ export default function Home() {
                           ></input>
                         </div>
                       </div>
-                      <div className="w-1/2 p-2 lg:w-1/4">
+                      <div className="w-1/2 p-2 lg:w-1/4 md:w-1/2">
                         <div className="relative">
                           <label
                             htmlFor="name"
@@ -559,7 +559,7 @@ export default function Home() {
                           ></input>
                         </div>
                       </div>
-                      <div className="w-1/2 p-2 lg:w-1/12">
+                      <div className="w-1/2 p-2 lg:w-1/12 md:w-1/2">
                         <div className="relative">
                           <label
                             htmlFor="name"
