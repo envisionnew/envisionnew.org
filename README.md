@@ -1,5 +1,9 @@
 # Project enVision Website
 
+<img src="./screenshots/lighthouse.png" />
+
+---
+
 <img src="./screenshots/home.png" />
 
 This is the current deployment of Project enVision's website located at [https://envisionnew.org/](https://envisionnew.org/).
