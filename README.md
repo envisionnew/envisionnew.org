@@ -1,6 +1,6 @@
 # Project enVision Website
 
-<img src="./screenshots/lighthouse.png" />
+<img src="./screenshots/lighthouse.jpg" />
 
 ---
 
