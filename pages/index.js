@@ -506,7 +506,7 @@ export default function Home() {
                       <div className="w-1/2 p-2 xl:w-1/3">
                         <div className="relative">
                           <label
-                            for="name"
+                            for="contactName"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             Full Name <span className="text-red-500">*</span>
@@ -524,7 +524,7 @@ export default function Home() {
                       <div className="w-1/2 p-2 xl:w-1/3">
                         <div className="relative">
                           <label
-                            for="email"
+                            for="contactEmail"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             Email <span className="text-red-500">*</span>
@@ -542,7 +542,7 @@ export default function Home() {
                       <div className="w-1/2 p-2 xl:w-1/4">
                         <div className="relative">
                           <label
-                            for="name"
+                            for="contactNumber"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             Number <span className="text-red-500">*</span>
@@ -560,7 +560,7 @@ export default function Home() {
                       <div className="w-1/2 p-2 xl:w-1/12">
                         <div className="relative">
                           <label
-                            for="name"
+                            for="contactAge"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             Age <span className="text-red-500">*</span>
@@ -578,7 +578,7 @@ export default function Home() {
                       <div className="w-full p-2">
                         <div className="relative">
                           <label
-                            for="message"
+                            for="contactWhy"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             Why do you want to join Project enVision?{" "}
@@ -614,7 +614,7 @@ export default function Home() {
                       <div className="w-full p-2">
                         <div className="relative">
                           <label
-                            for="message"
+                            for="extraMessage"
                             className="font-semibold leading-7 text-black text-md"
                           >
                             Anything else we should know about you?
