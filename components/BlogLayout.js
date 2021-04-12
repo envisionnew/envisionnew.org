@@ -17,7 +17,7 @@ export default function BlogLayout({ children, frontMatter }) {
       <article className="relative text-gray-600 body-font">
         <div className="container px-5 pt-24 mx-auto">
           <div className="flex flex-col w-full mb-2 text-center md:mb-5 lg:mb-5">
-            <h1 className="mb-6 text-4xl font-semibold text-black title-font">
+            <h1 className="items-center mb-6 text-4xl font-semibold text-black md:mx-4 lg:mx-4 title-font">
               {frontMatter.title}
             </h1>
             <a
