@@ -1,13 +1,9 @@
-import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import React from "react";
-import { NextSeo } from "next-seo";
-import styled from "styled-components";
-
-const Highlight = styled.span`
-  background-color: #0af5f4;
-`;
+import Head from 'next/head';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import React from 'react';
+import { NextSeo } from 'next-seo';
+import styled from 'styled-components';
 
 export default function About() {
   return (
@@ -17,11 +13,11 @@ export default function About() {
         description="Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere."
         canonical="https://envisionnew.org/about/"
         openGraph={{
-          url: "https://envisionnew.org/about/",
-          title: "Project enVision U.S.",
+          url: 'https://envisionnew.org/about/',
+          title: 'Project enVision U.S.',
           description:
-            "Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.",
-          site_name: "Project enVision U.S.",
+            'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.',
+          site_name: 'Project enVision U.S.'
         }}
       />
       <Head>

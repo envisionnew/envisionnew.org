@@ -1,13 +1,13 @@
-import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import CountUp from "react-countup";
-import VisibilitySensor from "react-visibility-sensor";
-import Typing from "../components/Typing";
-import { NextSeo } from "next-seo";
-import styled from "styled-components";
-import { Parallax } from "react-parallax";
-import React from "react";
+import Head from 'next/head';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
+import Typing from '../components/Typing';
+import { NextSeo } from 'next-seo';
+import styled from 'styled-components';
+import { Parallax } from 'react-parallax';
+import React from 'react';
 
 const Border = styled.span`
   border-left: 0.1rem solid black;
@@ -26,11 +26,11 @@ export default function Home() {
         description="Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere."
         canonical="https://envisionnew.org/"
         openGraph={{
-          url: "https://envisionnew.org/",
-          title: "Project enVision U.S.",
+          url: 'https://envisionnew.org/',
+          title: 'Project enVision U.S.',
           description:
-            "Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.",
-          site_name: "Project enVision U.S.",
+            'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.',
+          site_name: 'Project enVision U.S.'
         }}
       />
       <Head>
@@ -42,7 +42,7 @@ export default function Home() {
           <div className="flex flex-col w-full mb-2 text-center md:text-center sm:text-center">
             <h1 className="mt-10 mb-2 text-5xl font-bold tracking-tighter text-black lg:text-8xl md:text-6xl sm:text-5xl">
               <span>
-                We help <span className="highlighting">students</span>{" "}
+                We help <span className="highlighting">students</span>{' '}
               </span>
               <br />
               <Typing />
@@ -55,7 +55,7 @@ export default function Home() {
                 src="/images/conversation.svg"
               ></img>
             </div>
-            <p className="mx-auto text-3xl font-normal leading-relaxed text-center text-gray-600 lg:text-left dark:text-gray-300 lg:w-2/3">
+            <p className="mx-auto text-3xl font-normal leading-relaxed text-center text-gray-600 lg:text-left lg:w-2/3">
               Project enVision is a nonprofit accelerator focused on providing
               volunteer and educational services to young people everywhere.
             </p>
@@ -232,12 +232,12 @@ export default function Home() {
           contentclassName="py-xl max-w-full w-auto"
           bgImageAlt="A Project enVision class at a title one school."
           bgStyle={{
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover'
           }}
         >
           <div className="w-full h-full m-auto bg-black bg-opacity-50">
-            <div style={{ height: "50rem" }}>
+            <div style={{ height: '50rem' }}>
               <div className="insideStyles">
                 <h2 className="mb-3 text-3xl text-white font-lg title-font">
                   "Project enVision established programs at our school that will
@@ -325,8 +325,8 @@ export default function Home() {
                           </h2>
                         </a>
                         <p className="mb-2 text-lg">
-                          Nonprofit incubator providing mentorship {"&"}{" "}
-                          financial, legal {"&"} infrastructure support to
+                          Nonprofit incubator providing mentorship {'&'}{' '}
+                          financial, legal {'&'} infrastructure support to
                           student-run nonprofits.
                         </p>
                       </div>
@@ -581,7 +581,7 @@ export default function Home() {
                             for="contactWhy"
                             className="font-semibold leading-7 text-black text-md"
                           >
-                            Why do you want to join Project enVision?{" "}
+                            Why do you want to join Project enVision?{' '}
                             <span className="text-red-500">*</span>
                           </label>
                           <textarea
@@ -599,7 +599,7 @@ export default function Home() {
                             for="message"
                             className="font-semibold leading-7 text-black text-md"
                           >
-                            What do you hope to gain from Project enVision?{" "}
+                            What do you hope to gain from Project enVision?{' '}
                             <span className="text-red-500">*</span>
                           </label>
                           <textarea

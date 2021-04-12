@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -39,8 +39,8 @@ export default function Header() {
         </button>
         <div
           className={
-            "md:flex flex-grow items-center" +
-            (navbarOpen ? " flex" : " hidden")
+            'md:flex flex-grow items-center' +
+            (navbarOpen ? ' flex' : ' hidden')
           }
           id="example-navbar-danger"
         >
@@ -60,11 +60,14 @@ export default function Header() {
             <a className="mr-6 hover:text-gray-900" href="/contact">
               Contact
             </a>
+            <a className="mr-6 hover:text-gray-900" href="/blog">
+              Blog
+            </a>
           </nav>
           <a href="https://donorbox.org/project-envision">
             <button
               aria-label="donate"
-              className="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-r from-purple-200 via-pink-300 to-red-300 dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+              className="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-r from-purple-200 via-pink-300 to-red-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
             >
               Donate
             </button>
