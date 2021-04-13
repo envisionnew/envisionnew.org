@@ -14,7 +14,7 @@ export default function BlogLayout({ children, frontMatter }) {
         <title>{frontMatter.title}</title>
       </Head>
       <Header />
-      <article className="relative text-gray-600 body-font">
+      <article className="relative text-gray-600">
         <div className="container px-5 pt-24 mx-auto">
           <div className="flex flex-col w-full mb-2 text-center md:mb-5 lg:mb-5">
             <h1 className="items-center mb-6 text-4xl font-semibold text-black md:mx-4 lg:mx-4 title-font">
@@ -32,7 +32,7 @@ export default function BlogLayout({ children, frontMatter }) {
             <br className="hidden lg:block"></br>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center max-w-3xl p-10 mx-auto mb-2 md:p-0 lg:p-0">
+        <div className="flex flex-col items-center justify-center max-w-3xl p-10 mx-auto mb-2 prose md:p-0 lg:p-0">
           {children}
         </div>
       </article>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 const BlogPost = ({ title, date, summary, slug }) => {
   return (
     <Link href={`/blog/${slug}`}>
-      <a className="w-full p-2 mb-6 border-2 border-red-100 rounded hover:border-indigo-300 ">
+      <a className="w-full p-5 mb-6 border-2 border-red-100 rounded hover:border-indigo-300 ">
         <div className="w-full mb-8">
           <div className="flex flex-col justify-between md:flex-row">
             <h4 className="w-full mb-4 text-xl font-medium text-gray-900 md:text-2xl">

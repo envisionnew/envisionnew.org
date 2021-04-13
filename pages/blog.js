@@ -40,7 +40,7 @@ export default function Blog({ posts }) {
             <br className="hidden lg:block"></br>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center max-w-3xl mx-auto mb-16">
+        <div className="flex flex-col items-center justify-center max-w-3xl mx-5 md:mx-auto lg:mx-auto">
           {filteredBlogPosts.map((frontMatter) => (
             <BlogPost key={frontMatter.title} {...frontMatter} />
           ))}
