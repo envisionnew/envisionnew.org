@@ -33,7 +33,7 @@ export default function Blog({ posts }) {
       <Header />
       <section className="relative text-gray-600 body-font">
         <div className="container px-5 pt-24 pb-16 mx-auto">
-          <div className="flex flex-col w-full mb-12 text-center">
+          <div className="flex flex-col w-full text-center">
             <h1 className="mb-6 text-6xl font-semibold text-black title-font">
               Blog
             </h1>
