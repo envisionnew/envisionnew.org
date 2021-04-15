@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Border = styled.span`
   border-left: 0.1rem solid black;
@@ -17,7 +17,9 @@ export default function Footer({ link }) {
           className="flex items-center justify-center font-medium title-font md:justify-start"
           href="/"
         >
-          <span className="ml-3 text-xl">PROJECT ENVISION U.S.</span>
+          <span className="ml-0 text-xl md:ml-3 lg:ml-3">
+            PROJECT ENVISION U.S.
+          </span>
         </a>
         <Border />
         <p className="flex items-center justify-center ml-5 text-sm font-medium title-font md:justify-start">
@@ -28,7 +30,17 @@ export default function Footer({ link }) {
           className="flex items-center justify-center font-medium title-font md:justify-start"
           href={link}
         >
-          <span className="ml-5 text-sm">Edit on GitHub</span>
+          <span className="ml-0 text-sm md:ml-5 lg:ml-5">Edit on GitHub</span>
+        </a>
+        <Border />
+        <a
+          className="flex items-center justify-center font-medium title-font md:justify-start"
+          href="http://vercel.com/?utm_source=envision&utm_campaign=oss"
+        >
+          <img
+            className="h-8 mb-2 ml-0 md:mb-0 lg:mb-0 md:ml-5 lg:ml-5"
+            src="/images/powered-by-vercel.svg"
+          ></img>
         </a>
         <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
           <a aria-label="mail" href="mailto:support@envisionnew.org">

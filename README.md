@@ -10,7 +10,7 @@ This is the current deployment of Project enVision's website located at [https:/
 
 ## About Project enVision U.S.
 
-Project enVision is a 501(c)(3) non-profit organization dedicated to the community. By creating relationships with students, schools, and local politicians, through different programs, we envision a community where learning is *free* and *accessible*. Our mission is to build a connected community by facilitating learning, while targetting accessibility and bonding. Our volunteers are commited to this mission and strengthening our community, together.
+Project enVision is a 501(c)(3) non-profit organization dedicated to the community. By creating relationships with students, schools, and local politicians, through different programs, we envision a community where learning is _free_ and _accessible_. Our mission is to build a connected community by facilitating learning, while targetting accessibility and bonding. Our volunteers are commited to this mission and strengthening our community, together.
 
 ## Reproduction
 
@@ -45,3 +45,6 @@ Contact - [info@envisionnew.org](mailto:info@envisionnew.org)
 
 Contributions are welcome! Please open a PR/Issue if you have any edits/suggestions for changes.
 
+---
+
+<img src="./screenshots/powered-by-vercel.svg" />

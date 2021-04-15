@@ -1,8 +1,8 @@
-import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import React from "react";
-import { NextSeo } from "next-seo";
+import Head from 'next/head';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import React from 'react';
+import { NextSeo } from 'next-seo';
 
 export default function Contact() {
   return (
@@ -12,11 +12,11 @@ export default function Contact() {
         description="Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere."
         canonical="https://envisionnew.org/contact/"
         openGraph={{
-          url: "https://envisionnew.org/contact/",
-          title: "Project enVision U.S.",
+          url: 'https://envisionnew.org/contact/',
+          title: 'Project enVision U.S.',
           description:
-            "Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.",
-          site_name: "Project enVision U.S.",
+            'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.',
+          site_name: 'Project enVision U.S.'
         }}
       />
       <Head>
@@ -113,7 +113,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
-      <br></br>
+      <br />
       <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/contact.js" />
     </div>
   );
