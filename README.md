@@ -47,4 +47,6 @@ Contributions are welcome! Please open a PR/Issue if you have any edits/suggesti
 
 ---
 
-<img src="./screenshots/powered-by-vercel.svg" />
+<p align="center">
+  <img src="./screenshots/powered-by-vercel.svg" />
+</p>
