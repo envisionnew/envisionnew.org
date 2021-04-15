@@ -26,7 +26,7 @@ export default function Footer({ link }) {
         <span className="border-css" />
         <a
           className="flex items-center justify-center font-medium title-font md:justify-start"
-          href="http://vercel.com/?utm_source=envisionnew&utm_campaign=oss"
+          href="https://vercel.com/?utm_source=envisionnew&utm_campaign=oss"
         >
           <img
             className="h-8 mb-2 ml-0 md:mb-0 lg:mb-0 md:ml-5 lg:ml-5"
