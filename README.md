@@ -49,4 +49,4 @@ Contributions are welcome! Please open a PR/Issue if you have any edits/suggesti
 
 <a href="http://vercel.com/?utm_source=envisionnew&utm_campaign=oss" align="center">
   <img src="./screenshots/powered-by-vercel.svg" />
-</p>
+</a>
