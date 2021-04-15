@@ -1,14 +1,5 @@
 import styled from 'styled-components';
 
-const Border = styled.span`
-  border-left: 0.1rem solid black;
-  height: 1.25rem;
-  margin-left: 1rem;
-  @media (max-width: 768px) {
-    border-left: 0.1rem black;
-  }
-`;
-
 export default function Footer({ link }) {
   return (
     <footer className="text-black body-font">
@@ -21,21 +12,21 @@ export default function Footer({ link }) {
             PROJECT ENVISION U.S.
           </span>
         </a>
-        <Border />
+        <span className="border-css" />
         <p className="flex items-center justify-center ml-5 text-sm font-medium title-font md:justify-start">
           EIN: 81-5333016
         </p>
-        <Border />
+        <span className="border-css" />
         <a
           className="flex items-center justify-center font-medium title-font md:justify-start"
           href={link}
         >
           <span className="ml-0 text-sm md:ml-5 lg:ml-5">Edit on GitHub</span>
         </a>
-        <Border />
+        <span className="border-css" />
         <a
           className="flex items-center justify-center font-medium title-font md:justify-start"
-          href="http://vercel.com/?utm_source=envision&utm_campaign=oss"
+          href="http://vercel.com/?utm_source=envisionnew&utm_campaign=oss"
         >
           <img
             className="h-8 mb-2 ml-0 md:mb-0 lg:mb-0 md:ml-5 lg:ml-5"

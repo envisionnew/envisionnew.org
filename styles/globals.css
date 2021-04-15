@@ -214,10 +214,22 @@ a.badge:focus {
   background-color: #0af5f4;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .insideStyles {
     width: 20rem;
     top: 20%;
     left: 8%;
+  }
+}
+
+.border-css {
+  border-left: 0.1rem solid black;
+  height: 1.25rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+  .border-css {
+    border-left: 0.1rem black;
   }
 }
