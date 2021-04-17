@@ -1,10 +1,10 @@
 # Project enVision U.S.'s Website
 
-<img src="./screenshots/lighthouse.jpg" />
+<img src="./.github/screenshots/lighthouse.jpg" />
 
 ---
 
-<img src="./screenshots/home.png" />
+<img src="./.github/screenshots/home.png" />
 
 This is the current deployment of Project enVision's website located at [https://envisionnew.org/](https://envisionnew.org/).
 
@@ -49,6 +49,6 @@ Contributions are welcome! Please open a PR/Issue if you have any edits/suggesti
 
 <a href="https://vercel.com/?utm_source=envisionnew&utm_campaign=oss" align="center">
   <p href="" align="center">
-    <img src="./screenshots/powered-by-vercel.svg" />
+    <img src="./.github/screenshots/powered-by-vercel.svg" />
   </p>
 </a>
