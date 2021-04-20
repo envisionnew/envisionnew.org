@@ -42,7 +42,6 @@ export default function Header() {
             'md:flex flex-grow items-center' +
             (navbarOpen ? ' flex' : ' hidden')
           }
-          id="example-navbar-danger"
         >
           <nav className="flex flex-wrap items-center justify-center text-base font-semibold md:ml-auto pl-7">
             <a className="mr-6 hover:text-gray-900" href="/">
