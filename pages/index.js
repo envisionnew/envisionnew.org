@@ -229,12 +229,13 @@ export default function Home() {
         <Parallax
           strength={500}
           bgImage="/images/class.jpg"
-          contentclassName="py-xl max-w-full w-auto"
+          contentClassName="py-xl max-w-full w-auto"
           bgImageAlt="A Project enVision class at a title one school."
           bgStyle={{
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover'
           }}
+          bgImageSize="4032x3024"
         >
           <div className="w-full h-full m-auto bg-black bg-opacity-50">
             <div style={{ height: '50rem' }}>
