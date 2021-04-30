@@ -28,6 +28,13 @@ export default function Home() {
         openGraph={{
           url: 'https://envisionnew.org/',
           title: 'Project enVision U.S.',
+          images: [
+            {
+              url: '/favicon/send.png',
+              alt:
+                'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.'
+            }
+          ],
           description:
             'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.',
           site_name: 'Project enVision U.S.'
