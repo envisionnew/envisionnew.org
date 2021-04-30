@@ -162,14 +162,14 @@ export default function About() {
                         <h3 class="text-gray-500 mb-3">
                           President & Executive Director
                         </h3>
-                        <p class="mb-4 text-left">
+                        {/* <p class="mb-4 text-left">
                           Saurish Srivastava is a sophomore at Evergreen Valley
                           High School. He's a national-level varsity Lincoln
                           Douglas debater, computer science enthuasiast, and a
                           hobbyist photographer. Saurish is committed to
                           building a bond in our community and is thrilled to
                           work at Project enVision U.S.!
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
@@ -187,7 +187,7 @@ export default function About() {
                         <h3 class="text-gray-500 mb-3">
                           Director of Outreach & Chapters
                         </h3>
-                        <p class="mb-4">**Nishika Bio**</p>
+                        {/* <p class="mb-4">**Nishika Bio**</p> */}
                       </div>
                     </div>
                   </div>
@@ -203,14 +203,14 @@ export default function About() {
                           Parth Paliwal
                         </h2>
                         <h3 class="text-gray-500 mb-3">Director of CS</h3>
-                        <p class="mb-4 text-left">
+                        {/* <p class="mb-4 text-left">
                           Parth Paliwal is a sophomore at Evergreen Valley High
                           School. Parth is a computer geek and loves anything
                           and everything to do with technology. Parth is also a
                           machine learning/AI teacher for beginners and is
                           passionate about learning other topics such as web
                           development and cloud computing.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
@@ -228,13 +228,13 @@ export default function About() {
                         <h3 class="text-gray-500 mb-3">
                           Director of Marketing
                         </h3>
-                        <p class="mb-4 text-left">
+                        {/* <p class="mb-4 text-left">
                           Garima Upadhyay is a sophomore at American High
                           School. As a member of top-placing Science Olympiad
                           team and an aspiring computer scientist, she is
                           interested in everything STEM. Garima hopes to
                           positively impact the world—but first, our community!
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
@@ -250,7 +250,7 @@ export default function About() {
                           Ayush Agarwal
                         </h2>
                         <h3 class="text-gray-500 mb-3">Director of Debate</h3>
-                        <p class="mb-4 text-left">
+                        {/* <p class="mb-4 text-left">
                           Ayush Agarwal is a sophomore at BASIS Independent
                           Silicon Valley. He has been involved in speech and
                           debate since 7th grade and has had notable success on
@@ -261,7 +261,7 @@ export default function About() {
                           Bronx, and octofinaled at Apple Valley. He loves
                           teaching anything debate-related and is excited to
                           work at Project enVision U.S.!
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
