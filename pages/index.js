@@ -28,6 +28,13 @@ export default function Home() {
         openGraph={{
           url: 'https://envisionnew.org/',
           title: 'Project enVision U.S.',
+          images: [
+            {
+              url: '/favicon/send.png',
+              alt:
+                'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.'
+            }
+          ],
           description:
             'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.',
           site_name: 'Project enVision U.S.'
@@ -90,7 +97,7 @@ export default function Home() {
                   </div>
                   <div className="w-1/3 p-4">
                     <h2 className="text-4xl font-medium text-black title-font sm:text-5xl">
-                      <CountUp end={15} redraw={true}>
+                      <CountUp end={25} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />

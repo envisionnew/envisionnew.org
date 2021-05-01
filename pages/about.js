@@ -15,6 +15,13 @@ export default function About() {
         openGraph={{
           url: 'https://envisionnew.org/about/',
           title: 'Project enVision U.S.',
+          images: [
+            {
+              url: '/favicon/send.png',
+              alt:
+                'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.'
+            }
+          ],
           description:
             'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.',
           site_name: 'Project enVision U.S.'
@@ -111,6 +118,148 @@ export default function About() {
                           strengthened our community. These programs can be
                           viewed on our programs section.
                         </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="mt-10 text-gray-600 body-font">
+          <div className="container px-5 mx-auto">
+            <div className="mb-20 text-center">
+              <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
+                Team
+              </span>
+              <h2 className="mb-4 font-medium text-black sm:text-5xl title-font">
+                Meet the Team.
+              </h2>
+              <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
+                These are the volunteers who make everything possible!
+              </p>
+              <div class="flex mt-6 justify-center">
+                <div class="w-16 h-1 rounded-full bg-white inline-flex"></div>
+              </div>
+              <div class="container px-5 py-16 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                  <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="h-full flex flex-col items-center text-center">
+                      <img
+                        alt="an image of Saurish"
+                        class="flex-shrink-0 rounded-lg w-full h-80 object-cover object-center mb-4"
+                        src="/images/saurish.JPG"
+                      ></img>
+                      <div class="w-full">
+                        <a
+                          className="underline hover:text-blue-200"
+                          href="https://saurish.com"
+                        >
+                          <h2 class="title-font font-medium text-lg text-black">
+                            Saurish Srivastava
+                          </h2>
+                        </a>
+                        <h3 class="text-gray-500 mb-3">
+                          President & Executive Director
+                        </h3>
+                        {/* <p class="mb-4 text-left">
+                          Saurish Srivastava is a sophomore at Evergreen Valley
+                          High School. He's a national-level varsity Lincoln
+                          Douglas debater, computer science enthuasiast, and a
+                          hobbyist photographer. Saurish is committed to
+                          building a bond in our community and is thrilled to
+                          work at Project enVision U.S.!
+                        </p> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="h-full flex flex-col items-center text-center">
+                      <img
+                        alt="an image of Nishika"
+                        class="flex-shrink-0 rounded-lg w-full h-80 object-cover object-center mb-4"
+                        src="/images/nishika.jpeg"
+                      ></img>
+                      <div class="w-full">
+                        <h2 class="title-font font-medium text-lg text-black">
+                          Nishika Ivaturi
+                        </h2>
+                        <h3 class="text-gray-500 mb-3">Director of Outreach</h3>
+                        {/* <p class="mb-4">**Nishika Bio**</p> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="h-full flex flex-col items-center text-center">
+                      <img
+                        alt="an image of Parth"
+                        class="flex-shrink-0 rounded-lg w-full h-80 object-cover object-center mb-4"
+                        src="/images/parth.jpeg"
+                      ></img>
+                      <div class="w-full">
+                        <h2 class="title-font font-medium text-lg text-black">
+                          Parth Paliwal
+                        </h2>
+                        <h3 class="text-gray-500 mb-3">Director of CS</h3>
+                        {/* <p class="mb-4 text-left">
+                          Parth Paliwal is a sophomore at Evergreen Valley High
+                          School. Parth is a computer geek and loves anything
+                          and everything to do with technology. Parth is also a
+                          machine learning/AI teacher for beginners and is
+                          passionate about learning other topics such as web
+                          development and cloud computing.
+                        </p> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="h-full flex flex-col items-center text-center">
+                      <img
+                        alt="team"
+                        class="flex-shrink-0 rounded-lg w-full h-80 object-cover object-center mb-4"
+                        src="/images/garima.jpg"
+                      ></img>
+                      <div class="w-full">
+                        <h2 class="title-font font-medium text-lg text-black">
+                          Garima Upadhyay
+                        </h2>
+                        <h3 class="text-gray-500 mb-3">
+                          Director of Marketing
+                        </h3>
+                        {/* <p class="mb-4 text-left">
+                          Garima Upadhyay is a sophomore at American High
+                          School. As a member of top-placing Science Olympiad
+                          team and an aspiring computer scientist, she is
+                          interested in everything STEM. Garima hopes to
+                          positively impact the world—but first, our community!
+                        </p> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-4 lg:w-1/4 md:w-1/2">
+                    <div class="h-full flex flex-col items-center text-center">
+                      <img
+                        alt="photo of Ayush"
+                        class="flex-shrink-0 rounded-lg w-full h-80 object-cover object-center mb-4"
+                        src="/images/ayush-2.jpeg"
+                      ></img>
+                      <div class="w-full">
+                        <h2 class="title-font font-medium text-lg text-black">
+                          Ayush Agarwal
+                        </h2>
+                        <h3 class="text-gray-500 mb-3">Director of Debate</h3>
+                        {/* <p class="mb-4 text-left">
+                          Ayush Agarwal is a sophomore at BASIS Independent
+                          Silicon Valley. He has been involved in speech and
+                          debate since 7th grade and has had notable success on
+                          the national circuit, reaching elimination rounds for
+                          debate at tournaments like Santa Clara University,
+                          Arizona State University, Yale and Silver TOC. Ayush
+                          has also championed CSU Long Beach, quarterfinaled at
+                          Bronx, and octofinaled at Apple Valley. He loves
+                          teaching anything debate-related and is excited to
+                          work at Project enVision U.S.!
+                        </p> */}
                       </div>
                     </div>
                   </div>

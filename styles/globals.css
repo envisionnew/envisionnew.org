@@ -104,7 +104,7 @@ a {
 .text-dotted {
   text-decoration-line: underline;
   text-decoration-style: dotted;
-  text-decoration-color: #0af5f4;
+  text-decoration-color: #364fc7;
 }
 .text-wavy {
   text-decoration-line: underline;
@@ -172,7 +172,7 @@ a.badge:focus {
 }
 
 .text-dotted-adaptive:hover {
-  text-decoration-color: #0af5f4;
+  text-decoration-color: #364fc7;
 }
 
 .text-dotted-adaptive-nohover {

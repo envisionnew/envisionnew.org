@@ -1,9 +1,9 @@
-import Head from "next/head";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import React from "react";
-import { NextSeo } from "next-seo";
-import styled from "styled-components";
+import Head from 'next/head';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import React from 'react';
+import { NextSeo } from 'next-seo';
+import styled from 'styled-components';
 
 const Highlight = styled.span`
   background-color: #0af5f4;
@@ -17,10 +17,17 @@ export default function Tutoring() {
         description="Get free tutoring by successful high school students."
         canonical="https://envisionnew.org/tutoring/"
         openGraph={{
-          url: "https://envisionnew.org/tutoring",
-          title: "Tutoring | Project enVision U.S.",
-          description: "Get free tutoring by successful high school students.",
-          site_name: "Project enVision U.S.",
+          url: 'https://envisionnew.org/tutoring',
+          title: 'Tutoring | Project enVision U.S.',
+          images: [
+            {
+              url: '/favicon/send.png',
+              alt:
+                'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.'
+            }
+          ],
+          description: 'Get free tutoring by successful high school students.',
+          site_name: 'Project enVision U.S.'
         }}
       />
       <Head>
@@ -107,7 +114,7 @@ export default function Tutoring() {
                         </h2>
                         <p className="mt-2 mb-4 text-lg">
                           We teach both the introductory levels as well as
-                          advanced (grades 7+).{" "}
+                          advanced (grades 7+).{' '}
                         </p>
                       </div>
                     </div>
@@ -125,7 +132,7 @@ export default function Tutoring() {
                         </h2>
                         <p className="mt-2 mb-4 text-lg">
                           We teach both the introductory levels as well as
-                          advanced (grades 7+).{" "}
+                          advanced (grades 7+).{' '}
                         </p>
                       </div>
                     </div>
@@ -143,7 +150,7 @@ export default function Tutoring() {
                         </h2>
                         <p className="mt-2 mb-4 text-lg">
                           We teach both the introductory levels as well as
-                          advanced (grades 7+).{" "}
+                          advanced (grades 7+).{' '}
                         </p>
                       </div>
                     </div>
