@@ -178,15 +178,13 @@ export default function About() {
                       <img
                         alt="an image of Nishika"
                         class="flex-shrink-0 rounded-lg w-full h-80 object-cover object-center mb-4"
-                        src="https://placeimg.com/640/480/any"
+                        src="/images/nishika.jpeg"
                       ></img>
                       <div class="w-full">
                         <h2 class="title-font font-medium text-lg text-black">
                           Nishika Ivaturi
                         </h2>
-                        <h3 class="text-gray-500 mb-3">
-                          Director of Outreach & Chapters
-                        </h3>
+                        <h3 class="text-gray-500 mb-3">Director of Outreach</h3>
                         {/* <p class="mb-4">**Nishika Bio**</p> */}
                       </div>
                     </div>
