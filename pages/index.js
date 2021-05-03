@@ -290,7 +290,7 @@ export default function Home() {
                         src="/images/startup.svg"
                       ></img>
                       <div className="w-full">
-                        <a href="#">
+                        <a href="/programs/inspire">
                           <h2 className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
                             Project enVision Inspire
                           </h2>
