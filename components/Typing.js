@@ -1,5 +1,5 @@
 import Typed from 'typed.js';
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 const Element = styled.span`
@@ -7,11 +7,11 @@ const Element = styled.span`
 `;
 
 const words = [
+  'build <span class="underline">meaningful</span> <br class="sm:hidden" />nonprofits.',
   'learn new <span class="underline">skills</span>.',
   'volunteer their <br class="sm:hidden" /><span class="underline">own way</span>.',
   'lead their <br class="sm:hidden" /><span class="underline">communities</span>.',
-  'build impactful <br class="sm:hidden" /><span class="underline">nonprofits</span>.',
-  'launch amazing <br class="sm:hidden" /><span class="underline">events</span>.'
+  'launch <span class="underline">incredible</span> <br class="sm:hidden" />events.'
 ];
 
 class Typing extends React.Component {
@@ -19,7 +19,7 @@ class Typing extends React.Component {
     const options = {
       strings: words,
       typeSpeed: 50,
-      backSpeed: 50,
+      backSpeed: 30,
       loop: true,
       cursorChar: '|'
     };

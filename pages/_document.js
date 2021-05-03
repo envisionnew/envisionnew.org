@@ -19,6 +19,12 @@ class MyDocument extends Document {
             name="description"
             content="Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere."
           />
+          <script
+            async
+            defer
+            src="https://aurora.saurish.com/aurora.js"
+            aurora-id="b2bdf183e5e261183102101eaab050b2"
+          ></script>
         </Head>
         <body>
           <Main />

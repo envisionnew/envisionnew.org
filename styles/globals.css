@@ -198,20 +198,12 @@ a.badge:focus {
   border-radius: 10px;
 }
 
-.highlight-c {
-  background-color: #0af5f4;
-}
-
 .insideStyles {
   padding: 20;
   width: 40rem;
   position: absolute;
   top: 32%;
   left: 30%;
-}
-
-.highlighting {
-  background-color: #0af5f4;
 }
 
 @media (max-width: 768px) {
