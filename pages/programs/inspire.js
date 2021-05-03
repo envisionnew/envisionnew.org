@@ -225,7 +225,7 @@ export default function Inspire() {
         <p className="mx-auto text-xl text-center text-black font-normal leading-relaxed fs521 lg:w-2/3">
           **INFO**
         </p>
-        <section class="relative pb-24">
+        <section class="relative">
           <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
             <div class="py-24 md:py-36">
               <h1 class="mb-5 text-6xl font-bold text-black">
