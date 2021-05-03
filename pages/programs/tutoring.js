@@ -15,9 +15,9 @@ export default function Tutoring() {
       <NextSeo
         title="Tutoring | Project enVision U.S."
         description="Get free tutoring by successful high school students."
-        canonical="https://envisionnew.org/tutoring/"
+        canonical="https://envisionnew.org/programs/tutoring/"
         openGraph={{
-          url: 'https://envisionnew.org/tutoring',
+          url: 'https://envisionnew.org/programs/tutoring',
           title: 'Tutoring | Project enVision U.S.',
           images: [
             {
