@@ -19,13 +19,6 @@ export default function Tutoring() {
         openGraph={{
           url: 'https://envisionnew.org/programs/tutoring',
           title: 'Tutoring | Project enVision U.S.',
-          images: [
-            {
-              url: '/favicon/send.png',
-              alt:
-                'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.'
-            }
-          ],
           description: 'Get free tutoring by successful high school students.',
           site_name: 'Project enVision U.S.'
         }}

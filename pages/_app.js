@@ -5,6 +5,11 @@ import { MDXProvider } from '@mdx-js/react';
 import MDXComponents from '../components/MDXComponents';
 import { Parallax } from 'react-parallax';
 import Head from 'next/head';
+import posthog from 'posthog-js';
+
+posthog.init('UF08LDA5dDLrvNzJXX5JxT-zmIK1TTH14b-rG8v63fQ', {
+  api_host: 'https://app.posthog.com'
+});
 
 export default function MyApp({ Component, pageProps }) {
   return (

@@ -51,20 +51,14 @@ export default function Inspire() {
   return (
     <div className="max-h-full text-black">
       <NextSeo
-        title="Tutoring | Project enVision U.S."
-        description="Get free tutoring by successful high school students."
+        title="Inspire | Project enVision U.S."
+        description="Get free and accessible help to start your own non-profit."
         canonical="https://envisionnew.org/programs/inspire/"
         openGraph={{
           url: 'https://envisionnew.org/programs/inspire/',
-          title: 'Tutoring | Project enVision U.S.',
-          images: [
-            {
-              url: '/favicon/send.png',
-              alt:
-                'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.'
-            }
-          ],
-          description: 'Get free tutoring by successful high school students.',
+          title: 'Inspire | Project enVision U.S.',
+          description:
+            'Get free and accessible help to start your own non-profit.',
           site_name: 'Project enVision U.S.'
         }}
       />

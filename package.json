@@ -22,6 +22,7 @@
     "next-mdx-remote": "^2.1.4",
     "next-seo": "^4.24.0",
     "npm": "^7.11.2",
+    "posthog-js": "^1.9.7",
     "preact": "^10.5.7",
     "prettier": "^2.2.1",
     "react": "17.0.2",

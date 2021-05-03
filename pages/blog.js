@@ -22,13 +22,6 @@ export default function Blog({ posts }) {
         openGraph={{
           url: 'https://envisionnew.org/blog/',
           title: 'Project enVision U.S.',
-          images: [
-            {
-              url: '/favicon/send.png',
-              alt:
-                'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.'
-            }
-          ],
           description:
             'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.',
           site_name: 'Project enVision U.S.'

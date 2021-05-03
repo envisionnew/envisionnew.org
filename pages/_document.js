@@ -8,8 +8,8 @@ class MyDocument extends Document {
           <meta charset="utf-8" />
           <meta name="author" content="Project enVision U.S." />
           <meta property="og:type" content="website" />
-          <meta property="og:image" content={`/favicon/brand_og.png`} />
-          <meta property="twitter:image" content={`/favicon/brand_og.png`} />
+          <meta property="og:image" content={`/favicon/send.png`} />
+          <meta property="twitter:image" content={`/favicon/send.png`} />
           <meta
             name="google-site-verification"
             content="SIjCpAkrChhv5gxAW9PcjzHvnOvnK0ttzzCpq4u1qx0"

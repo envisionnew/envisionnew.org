@@ -2628,6 +2628,11 @@ fault@^1.0.0:
   dependencies:
     format "^0.2.0"
 
+fflate@^0.4.1:
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/fflate/-/fflate-0.4.8.tgz#f90b82aefbd8ac174213abb338bd7ef848f0f5ae"
+  integrity sha512-FJqqoDBR00Mdj9ppamLa/Y7vxm+PRmNWA67N846RvsoYVMKB4q3y/de5PA7gUmRMYK/8CMz2GDZQmCRN1wBcWA==
+
 fill-range@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
@@ -4749,6 +4754,13 @@ postcss@^6.0.9:
     chalk "^2.4.1"
     source-map "^0.6.1"
     supports-color "^5.4.0"
+
+posthog-js@^1.9.7:
+  version "1.9.7"
+  resolved "https://registry.yarnpkg.com/posthog-js/-/posthog-js-1.9.7.tgz#2ef27f3ab4e7608262c4b414e9c652499bb0dcbd"
+  integrity sha512-eTcR9+anOUyTsm69E0Efb7L4sOYAPuOiLQsGkD99w8T9PYCSt26NoFI/u6A8apZLtSDClDUnRsbsFtpHEfxCyw==
+  dependencies:
+    fflate "^0.4.1"
 
 preact@^10.5.7:
   version "10.5.13"

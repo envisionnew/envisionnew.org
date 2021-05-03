@@ -19,13 +19,6 @@ export default function Learn() {
         openGraph={{
           url: 'https://envisionnew.org/programs/learn/',
           title: 'Project enVision U.S.',
-          images: [
-            {
-              url: '/favicon/send.png',
-              alt:
-                'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.'
-            }
-          ],
           description:
             'Get the opportunity to take free classes in a variety of different subjects!',
           site_name: 'Project enVision U.S.'
