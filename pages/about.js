@@ -119,6 +119,7 @@ export default function About() {
             </div>
           </div>
         </section>
+<<<<<<< Updated upstream
         <section className="mt-10 text-gray-600 body-font">
           <div className="container px-5 mx-auto">
             <div className="mb-20 text-center">
@@ -292,6 +293,8 @@ export default function About() {
           </div>
         </section>
       </section>
+=======
+>>>>>>> Stashed changes
       <br />
       <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/about.js" />
     </div>

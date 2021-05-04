@@ -24,6 +24,7 @@ export default function Contact() {
         <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
       <Header />
+      
       <section className="relative text-gray-600 body-font">
         <div className="container px-5 pt-24 pb-16 mx-auto">
           <div className="flex flex-col w-full mb-12 text-center">
@@ -112,6 +113,53 @@ export default function Contact() {
             </form>
           </div>
         </div>
+      </section>
+      <section className="mt-10 text-gray-600 body-font">
+          <div className="container px-5 mx-auto">
+            <div className="mb-20 text-center">
+              <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
+                FAQ
+              </span>
+              <h2 className="mb-4 font-medium text-black sm:text-4xl title-font">
+                Frequently Asked Questions
+              </h2>
+              <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
+                Let us help answer the most common questions you might have.
+              </p>
+              <div className="flex justify-center mt-6">
+                <div className="inline-flex w-16 h-1 bg-black rounded-full"></div>
+              </div>
+              <div className="max-w-4xl pt-10 mx-auto fsac4">
+                <div class="ktq4">
+                  <h3 class="font-semibold text-center text-2xl text-white">
+                    I want to be a volunteer, what's the time commitment?
+                  </h3>
+                  <p class="pt-3 value-text text-md text-gray-200 fkrr1">
+                    We recommend volunteers to be active for 3+ hours a week to
+                    keep up with and ensure the success of Project enVision
+                    programs. This number changes depending on your role as a
+                    volunteer.
+                  </p>
+                </div>
+                <div class="ktq4">
+                  <h3 class="font-semibold text-center text-2xl text-white">
+                    Still along the lines of volunteering: what happens after I
+                    apply?
+                  </h3>
+                  <p class="pt-3 value-text text-md text-gray-200 fkrr1">
+                    Once you have applied to be a volunteer or tutor, one of the
+                    executive directors at Project enVision will read through
+                    your application and set up a meeting with you. In this call
+                    (hosted over Zoom/Slack), you will be asked questions about
+                    your application and your general interest in Project
+                    enVision. Once this call is over, we'll let you know
+                    decisions immediately!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
       <br />
       <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/contact.js" />
