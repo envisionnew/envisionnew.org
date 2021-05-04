@@ -1,17 +1,17 @@
-import Typed from "typed.js";
-import React, { Component } from "react";
-import styled from "styled-components";
+import Typed from 'typed.js';
+import React from 'react';
+import styled from 'styled-components';
 
 const Element = styled.span`
   text-align: center;
 `;
 
 const words = [
+  'build <span class="underline">meaningful</span> <br class="sm:hidden" />nonprofits.',
   'learn new <span class="underline">skills</span>.',
   'volunteer their <br class="sm:hidden" /><span class="underline">own way</span>.',
   'lead their <br class="sm:hidden" /><span class="underline">communities</span>.',
-  'build impactful <br class="sm:hidden" /><span class="underline">nonprofits</span>.',
-  'launch amazing <br class="sm:hidden" /><span class="underline">events</span>.',
+  'launch <span class="underline">incredible</span> <br class="sm:hidden" />events.'
 ];
 
 class Typing extends React.Component {
@@ -19,9 +19,9 @@ class Typing extends React.Component {
     const options = {
       strings: words,
       typeSpeed: 50,
-      backSpeed: 50,
+      backSpeed: 30,
       loop: true,
-      cursorChar: "|",
+      cursorChar: '|'
     };
     this.typed = new Typed(this.el, options);
   }
@@ -34,7 +34,7 @@ class Typing extends React.Component {
     return (
       <>
         <Element
-          style={{ whiteSpace: "pre" }}
+          style={{ whiteSpace: 'pre' }}
           ref={(el) => {
             this.el = el;
           }}

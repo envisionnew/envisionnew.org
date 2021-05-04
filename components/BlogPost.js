@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { parseISO, format } from 'date-fns';
 
 const BlogPost = ({ title, date, summary, slug }) => {
   return (
@@ -10,7 +11,7 @@ const BlogPost = ({ title, date, summary, slug }) => {
               {title}
             </h4>
             <p className="w-48 mt-1 mb-4 text-left text-gray-500 md:text-right md:mb-0">
-              {date}
+              {format(parseISO(date), 'MMMM dd, yyyy')}
             </p>
           </div>
           <p className="text-gray-600">{summary}</p>

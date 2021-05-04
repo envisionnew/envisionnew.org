@@ -2,6 +2,12 @@
 
 <img src="./.github/screenshots/lighthouse.jpg" />
 
+<a href="https://vercel.com/?utm_source=envisionnew&utm_campaign=oss" align="center">
+  <p href="" align="center">
+    <img src="./.github/screenshots/powered-by-vercel.svg" />
+  </p>
+</a>
+
 ---
 
 <img src="./.github/screenshots/home.png" />
@@ -44,11 +50,3 @@ Contact - [info@envisionnew.org](mailto:info@envisionnew.org)
 ## Contributions
 
 Contributions are welcome! Please open a PR/Issue if you have any edits/suggestions for changes.
-
----
-
-<a href="https://vercel.com/?utm_source=envisionnew&utm_campaign=oss" align="center">
-  <p href="" align="center">
-    <img src="./.github/screenshots/powered-by-vercel.svg" />
-  </p>
-</a>

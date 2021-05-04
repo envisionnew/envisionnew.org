@@ -40,9 +40,12 @@ export default function Home() {
       <section className="text-black body-font lg:pt-20">
         <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
           <div className="flex flex-col w-full mb-2 text-center md:text-center sm:text-center">
-            <h1 className="mt-10 mb-2 text-5xl font-bold tracking-tighter text-black lg:text-8xl md:text-6xl sm:text-5xl">
+            <h1 className="mt-6 mb-2 text-5xl font-bold tracking-tighter text-black lg:text-8xl md:text-6xl sm:text-5xl">
               <span>
-                We help <span className="highlighting">students</span>{' '}
+                We help{' '}
+                <span className="bg-gradient-to-r from-green-300 via-blue-400 to-purple-400 animate-gradient-x">
+                  students
+                </span>{' '}
               </span>
               <br />
               <Typing />
@@ -55,7 +58,7 @@ export default function Home() {
                 src="/images/conversation.svg"
               ></img>
             </div>
-            <p className="mx-auto text-3xl font-normal leading-relaxed text-center text-gray-600 lg:text-left lg:w-2/3">
+            <p className="mx-auto text-2xl lg:text-3xl font-normal leading-relaxed text-center text-gray-600 lg:text-center lg:w-2/3">
               Project enVision is a nonprofit accelerator focused on providing
               volunteer and educational services to young people everywhere.
             </p>
@@ -64,7 +67,7 @@ export default function Home() {
                 <div className="flex flex-wrap -m-4 text-center">
                   <div className="w-1/3 p-4">
                     <h2 className="text-3xl font-medium text-black title-font sm:text-5xl">
-                      <CountUp end={950} redraw={true}>
+                      <CountUp end={1200} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />
@@ -90,7 +93,7 @@ export default function Home() {
                   </div>
                   <div className="w-1/3 p-4">
                     <h2 className="text-4xl font-medium text-black title-font sm:text-5xl">
-                      <CountUp end={15} redraw={true}>
+                      <CountUp end={25} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />
@@ -108,7 +111,7 @@ export default function Home() {
               <a
                 className="inline-flex items-center py-3 mb-8 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 bg-gradient-to-r from-blue-500 to-blue-800 text-md md:mt-0 focus:shadow-outline"
                 aria-label="learn more"
-                href="#about"
+                href="/about"
               >
                 <div className="flex text-lg">
                   <span className="justify-center">Learn More</span>
@@ -136,7 +139,7 @@ export default function Home() {
               <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
                 Mission
               </span>
-              <h2 className="mb-4 font-medium text-black sm:text-5xl title-font">
+              <h2 className="mb-4 font-medium text-black text-3xl md:text-5xl lg:text-5xl">
                 For Students <span className="underline">By Students</span>
               </h2>
               <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
@@ -229,12 +232,13 @@ export default function Home() {
         <Parallax
           strength={500}
           bgImage="/images/class.jpg"
-          contentclassName="py-xl max-w-full w-auto"
+          contentClassName="py-xl max-w-full w-auto"
           bgImageAlt="A Project enVision class at a title one school."
           bgStyle={{
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover'
           }}
+          bgImageSize="4032x3024"
         >
           <div className="w-full h-full m-auto bg-black bg-opacity-50">
             <div style={{ height: '50rem' }}>
@@ -259,7 +263,7 @@ export default function Home() {
               <span className="px-3 py-2.5 mt-16 mb-3 rounded-10 badge badge-success-soft">
                 Programs
               </span>
-              <h2 className="mb-4 font-medium text-black sm:text-5xl title-font">
+              <h2 className="mb-4 font-medium text-black text-3xl md:text-5xl lg:text-5xl">
                 Project enVision Brands
               </h2>
               <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
@@ -269,8 +273,29 @@ export default function Home() {
               <div className="flex justify-center mt-6">
                 <div className="inline-flex w-16 h-1 mb-5 bg-black rounded-full"></div>
               </div>
-              <div className="container px-5 py-16 mx-auto">
+              <div className="container px-5 pt-16 pb-4 md:pb-16 lg:pb-16 mx-auto">
                 <div className="flex flex-wrap -m-4">
+                  <div className="p-4 lg:w-1/4 md:w-1/2">
+                    <div className="flex flex-col items-center h-full text-center">
+                      <img
+                        alt="team"
+                        className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                        src="/images/startup.svg"
+                      ></img>
+                      <div className="w-full">
+                        <a href="/programs/inspire">
+                          <h2 className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
+                            Project enVision Inspire
+                          </h2>
+                        </a>
+                        <p className="mb-2 text-lg">
+                          Nonprofit incubator providing mentorship {'&'}{' '}
+                          financial, legal {'&'} infrastructure support to
+                          student-run nonprofits.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                   <div className="p-4 lg:w-1/4 md:w-1/2">
                     <div className="flex flex-col items-center h-full text-center">
                       <img
@@ -316,27 +341,6 @@ export default function Home() {
                       <img
                         alt="team"
                         className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
-                        src="/images/startup.svg"
-                      ></img>
-                      <div className="w-full">
-                        <a href="#">
-                          <h2 className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
-                            Project enVision Inspire
-                          </h2>
-                        </a>
-                        <p className="mb-2 text-lg">
-                          Nonprofit incubator providing mentorship {'&'}{' '}
-                          financial, legal {'&'} infrastructure support to
-                          student-run nonprofits.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="p-4 lg:w-1/4 md:w-1/2">
-                    <div className="flex flex-col items-center h-full text-center">
-                      <img
-                        alt="team"
-                        className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
                         src="/images/chapter.svg"
                       ></img>
                       <div className="w-full">
@@ -364,7 +368,7 @@ export default function Home() {
               <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
                 Sponsors
               </span>
-              <h2 className="mb-4 font-medium text-black sm:text-5xl title-font">
+              <h2 className="mb-4 font-medium text-black text-3xl md:text-5xl lg:text-5xl">
                 Partnered With Industry-Leading Companies
               </h2>
               <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
@@ -375,7 +379,7 @@ export default function Home() {
               <div className="flex justify-center mt-6">
                 <div className="inline-flex w-16 h-1 mb-8 bg-black rounded-full"></div>
               </div>
-              <div className="grid grid-cols-2 gap-16 text-center lg:grid-cols-5">
+              <div className="grid grid-cols-2 gap-16 mt-10 mb-20 text-center lg:grid-cols-6">
                 <div className="block object-contain w-full h-16">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -473,8 +477,28 @@ export default function Home() {
                     <path fill="#FFB900" d="M67.7 67.7h61.3v61.3h-61.3z" />
                   </svg>
                 </div>
+                <div className="block object-contain w-full h-16">
+                  <svg
+                    width="120"
+                    height="65"
+                    viewBox="0 0 760 400"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g transform="matrix(.32 0 0 .32 120 132.504)">
+                      <clipPath id="a">
+                        <path d="M0 0h1000v421.849H0z" />
+                      </clipPath>
+                      <g clip-path="url(#a)">
+                        <path fill="#0068b5" d="M0 5.882h78.711v78.711H0z" />
+                        <path
+                          d="M76.75 415.966V132.493H2.24v283.473h74.51zm495.239 2.801V349.3c-10.925 0-20.168-.56-26.891-1.681-7.843-1.12-13.726-3.922-17.647-7.843-3.922-3.922-6.443-9.524-7.843-16.807-1.12-7.003-1.68-16.246-1.68-27.45v-99.16h54.06v-63.866h-54.06V21.849h-74.79v274.23c0 23.249 1.96 42.857 5.881 58.543 3.922 15.406 10.645 28.011 19.888 37.535 9.244 9.524 21.57 16.246 36.415 20.448 15.126 4.202 34.174 6.162 56.863 6.162h9.804zm428.01-2.8V0h-74.79v415.966H1000zM371.15 160.223c-20.729-22.409-49.86-33.613-86.835-33.613-17.928 0-34.174 3.641-49.02 10.924-14.566 7.283-27.17 17.367-36.975 30.252l-4.201 5.322v-40.616h-73.67v283.473h74.23v-150.98 10.364-5.042c.84-26.61 7.283-46.218 19.608-58.823 13.165-13.446 29.131-20.169 47.339-20.169 21.568 0 38.095 6.723 49.02 19.608 10.643 12.885 16.246 31.093 16.246 54.342v150.42h75.35V254.902c.28-40.336-10.364-72.269-31.093-94.678zM886.553 273.67c0-20.448-3.641-39.495-10.644-57.423-7.283-17.647-17.367-33.333-29.972-46.778-12.885-13.446-28.291-23.81-46.218-31.373-17.927-7.563-37.815-11.204-59.384-11.204-20.448 0-39.776 3.921-57.703 11.484-17.927 7.843-33.614 18.208-46.779 31.373-13.165 13.165-23.81 28.851-31.372 46.779-7.843 17.927-11.485 37.254-11.485 57.703 0 20.448 3.642 39.776 10.924 57.703 7.283 17.927 17.647 33.613 30.533 46.778 12.885 13.166 28.851 23.81 47.339 31.373 18.487 7.843 38.935 11.765 60.784 11.765 63.305 0 102.52-28.852 126.05-55.743l-53.781-40.896c-11.205 13.445-38.095 31.653-71.709 31.653-21.008 0-38.375-4.762-51.54-14.566-13.166-9.524-22.13-22.97-26.891-39.496l-.84-2.52h222.688V273.67zm-222.128-26.05c0-20.728 23.81-56.863 75.07-57.143 51.26 0 75.35 36.135 75.35 56.863l-150.42.28z"
+                          fill-rule="nonzero"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                </div>
               </div>
-              <div className="container px-5 py-16 mx-auto"></div>
             </div>
           </div>
         </section>
@@ -484,7 +508,7 @@ export default function Home() {
               <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
                 Volunteer
               </span>
-              <h2 className="mb-4 font-medium text-black sm:text-5xl title-font">
+              <h2 className="mb-4 font-medium text-black text-3xl md:text-5xl lg:text-5xl">
                 Interested in Volunteering?
               </h2>
               <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
@@ -503,7 +527,7 @@ export default function Home() {
                     method="post"
                   >
                     <div className="flex flex-wrap -m-2">
-                      <div className="w-1/2 p-2 xl:w-1/3">
+                      <div className="w-1/2 p-2 lg:w-1/3">
                         <div className="relative">
                           <label
                             for="contactName"
@@ -521,7 +545,7 @@ export default function Home() {
                           ></input>
                         </div>
                       </div>
-                      <div className="w-1/2 p-2 xl:w-1/3">
+                      <div className="w-1/2 p-2 lg:w-1/3">
                         <div className="relative">
                           <label
                             for="contactEmail"
@@ -539,7 +563,7 @@ export default function Home() {
                           ></input>
                         </div>
                       </div>
-                      <div className="w-1/2 p-2 xl:w-1/4">
+                      <div className="w-1/2 p-2 lg:w-2/9">
                         <div className="relative">
                           <label
                             for="contactNumber"
@@ -557,7 +581,7 @@ export default function Home() {
                           ></input>
                         </div>
                       </div>
-                      <div className="w-1/2 p-2 xl:w-1/12">
+                      <div className="w-1/2 p-2 lg:w-1/9">
                         <div className="relative">
                           <label
                             for="contactAge"

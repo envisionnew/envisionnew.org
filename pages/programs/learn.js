@@ -1,9 +1,9 @@
-import Head from "next/head";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import React from "react";
-import { NextSeo } from "next-seo";
-import styled from "styled-components";
+import Head from 'next/head';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import React from 'react';
+import { NextSeo } from 'next-seo';
+import styled from 'styled-components';
 
 const Highlight = styled.span`
   background-color: #0af5f4;
@@ -17,11 +17,11 @@ export default function Learn() {
         description="Get the opportunity to take free classes in a variety of different subjects!"
         canonical="https://envisionnew.org/programs/learn/"
         openGraph={{
-          url: "https://envisionnew.org/programs/learn/",
-          title: "Project enVision U.S.",
+          url: 'https://envisionnew.org/programs/learn/',
+          title: 'Project enVision U.S.',
           description:
-            "Get the opportunity to take free classes in a variety of different subjects!",
-          site_name: "Project enVision U.S.",
+            'Get the opportunity to take free classes in a variety of different subjects!',
+          site_name: 'Project enVision U.S.'
         }}
       />
       <Head>
@@ -108,7 +108,7 @@ export default function Learn() {
                         </h2>
                         <p className="mt-2 mb-4 text-lg">
                           We teach both the introductory levels as well as
-                          advanced (grades 7+).{" "}
+                          advanced (grades 7+).{' '}
                         </p>
                       </div>
                     </div>
@@ -126,7 +126,7 @@ export default function Learn() {
                         </h2>
                         <p className="mt-2 mb-4 text-lg">
                           We teach both the introductory levels as well as
-                          advanced (grades 7+).{" "}
+                          advanced (grades 7+).{' '}
                         </p>
                       </div>
                     </div>
@@ -144,7 +144,7 @@ export default function Learn() {
                         </h2>
                         <p className="mt-2 mb-4 text-lg">
                           We teach both the introductory levels as well as
-                          advanced (grades 7+).{" "}
+                          advanced (grades 7+).{' '}
                         </p>
                       </div>
                     </div>
