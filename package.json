@@ -8,7 +8,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@hcaptcha/react-hcaptcha": "^0.3.6",
     "@mdx-js/loader": "1.6.22",
     "@mdx-js/react": "1.6.22",
     "@next/mdx": "10.2.0",
@@ -29,6 +28,7 @@
     "react-countup": "^4.3.3",
     "react-dom": "17.0.2",
     "react-flickity-component": "^3.6.1",
+    "react-google-recaptcha": "^2.1.0",
     "react-hook-form": "^7.4.2",
     "react-parallax": "^3.3.0",
     "react-visibility-sensor": "^5.1.1",

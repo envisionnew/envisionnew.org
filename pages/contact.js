@@ -3,11 +3,11 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { NextSeo } from 'next-seo';
 import React from 'react';
-import HCaptcha from '@hcaptcha/react-hcaptcha';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 export default function Contact() {
   const [email, setEmail] = React.useState('');
-  const hcaptchaRef = React.useRef(null);
+  const recaptchaRef = React.useRef(null);
 
   const handleChange = ({ target: { value } }) => {
     setEmail(value);
@@ -15,18 +15,18 @@ export default function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Execute the hCaptcha when the form is submitted
-    hcaptchaRef.current.execute();
+    // Execute the reCAPTCHA when the form is submitted
+    recaptchaRef.current.execute();
   };
 
-  const onHCaptchaChange = async (captchaCode) => {
-    // If the hCaptcha code is null or undefined indicating that
-    // the hCaptcha was expired then return early
+  const onReCAPTCHAChange = async (captchaCode) => {
+    // If the reCAPTCHA code is null or undefined indicating that
+    // the reCAPTCHA was expired then return early
     if (!captchaCode) {
       return;
     }
     try {
-      const response = await fetch('/api/hcaptcha', {
+      const response = await fetch('/api/recaptcha', {
         method: 'POST',
         body: JSON.stringify({ email, captcha: captchaCode }),
         headers: {
@@ -35,7 +35,7 @@ export default function Contact() {
       });
       if (response.ok) {
         // If the response is ok than show the success alert
-        alert('Email registered successfully');
+        alert('Message was successfully sent!');
       } else {
         // Else throw an error with the message returned
         // from the API
@@ -43,10 +43,11 @@ export default function Contact() {
         throw new Error(error.message);
       }
     } catch (error) {
-      alert(error?.message || 'Something went wrong');
+      alert(error?.message || 'Something went wrong – please try again.');
     } finally {
-      // Reset the hCaptcha when the request has failed or succeeeded
+      // Reset the reCAPTCHA when the request has failed or succeeeded
       // so that it can be executed again if user submits another email.
+      recaptchaRef.current.reset();
       setEmail('');
     }
   };
@@ -140,12 +141,11 @@ export default function Contact() {
                       required
                       className="w-full h-32 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none resize-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
                     ></textarea>
-                    <HCaptcha
-                      id="test"
+                    <ReCAPTCHA
+                      ref={recaptchaRef}
                       size="invisible"
-                      ref={hcaptchaRef}
-                      sitekey={process.env.HCAPTCHA_SITE_KEY}
-                      onVerify={onHCaptchaChange}
+                      sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                      onChange={onReCAPTCHAChange}
                     />
                   </div>
                 </div>
