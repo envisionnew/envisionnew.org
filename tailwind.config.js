@@ -1,5 +1,4 @@
 const colors = require('tailwindcss/colors');
-const { gradientColorStops } = require('tailwindcss/defaultTheme');
 
 module.exports = {
   purge: ['./components/**/*.js', './pages/**/*.js'],

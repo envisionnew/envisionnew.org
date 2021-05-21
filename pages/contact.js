@@ -1,10 +1,56 @@
 import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import React from 'react';
 import { NextSeo } from 'next-seo';
+import React from 'react';
+import HCaptcha from '@hcaptcha/react-hcaptcha';
 
 export default function Contact() {
+  const [email, setEmail] = React.useState('');
+  const hcaptchaRef = React.useRef(null);
+
+  const handleChange = ({ target: { value } }) => {
+    setEmail(value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Execute the hCaptcha when the form is submitted
+    hcaptchaRef.current.execute();
+  };
+
+  const onHCaptchaChange = async (captchaCode) => {
+    // If the hCaptcha code is null or undefined indicating that
+    // the hCaptcha was expired then return early
+    if (!captchaCode) {
+      return;
+    }
+    try {
+      const response = await fetch('/api/hcaptcha', {
+        method: 'POST',
+        body: JSON.stringify({ email, captcha: captchaCode }),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+      if (response.ok) {
+        // If the response is ok than show the success alert
+        alert('Email registered successfully');
+      } else {
+        // Else throw an error with the message returned
+        // from the API
+        const error = await response.json();
+        throw new Error(error.message);
+      }
+    } catch (error) {
+      alert(error?.message || 'Something went wrong');
+    } finally {
+      // Reset the hCaptcha when the request has failed or succeeeded
+      // so that it can be executed again if user submits another email.
+      setEmail('');
+    }
+  };
+
   return (
     <div className="max-h-full text-black bg-white">
       <NextSeo
@@ -39,6 +85,7 @@ export default function Contact() {
             <form
               action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfw7717IenntIJbLCOCfizrmu6g3mXIoKMR3ZVbyD_QrfUITw/formResponse"
               method="post"
+              onSubmit={handleSubmit}
             >
               <div className="flex flex-wrap -m-2">
                 <div className="w-1/2 p-2">
@@ -70,6 +117,7 @@ export default function Contact() {
                     <input
                       type="email"
                       id="contactEmail"
+                      onChange={handleChange}
                       placeholder="john@smith.com"
                       name="entry.2111510422"
                       required
@@ -92,6 +140,13 @@ export default function Contact() {
                       required
                       className="w-full h-32 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none resize-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
                     ></textarea>
+                    <HCaptcha
+                      id="test"
+                      size="invisible"
+                      ref={hcaptchaRef}
+                      sitekey={process.env.HCAPTCHA_SITE_KEY}
+                      onVerify={onHCaptchaChange}
+                    />
                   </div>
                 </div>
                 <div className="w-full p-2">
