@@ -43,7 +43,7 @@ export default function Home() {
             <h1 className="mt-6 mb-2 text-5xl font-bold tracking-tighter text-black lg:text-8xl md:text-6xl sm:text-5xl">
               <span>
                 We help{' '}
-                <span className="bg-gradient-to-r from-green-300 via-blue-400 to-purple-400 animate-gradient-x">
+                <span className="px-3 rounded-2xl bg-gradient-to-r from-green-300 via-blue-400 to-purple-400 animate-gradient-x">
                   students
                 </span>{' '}
               </span>
@@ -58,7 +58,7 @@ export default function Home() {
                 src="/images/conversation.svg"
               ></img>
             </div>
-            <p className="mx-auto text-2xl lg:text-3xl font-normal leading-relaxed text-center text-gray-600 lg:text-center lg:w-2/3">
+            <p className="mx-auto text-2xl font-normal leading-relaxed text-center text-gray-600 lg:text-3xl lg:text-center lg:w-2/3">
               Project enVision is a nonprofit accelerator focused on providing
               volunteer and educational services to young people everywhere.
             </p>
@@ -139,7 +139,7 @@ export default function Home() {
               <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
                 Mission
               </span>
-              <h2 className="mb-4 font-medium text-black text-3xl md:text-5xl lg:text-5xl">
+              <h2 className="mb-4 text-3xl font-medium text-black md:text-5xl lg:text-5xl">
                 For Students <span className="underline">By Students</span>
               </h2>
               <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
@@ -263,7 +263,7 @@ export default function Home() {
               <span className="px-3 py-2.5 mt-16 mb-3 rounded-10 badge badge-success-soft">
                 Programs
               </span>
-              <h2 className="mb-4 font-medium text-black text-3xl md:text-5xl lg:text-5xl">
+              <h2 className="mb-4 text-3xl font-medium text-black md:text-5xl lg:text-5xl">
                 Project enVision Brands
               </h2>
               <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
@@ -273,7 +273,7 @@ export default function Home() {
               <div className="flex justify-center mt-6">
                 <div className="inline-flex w-16 h-1 mb-5 bg-black rounded-full"></div>
               </div>
-              <div className="container px-5 pt-16 pb-4 md:pb-16 lg:pb-16 mx-auto">
+              <div className="container px-5 pt-16 pb-4 mx-auto md:pb-16 lg:pb-16">
                 <div className="flex flex-wrap -m-4">
                   <div className="p-4 lg:w-1/4 md:w-1/2">
                     <div className="flex flex-col items-center h-full text-center">
@@ -368,7 +368,7 @@ export default function Home() {
               <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
                 Sponsors
               </span>
-              <h2 className="mb-4 font-medium text-black text-3xl md:text-5xl lg:text-5xl">
+              <h2 className="mb-4 text-3xl font-medium text-black md:text-5xl lg:text-5xl">
                 Partnered With Industry-Leading Companies
               </h2>
               <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
@@ -508,7 +508,7 @@ export default function Home() {
               <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
                 Volunteer
               </span>
-              <h2 className="mb-4 font-medium text-black text-3xl md:text-5xl lg:text-5xl">
+              <h2 className="mb-4 text-3xl font-medium text-black md:text-5xl lg:text-5xl">
                 Interested in Volunteering?
               </h2>
               <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
