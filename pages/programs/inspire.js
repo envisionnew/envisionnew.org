@@ -180,7 +180,7 @@ export default function Inspire() {
         </p>
         <div className="max-w-6xl pt-16 pb-24 mx-auto fsac4">
           <div class="ktq4 border-4 border-indigo-300">
-            <img src="/images/crowneducationchallenge.png"></img>
+            <img src="/images/ataraxia.png"></img>
             <h3 class="pt-3 text-center font-semibold text-lg text-white">
               Ataraxia
             </h3>
@@ -204,7 +204,7 @@ export default function Inspire() {
           </div>
         </div>
       </section>
-      <section class="text-black body-font">
+      {/* <section class="text-black body-font">
         <div className="container px-5 mx-auto mb-12">
           <div className="mb-8 text-center">
             <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
@@ -218,33 +218,31 @@ export default function Inspire() {
         <br></br>
         <p className="mx-auto text-xl font-normal leading-relaxed text-center text-black fs521 lg:w-2/3">
           **INFO**
-        </p>
-        <section class="relative">
-          <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-            <div class="py-24 md:py-36">
-              <h1 class="mb-5 text-6xl font-bold text-black">
-                Subscribe to our newsletter
-              </h1>
-              <h1 class="mb-9 text-2xl font-semibold text-gray-400">
-                Enter your email address and get our newsletters straight away.
-              </h1>
-              <input
-                type="email"
-                placeholder="john@smith.com"
-                name="email"
-                autocomplete="email"
-                class="border border-gray-600 w-3/4 lg:w-1/4 pr-2 pl-2 py-3 mt-2 rounded-md text-gray-800 font-semibold focus:ring-2 focus:outline-none focus:border-transparent focus:ring-fuchsia-300 hover:border-gray-700"
-              />{' '}
-              <a
-                class="inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium hover:text-white hover:bg-black text-black bg-transparent border rounded-lg bg-white"
-                href="/"
-              >
-                <span class="justify-center">Subscribe</span>
-              </a>
-            </div>
-          </div>
-        </section>
+        </p> */}
+      <section class="relative mb-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+          <h1 class="mb-5 text-3xl font-medium text-black md:text-5xl lg:text-5xl">
+            Subscribe to our newsletter
+          </h1>
+          <h1 class="mb-9 text-xl font-semibold text-gray-600">
+            Enter your email address and get our newsletters straight away.
+          </h1>
+          <input
+            type="email"
+            placeholder="john@smith.com"
+            name="email"
+            autocomplete="email"
+            class="border border-gray-600 w-3/4 lg:w-1/4 pr-2 pl-2 py-3 mt-2 rounded-md text-gray-800 font-semibold focus:ring-2 focus:outline-none focus:border-transparent focus:ring-fuchsia-300 hover:border-gray-700"
+          />{' '}
+          <a
+            class="inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium hover:text-white hover:bg-black text-black bg-transparent border rounded-lg bg-white"
+            href="/"
+          >
+            <span class="justify-center">Subscribe</span>
+          </a>
+        </div>
       </section>
+      {/* </section> */}
       <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/programs/inspire.js" />
     </div>
   );
