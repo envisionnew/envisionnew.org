@@ -8,12 +8,10 @@ export default function Footer({ link }) {
           className="flex items-center justify-center font-medium title-font md:justify-start"
           href="/"
         >
-          <span className="ml-0 text-xl md:ml-3 lg:ml-3">
-            PROJECT ENVISION U.S.
-          </span>
+          <span className="text-xl md:ml-3">PROJECT ENVISION U.S.</span>
         </a>
         <span className="border-css" />
-        <p className="flex items-center justify-center ml-5 text-sm font-medium title-font md:justify-start">
+        <p className="flex items-center justify-center text-sm font-medium md:ml-5 title-font md:justify-start">
           EIN: 81-5333016
         </p>
         <span className="border-css" />
@@ -21,7 +19,7 @@ export default function Footer({ link }) {
           className="flex items-center justify-center font-medium title-font md:justify-start"
           href={link}
         >
-          <span className="ml-0 text-sm md:ml-5 lg:ml-5">Edit on GitHub</span>
+          <span className="text-sm md:ml-5">Edit on GitHub</span>
         </a>
         <span className="border-css" />
         <a
@@ -29,7 +27,7 @@ export default function Footer({ link }) {
           href="https://vercel.com/?utm_source=envisionnew&utm_campaign=oss"
         >
           <img
-            className="h-8 mb-2 ml-0 md:mb-0 lg:mb-0 md:ml-5 lg:ml-5"
+            className="h-8 mb-2 ml-0 md:mb-0 lg:mb-0 md:ml-5"
             src="/images/powered-by-vercel.svg"
           ></img>
         </a>
