@@ -41,13 +41,13 @@ export default function Inspire() {
     <div className="max-h-full text-black">
       <NextSeo
         title="Chapters | Project enVision U.S."
-        description="Get free and accessible help to start your own non-profit."
-        canonical="https://envisionnew.org/programs/inspire/"
+        description="Want to start a chapter with Project enVision U.S.? Learn more information here."
+        canonical="https://envisionnew.org/programs/chapters/"
         openGraph={{
-          url: 'https://envisionnew.org/programs/inspire/',
-          title: 'Inspire | Project enVision U.S.',
+          url: 'https://envisionnew.org/programs/chapters/',
+          title: 'Chapters | Project enVision U.S.',
           description:
-            'Get free and accessible help to start your own non-profit.',
+            'Want to start a chapter with Project enVision U.S.? Learn more information here.',
           site_name: 'Project enVision U.S.'
         }}
       />
