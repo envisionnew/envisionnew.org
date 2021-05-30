@@ -57,7 +57,7 @@ export default function Inspire() {
       <Header />
       <section class="text-gray-600 body-font bg-gradient-to-r from-rose-200 via-indigo-200 to-teal-100 animate-gradient-x">
         <div class="max-w-5xl pt-52 pb-40 mx-auto">
-          <h1 class="text-80 text-center font-bold title-font text-black mb-6">
+          <h1 class="text-80 text-center leading-tight font-bold title-font text-black mb-10">
             Start a chapter.
           </h1>
           <h2 class="text-2xl mx-4 font-4 title-font pb-11 text-gray-700 text-center">
@@ -91,7 +91,7 @@ export default function Inspire() {
           </div>
         </div>
         <br></br>
-        <p className="mx-auto text-xl font-normal leading-relaxed text-center text-black lg:w-2/5">
+        <p className="mx-4 text-xl font-normal leading-relaxed text-center text-black md:mx-auto lg:w-2/5">
           We're ecstatic you want to join us in our mission of spreading
           accessible education everywhere, while making our community a better
           place. Project enVision U.S. can provide you with the resources to
