@@ -18,7 +18,7 @@
     "mailgun-js": "^0.22.0",
     "mdx-prism": "0.3.3",
     "next": "10.2.0",
-    "next-mdx-remote": "^2.1.4",
+    "next-mdx-remote": "^3.0.2",
     "next-seo": "^4.24.0",
     "node-fetch": "^2.6.1",
     "nodemailer": "^6.6.1",
