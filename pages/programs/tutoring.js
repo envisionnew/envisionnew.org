@@ -27,7 +27,19 @@ export default function Tutoring() {
         <title>Tutoring | Project enVision</title>
       </Head>
       <Header />
-      <section className="relative text-gray-600 body-font">
+      <div className="flex flex-col justify-center mx-auto mt-32 mb-16 text-center max-w-2x1">
+        <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl">
+          This page is still in development.
+        </h1>
+        <a
+          className="w-64 p-1 mx-auto font-bold text-center text-black border border-gray-500 rounded-lg sm:p-4 hover:text-white hover:bg-black"
+          aria-label="home"
+          href="/"
+        >
+          Return Home
+        </a>
+      </div>
+      {/* <section className="relative text-gray-600 body-font">
         <div className="container px-5 pt-24 mx-auto">
           <div className="flex flex-col w-full mb-12 text-center">
             <h1 className="mb-6 text-6xl font-semibold text-black title-font">
@@ -167,7 +179,7 @@ export default function Tutoring() {
             </div>
           </div>
         </section>
-      </section>
+      </section> */}
       <br />
       <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/tutoring.js" />
     </div>

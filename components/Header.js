@@ -1,7 +1,10 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const [flyer, setFlyer] = React.useState(false);
+  const [flyerTwo, setFlyerTwo] = React.useState(false);
 
   return (
     <header className="fixed top-0 z-50 w-full text-gray-900 clearNav body-font">
@@ -44,27 +47,102 @@ export default function Header() {
           }
         >
           <nav className="flex flex-wrap items-center justify-center font-semibold text-md md:ml-auto pl-7">
-            <a className="mr-6 hover:text-gray-900" href="/">
-              Home
-            </a>
-            <a className="mr-6 hover:text-gray-900" href="/about">
-              About
-            </a>
-            <a className="mr-6 hover:text-gray-900" href="/events">
-              Events
-            </a>
-            <a className="mr-6 hover:text-gray-900" href="/#programs">
-              Programs
-            </a>
-            <a className="mr-6 hover:text-gray-900" href="/#volunteer">
-              Volunteer
-            </a>
-            <a className="mr-6 hover:text-gray-900" href="/contact">
-              Contact
-            </a>
-            <a className="mr-6 hover:text-gray-900" href="/blog">
-              Blog
-            </a>
+            <Link href="/">
+              <a className="mr-6 hover:text-gray-900">Home</a>
+            </Link>
+            <Link href="/about">
+              <a className="mr-1 hover:text-gray-900">About</a>
+            </Link>
+            <div className="relative">
+              <button
+                type="button"
+                className="flex items-center px-5 py-3 font-semibold transition duration-150 ease-in-out hover:text-gray-900'
+                  "
+                onMouseEnter={() => (setFlyer(!flyer), setFlyerTwo(false))}
+              >
+                <Link href="/#programs">
+                  <a className="hover:text-gray-900">Programs</a>
+                </Link>
+                <svg
+                  className={
+                    flyer === true
+                      ? 'transform rotate-180 ml-3 h-5 w-5 transition ease-out duration-200'
+                      : 'ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500'
+                  }
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
+              <div
+                onMouseLeave={() => setFlyer(false)}
+                className={
+                  flyer
+                    ? 'opacity-100 translate-y-0 transition ease-out duration-200 absolute z-10 -ml-4 mt-3 transform px-2 w-36 max-w-sm sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2'
+                    : 'hidden opacity-0 translate-y-1 absolute z-10 -ml-4 mt-3 transform px-2 w-36 max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2'
+                }
+              >
+                <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-white ring-opacity-5">
+                  <div className="relative grid gap-6 px-2 py-6 bg-white sm:gap-8 ">
+                    <Link href="/programs/inspire">
+                      <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
+                        <div className="ml-4">
+                          <p className="text-base font-medium text-black">
+                            Inspire
+                          </p>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/programs/learn">
+                      <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
+                        <div className="ml-4">
+                          <p className="text-base font-medium text-black">
+                            Learn
+                          </p>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/programs/tutoring">
+                      <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
+                        <div className="ml-4">
+                          <p className="text-base font-medium text-black">
+                            Tutoring
+                          </p>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/programs/chapters">
+                      <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
+                        <div className="ml-4">
+                          <p className="text-base font-medium text-black">
+                            Chapters
+                          </p>
+                        </div>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <Link href="/events">
+              <a className="mr-6 hover:text-gray-900">Events</a>
+            </Link>
+            <Link href="/#volunteer">
+              <a className="mr-6 hover:text-gray-900">Volunteer</a>
+            </Link>
+            <Link href="/contact">
+              <a className="mr-6 hover:text-gray-900">Contact</a>
+            </Link>
+            <Link href="/blog">
+              <a className="mr-6 hover:text-gray-900">Blog</a>
+            </Link>
           </nav>
           <a href="https://donorbox.org/project-envision">
             <button
