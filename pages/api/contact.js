@@ -57,7 +57,7 @@ export default async function handler(req, res) {
 
         const mailData = {
           from: req.body.email,
-          to: 'info@envisionnew.org',
+          to: 'saurish.srivastava@envisionnew.org',
           subject: `New Email From ${req.body.name}`,
           text: req.body.message + ' | Sent from: ' + req.body.email,
           html: `<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`
