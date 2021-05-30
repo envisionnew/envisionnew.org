@@ -14,7 +14,8 @@ const events = [
     instructors: 'Ayush Agarwal, Florence Zhu, Daleep Pannu',
     about:
       "Probably a high-level overview of what's going to be taught in the camp and a breakdown of labs, content, speeches, etc.",
-    link: '',
+    link:
+      'https://docs.google.com/forms/d/e/1FAIpQLSdywhU0uwv7kKkMYxWmlwyW88T7-kJ4FuEYJGD-_5CibAgFYA/viewform?usp=sf_link',
     filepath: '/learn/syllabus/speechdebate.pdf'
   }
 ];
@@ -28,9 +29,9 @@ export default function Events() {
         canonical="https://envisionnew.org/events"
         openGraph={{
           url: 'https://envisionnew.org/events/',
-          title: 'Inspire | Project enVision U.S.',
+          title: 'Events | Project enVision U.S.',
           description:
-            'Get free and accessible help to start your own non-profit.',
+            "Find out the events that we're hosting – constantly updated!",
           site_name: 'Project enVision U.S.'
         }}
       />
