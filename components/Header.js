@@ -5,9 +5,9 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 z-50 w-full text-gray-900 clearNav body-font">
-      <div className="container flex flex-wrap p-5 mx-auto md:flex-row">
+      <div className="container flex flex-wrap p-4 mx-auto md:flex-row">
         <a
-          className="flex pr-4 mb-4 font-medium text-gray-900 title-font md:mb-0"
+          className="flex pr-4 font-medium text-gray-900 title-font"
           aria-label="logo"
           href="/"
         >
@@ -43,12 +43,15 @@ export default function Header() {
             (navbarOpen ? ' flex' : ' hidden')
           }
         >
-          <nav className="flex flex-wrap items-center justify-center text-md font-semibold md:ml-auto pl-7">
+          <nav className="flex flex-wrap items-center justify-center font-semibold text-md md:ml-auto pl-7">
             <a className="mr-6 hover:text-gray-900" href="/">
               Home
             </a>
             <a className="mr-6 hover:text-gray-900" href="/about">
               About
+            </a>
+            <a className="mr-6 hover:text-gray-900" href="/events">
+              Events
             </a>
             <a className="mr-6 hover:text-gray-900" href="/#programs">
               Programs
@@ -66,7 +69,7 @@ export default function Header() {
           <a href="https://donorbox.org/project-envision">
             <button
               aria-label="donate"
-              className="px-4 py-2 mt-2 text-md font-semibold text-gray-900 transition duration-500 ease-in-out transform rounded-lg bg-gradient-to-r from-purple-200 via-pink-300 to-red-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+              className="px-4 py-2 mt-2 font-semibold text-gray-900 transition duration-500 ease-in-out transform rounded-lg text-md bg-gradient-to-r from-purple-200 via-pink-300 to-red-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
             >
               Donate
             </button>
