@@ -1,5 +1,6 @@
-// https://github.com/prateek3255/recaptch-with-next/tree/main
 import fetch from 'node-fetch';
+import nodeMailer from 'nodemailer';
+// import rateLimit from 'express-rate-limit';
 
 const sleep = () =>
   new Promise((resolve) => {
@@ -12,7 +13,7 @@ export default async function handler(req, res) {
   const { body, method } = req;
 
   // Extract the email and captcha code from the request body
-  const { email, captcha } = body;
+  const { name, email, message, captcha } = body;
 
   if (method === 'POST') {
     // If email or captcha are missing return an error
@@ -44,8 +45,49 @@ export default async function handler(req, res) {
         }
        */
       if (captchaValidation.success) {
-        // Replace this with the API that will save the data received
-        // to your backend
+        const transporter = nodeMailer.createTransport({
+          port: 465,
+          host: 'smtp.gmail.com',
+          auth: {
+            user: process.env.CONTACT_USERNAME,
+            pass: process.env.CONTACT_PASSWORD
+          },
+          secure: true
+        });
+
+        const mailData = {
+          from: req.body.email,
+          to: 'info@envisionnew.org',
+          subject: `New Email From ${req.body.name}`,
+          text: req.body.message + ' | Sent from: ' + req.body.email,
+          html: `<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`
+        };
+
+        transporter.sendMail(mailData, function (err, info) {
+          if (err) {
+            console.log(err);
+            return res.json({
+              error: 'An error occurred when sending the email.'
+            });
+          }
+          console.log('Success!');
+          return res.json({ status: 'Success!' });
+        });
+        // TO DO: ADD GOOGLE FORM:
+        // fetch(
+        //   'https://restful-google-form.vercel.app/api/forms/1FAIpQLSd5oYN6h70QLFdhn50689_fXRQjmYQG8ouhEBBWGhj2XObAHQ',
+        //   {
+        //     method: 'POST',
+        //     headers: {
+        //       'content-type': 'application/json'
+        //     },
+        //     body: JSON.stringify(body)
+        //   }
+        // ).then((res) => {
+        //   console.log(res.status);
+        //   setDisable(false);
+        // });
+
         await sleep();
         // Return 200 if everything is successful
         return res.status(200).send('OK');

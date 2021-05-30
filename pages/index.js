@@ -39,18 +39,18 @@ export default function Home() {
       <Header />
       <section className="text-black body-font lg:pt-20">
         <div className="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
-          <div className="flex flex-col w-full mb-2 text-center md:text-center sm:text-center">
-            <h1 className="mt-6 mb-2 text-5xl font-bold tracking-tighter text-black lg:text-8xl md:text-6xl sm:text-5xl">
+          <div className="flex flex-col w-full mb-2 text-center">
+            <h1 className="mt-6 mb-2 text-5xl font-bold leading-tight tracking-tighter text-black lg:text-8xl md:text-6xl sm:text-5xl">
               <span>
                 We help{' '}
-                <span className="px-3 rounded-2xl bg-gradient-to-r from-green-300 via-blue-400 to-purple-400 animate-gradient-x">
+                <span className="px-3 md:pl-3 md:pr-4 rounded-2xl bg-gradient-to-r from-green-300 via-blue-400 to-purple-400 animate-gradient-x">
                   students
                 </span>{' '}
               </span>
               <br />
               <Typing />
             </h1>
-            <br></br>
+            <br />
             <div className="container flex flex-col items-center justify-center py-8 mx-auto rounded-lg ">
               <img
                 className="object-cover object-center w-4/5 mb-10 rounded-lg lg:w-1/4 g327"

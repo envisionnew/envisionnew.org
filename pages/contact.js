@@ -9,15 +9,14 @@ export default function Contact() {
   const [email, setEmail] = React.useState('');
   const [name, setName] = React.useState('');
   const [message, setMessage] = React.useState('');
-
   const recaptchaRef = React.useRef(null);
-
-  const handleChangeEmail = ({ target: { value } }) => {
-    setEmail(value);
-  };
 
   const handleChangeName = ({ target: { value } }) => {
     setName(value);
+  };
+
+  const handleChangeEmail = ({ target: { value } }) => {
+    setEmail(value);
   };
 
   const handleChangeMessage = ({ target: { value } }) => {
@@ -37,7 +36,7 @@ export default function Contact() {
       return;
     }
     try {
-      const response = await fetch('/api/recaptcha', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         body: JSON.stringify({ name, email, message, captcha: captchaCode }),
         headers: {
@@ -46,7 +45,9 @@ export default function Contact() {
       });
       if (response.ok) {
         // If the response is ok than show the success alert
-        alert('Message was successfully sent!');
+        alert(
+          'Thank you! Your message has been sent – we will get back to you as soon as we can!'
+        );
       } else {
         // Else throw an error with the message returned
         // from the API
@@ -54,14 +55,12 @@ export default function Contact() {
         throw new Error(error.message);
       }
     } catch (error) {
-      alert(error?.message || 'Something went wrong – please try again.');
+      alert(error?.message || 'Something went wrong – please try again!');
     } finally {
       // Reset the reCAPTCHA when the request has failed or succeeeded
       // so that it can be executed again if user submits another email.
       recaptchaRef.current.reset();
       setEmail('');
-      setName('');
-      setMessage('');
     }
   };
 
@@ -99,7 +98,7 @@ export default function Contact() {
             <form
               action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfw7717IenntIJbLCOCfizrmu6g3mXIoKMR3ZVbyD_QrfUITw/formResponse"
               method="post"
-              // onSubmit={handleSubmit}
+              onSubmit={handleSubmit}
             >
               <div className="flex flex-wrap -m-2">
                 <div className="w-1/2 p-2">
@@ -113,9 +112,9 @@ export default function Contact() {
                     <input
                       type="text"
                       id="contactName"
-                      // onChange={handleChangeName}
                       placeholder="John Smith"
-                      name="entry.314971597"
+                      onChange={handleChangeName}
+                      name="entry.366156824"
                       required
                       className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
                     ></input>
@@ -132,9 +131,9 @@ export default function Contact() {
                     <input
                       type="email"
                       id="contactEmail"
-                      // onChange={handleChangeEmail}
+                      onChange={handleChangeEmail}
                       placeholder="john@smith.com"
-                      name="entry.2111510422"
+                      name="entry.4579143"
                       required
                       className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
                     ></input>
@@ -150,18 +149,18 @@ export default function Contact() {
                     </label>
                     <textarea
                       id="contactMessage"
-                      name="entry.1147726578"
-                      // onChange={handleChangeMessage}
+                      name="entry.2036563261"
+                      onChange={handleChangeMessage}
                       placeholder="Tell us what we can help you with!"
                       required
                       className="w-full h-32 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none resize-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
                     ></textarea>
-                    {/* <ReCAPTCHA
+                    <ReCAPTCHA
                       ref={recaptchaRef}
                       size="invisible"
                       sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
                       onChange={onReCAPTCHAChange}
-                    /> */}
+                    />
                   </div>
                 </div>
                 <div className="w-full p-2">
