@@ -66,7 +66,7 @@ export default function Home() {
               <div className="container px-5 py-10 mx-auto mt-5">
                 <div className="flex flex-wrap -m-4 text-center">
                   <div className="w-1/3 p-4">
-                    <h2 className="text-3xl font-medium text-black title-font sm:text-5xl">
+                    <h2 className="text-4xl font-medium text-black title-font sm:text-5xl">
                       <CountUp end={1200} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
