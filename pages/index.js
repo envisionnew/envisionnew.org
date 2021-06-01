@@ -8,6 +8,7 @@ import { NextSeo } from 'next-seo';
 import styled from 'styled-components';
 import { Parallax } from 'react-parallax';
 import React from 'react';
+import Link from 'next/link';
 
 const Border = styled.span`
   border-left: 0.1rem solid black;
@@ -108,15 +109,16 @@ export default function Home() {
               </div>
             </section>
             <div className="mt-6 ml-6 text-center">
-              <a
-                className="inline-flex items-center py-3 mb-8 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 bg-gradient-to-r from-blue-500 to-blue-800 text-md md:mt-0 focus:shadow-outline"
-                aria-label="learn more"
-                href="/about"
-              >
-                <div className="flex text-lg">
-                  <span className="justify-center">Learn More</span>
-                </div>
-              </a>
+              <Link href="/about">
+                <a
+                  className="inline-flex items-center py-3 mb-8 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 bg-gradient-to-r from-blue-500 to-blue-800 text-md md:mt-0 focus:shadow-outline"
+                  aria-label="learn more"
+                >
+                  <div className="flex text-lg">
+                    <span className="justify-center">Learn More</span>
+                  </div>
+                </a>
+              </Link>
               <br className="sm:hidden" />
               <a
                 className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent bg-black rounded px-7 lg:ml-11 md:ml-11 text-md md:mt-0 hover:text-white hover:bg-black focus:shadow-outline"
@@ -283,11 +285,11 @@ export default function Home() {
                         src="/images/startup.svg"
                       ></img>
                       <div className="w-full">
-                        <a href="/programs/inspire">
-                          <h2 className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
+                        <Link href="/programs/inspire">
+                          <a className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
                             Project enVision Inspire
-                          </h2>
-                        </a>
+                          </a>
+                        </Link>
                         <p className="mb-2 text-lg">
                           Nonprofit incubator providing mentorship {'&'}{' '}
                           financial, legal {'&'} infrastructure support to
@@ -304,11 +306,11 @@ export default function Home() {
                         src="./images/solve.svg"
                       ></img>
                       <div className="w-full">
-                        <a href="/programs/learn">
-                          <h2 className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
+                        <Link href="/programs/learn">
+                          <a className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
                             Project enVision Learn
-                          </h2>
-                        </a>
+                          </a>
+                        </Link>
                         <p className="mb-2 text-lg">
                           STEAM educational programs and courses with excellent
                           mentors, from Speech and Debate programs to Coding.
@@ -324,11 +326,11 @@ export default function Home() {
                         src="/images/video.svg"
                       ></img>
                       <div className="w-full">
-                        <a href="#">
-                          <h2 className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
+                        <Link href="#">
+                          <a className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
                             Project enVision Tutoring
-                          </h2>
-                        </a>
+                          </a>
+                        </Link>
                         <p className="mb-2 text-lg">
                           Peer-to-peer tutoring with state curriculum, available
                           online with numerous volunteers.
@@ -344,11 +346,11 @@ export default function Home() {
                         src="/images/chapter.svg"
                       ></img>
                       <div className="w-full">
-                        <a href="#">
-                          <h2 className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
+                        <Link href="/programs/chapters">
+                          <a className="mb-5 text-2xl font-medium text-black title-font text-dotted-adaptive">
                             Project enVision Chapters
-                          </h2>
-                        </a>
+                          </a>
+                        </Link>
                         <p className="mb-2 text-lg">
                           Chapter-based organization spreading our resources to
                           different communities and areas all across the United
