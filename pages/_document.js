@@ -23,7 +23,7 @@ class MyDocument extends Document {
             async
             defer
             src="https://aurora.saurish.com/aurora.js"
-            aurora-id="b2bdf183e5e261183102101eaab050b2"
+            aurora-id="155e628870b10aaf6226734b4569fd0a"
           ></script>
         </Head>
         <body>
