@@ -54,7 +54,7 @@ export default function Home() {
             <br />
             <div className="container flex flex-col items-center justify-center py-8 mx-auto rounded-lg ">
               <img
-                className="object-cover object-center w-4/5 mb-10 rounded-lg lg:w-1/4 g327"
+                className="object-cover object-center w-4/5 mb-10 rounded-lg lg:w-1/4"
                 alt="Conversations"
                 src="/images/conversation.svg"
               ></img>

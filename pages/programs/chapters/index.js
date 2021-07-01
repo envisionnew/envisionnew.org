@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import Header from '../../../components/Header';
+import Footer from '../../../components/Footer';
 import React from 'react';
 import { NextSeo } from 'next-seo';
 import styled from 'styled-components';
@@ -16,11 +16,23 @@ const people = [
     region: 'San Jose',
     status: true,
     role: 'Lead',
-    email: 'saurish.srivastava@envisionnew.org',
+    email: 'saurish@envisionnew.org',
     apply: false,
-    link: 'envisionnew.org/',
+    link: '#',
     image:
-      'https://saurish.com/_next/image?url=%2Fimages%2Fprofile.jpg&w=256&q=75'
+      '/images/saurish_profile.JPG'
+  },
+  {
+    name: 'Aditi Umapathy',
+    state: 'Georgia',
+    region: 'Augusta',
+    status: true,
+    role: 'Lead',
+    email: 'aditi.umapathy@envisionnew.org',
+    apply: false,
+    link: '/programs/chapters/augusta',
+    image:
+      '/images/aditi.jpg'
   },
   {
     name: 'Want to see your name here? ',
@@ -28,7 +40,7 @@ const people = [
     region: 'Your City',
     status: false,
     role: 'Lead',
-    email: 'your@email.org',
+    email: 'your.name@envisionnew.org',
     apply: true,
     link: 'https://psyw68ikrb1.typeform.com/to/mJjeHhlq',
     image:
