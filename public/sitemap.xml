@@ -29,10 +29,6 @@
   </url>
 
   <url>
-    <loc>https://envisionnew.org/programs/chapters</loc>
-  </url>
-
-  <url>
     <loc>https://envisionnew.org/programs/inspire</loc>
   </url>
 
@@ -42,5 +38,9 @@
 
   <url>
     <loc>https://envisionnew.org/programs/tutoring</loc>
+  </url>
+
+  <url>
+    <loc>https://envisionnew.org/programs/chapters/index</loc>
   </url>
 </urlset>
