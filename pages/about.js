@@ -22,12 +22,22 @@ const volunteers = [
     image: 'garima.jpg'
   },
   {
+    name: 'Amaya Khan',
+    position: 'Director of Public Relations',
+    image: ''
+  },
+  {
+    name: 'Ankit Kapoor',
+    position: 'Director of Outreach',
+    image: 'ankit.jpeg'
+  },
+  {
     name: 'Ayush Agarwal',
     position: 'Director of Debate',
     image: 'ayush-2.jpeg'
   },
   {
-    name: 'Rishiraj Singh',
+    name: 'Rishi Singh',
     position: 'Director of Robotics',
     image: ''
   },
