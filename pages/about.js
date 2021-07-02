@@ -24,7 +24,7 @@ const volunteers = [
   {
     name: 'Amaya Khan',
     position: 'Director of Public Relations',
-    image: 'amaya.jpg'
+    image: 'amaya.jpeg'
   },
   {
     name: 'Ankit Kapoor',
