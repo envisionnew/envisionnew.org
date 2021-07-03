@@ -27,7 +27,11 @@ module.exports = {
         source: '/programs/tutoring',
         destination: '/',
         permanent: true
-      }
+      },
+      {
+        source: '/volunteer',
+        destination: '/#volunteer',
+        permanent: true
     ];
   },
   webpack: (config, { dev, isServer }) => {
