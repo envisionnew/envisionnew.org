@@ -39,7 +39,7 @@ const volunteers = [
   {
     name: 'Rishi Singh',
     position: 'Director of Robotics',
-    image: ''
+    image: 'rishi.jpeg'
   },
   {
     name: 'Aditi Umapathy',
