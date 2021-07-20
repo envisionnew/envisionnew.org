@@ -7,16 +7,15 @@ import { NextSeo } from 'next-seo';
 const events = [
   {
     name: 'Project enVision U.S. Hackathon',
-    blurb: "Get better at debate with a camp taught by the nation's best.",
-    dates: 'July 5th to July 9th',
-    subject: 'Speech/Debate',
+    blurb: 'Join us on a beginner-friendly hackathon sponsored by Google.',
+    dates: 'July 31st to August 1st',
+    subject: 'Computer Science and Astronomy',
     location: 'Online!',
-    instructors: 'Ayush Agarwal, Florence Zhu, Daleep Pannu',
+    instructors: 'Parth Paliwal, Saurish Srivastava',
     about:
-      "Probably a high-level overview of what's going to be taught in the camp and a breakdown of labs, content, speeches, etc.",
-    link:
-      'https://docs.google.com/forms/d/e/1FAIpQLSdywhU0uwv7kKkMYxWmlwyW88T7-kJ4FuEYJGD-_5CibAgFYA/viewform?usp=sf_link',
-    filepath: '/learn/syllabus/speechdebate.pdf'
+      'A beginner-friendly (and advanced!) hackathon with monetary prizes. Join us to explore the intersection between astronomy and computer science!',
+    link: '',
+    filepath: '/events/hackathon.pdf'
   },
   {
     name: 'Speech and Debate Camp',
@@ -26,7 +25,7 @@ const events = [
     location: 'Online!',
     instructors: 'Ayush Agarwal, Florence Zhu, Daleep Pannu',
     about:
-      "Probably a high-level overview of what's going to be taught in the camp and a breakdown of labs, content, speeches, etc.",
+      'A concatenation of labs, history lectures, argument-building drills, speaking drills, speeches, rebuttal redoes, etc.',
     link:
       'https://docs.google.com/forms/d/e/1FAIpQLSdywhU0uwv7kKkMYxWmlwyW88T7-kJ4FuEYJGD-_5CibAgFYA/viewform?usp=sf_link',
     filepath: '/learn/syllabus/speechdebate.pdf'
