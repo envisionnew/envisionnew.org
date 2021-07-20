@@ -15,6 +15,7 @@ const events = [
     about:
       'A beginner-friendly (and advanced!) hackathon with monetary prizes. Join us to explore the intersection between astronomy and computer science!',
     link: '',
+    filename: 'flyer.pdf',
     filepath: '/events/hackathon.pdf'
   },
   {
@@ -28,6 +29,7 @@ const events = [
       'A concatenation of labs, history lectures, argument-building drills, speaking drills, speeches, rebuttal redoes, etc.',
     link:
       'https://docs.google.com/forms/d/e/1FAIpQLSdywhU0uwv7kKkMYxWmlwyW88T7-kJ4FuEYJGD-_5CibAgFYA/viewform?usp=sf_link',
+    filename: 'syllabus.pdf',
     filepath: '/learn/syllabus/speechdebate.pdf'
   }
 ];
@@ -135,7 +137,7 @@ export default function Events() {
                         <li className="flex items-center justify-between py-3 pl-3 pr-4 text-sm">
                           <div className="flex items-center flex-1 w-0">
                             <span className="flex-1 w-0 ml-2 truncate">
-                              syllabus.pdf
+                              {event.filename}
                             </span>
                           </div>
                           <div className="flex-shrink-0 ml-4">
