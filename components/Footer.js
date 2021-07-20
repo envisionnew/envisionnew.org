@@ -1,25 +1,30 @@
-import styled from 'styled-components';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
-export default function Footer({ link }) {
+export default function Footer() {
+  const router = useRouter();
   return (
     <footer className="text-black body-font">
       <div className="container flex flex-col items-center px-5 py-4 mx-auto sm:flex-row">
-        <a
-          className="flex items-center justify-center font-medium title-font md:justify-start"
-          href="/"
-        >
-          <span className="text-xl md:ml-3">PROJECT ENVISION U.S.</span>
-        </a>
+        <Link href="/">
+          <a className="flex items-center justify-center text-xl font-medium md:ml-3 title-font md:justify-start">
+            PROJECT ENVISION U.S.
+          </a>
+        </Link>
         <span className="border-css" />
         <p className="flex items-center justify-center text-sm font-medium md:ml-5 title-font md:justify-start">
           EIN: 81-5333016
         </p>
         <span className="border-css" />
         <a
-          className="flex items-center justify-center font-medium title-font md:justify-start"
-          href={link}
+          className="flex items-center justify-center text-sm font-medium md:ml-5 title-font md:justify-start"
+          href={
+            router.pathname === '/'
+              ? `https://github.com/envisionnew/envisionnew.org/edit/main/pages/index.js`
+              : `https://github.com/envisionnew/envisionnew.org/edit/main/pages${router.pathname}.js`
+          }
         >
-          <span className="text-sm md:ml-5">Edit on GitHub</span>
+          Edit on GitHub
         </a>
         <span className="border-css" />
         <a
@@ -29,7 +34,7 @@ export default function Footer({ link }) {
           <img
             className="h-8 mb-2 ml-0 md:mb-0 lg:mb-0 md:ml-5"
             src="/images/powered-by-vercel.svg"
-          ></img>
+          />
         </a>
         <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
           <a aria-label="mail" href="mailto:support@envisionnew.org">
@@ -130,15 +135,10 @@ export default function Footer({ link }) {
         </span>
       </div>
       <div className="container flex flex-col items-center px-4 pb-8 mx-auto md:px-5 sm:flex-row">
-        <a
-          className="flex items-center justify-center font-medium text-center md:justify-start"
-          href="/"
-        >
-          <span className="text-sm font-medium md:ml-3">
-            Project enVision U.S. is a PVSA certifying 501(c)(3) non-profit
-            organization.
-          </span>
-        </a>
+        <span className="flex items-center justify-center text-sm font-medium text-center md:justify-start md:ml-3">
+          Project enVision U.S. is a PVSA certifying 501(c)(3) non-profit
+          organization.
+        </span>
       </div>
     </footer>
   );

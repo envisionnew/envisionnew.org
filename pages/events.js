@@ -6,6 +6,19 @@ import { NextSeo } from 'next-seo';
 
 const events = [
   {
+    name: 'Project enVision U.S. Hackathon',
+    blurb: "Get better at debate with a camp taught by the nation's best.",
+    dates: 'July 5th to July 9th',
+    subject: 'Speech/Debate',
+    location: 'Online!',
+    instructors: 'Ayush Agarwal, Florence Zhu, Daleep Pannu',
+    about:
+      "Probably a high-level overview of what's going to be taught in the camp and a breakdown of labs, content, speeches, etc.",
+    link:
+      'https://docs.google.com/forms/d/e/1FAIpQLSdywhU0uwv7kKkMYxWmlwyW88T7-kJ4FuEYJGD-_5CibAgFYA/viewform?usp=sf_link',
+    filepath: '/learn/syllabus/speechdebate.pdf'
+  },
+  {
     name: 'Speech and Debate Camp',
     blurb: "Get better at debate with a camp taught by the nation's best.",
     dates: 'July 5th to July 9th',
@@ -155,7 +168,7 @@ export default function Events() {
           ))}
         </div>
       </section>
-      <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/events.js" />
+      <Footer />
     </div>
   );
 }

@@ -19,8 +19,7 @@ const people = [
     email: 'saurish@envisionnew.org',
     apply: false,
     link: '#',
-    image:
-      '/images/saurish_profile.JPG'
+    image: '/images/saurish_profile.JPG'
   },
   {
     name: 'Aditi Umapathy',
@@ -31,8 +30,7 @@ const people = [
     email: 'aditi.umapathy@envisionnew.org',
     apply: false,
     link: '/programs/chapters/augusta',
-    image:
-      '/images/aditi.jpg'
+    image: '/images/aditi.jpg'
   },
   {
     name: 'Want to see your name here? ',
@@ -265,7 +263,7 @@ export default function Inspire() {
           </div>
         </div>
       </section>
-      <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/programs/inspire.js" />
+      <Footer />
     </div>
   );
 }

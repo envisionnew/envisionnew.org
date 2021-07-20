@@ -243,7 +243,7 @@ export default function Inspire() {
         </div>
       </section>
       {/* </section> */}
-      <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/programs/inspire.js" />
+      <Footer />
     </div>
   );
 }

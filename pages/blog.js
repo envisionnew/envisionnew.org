@@ -47,7 +47,7 @@ export default function Blog({ posts }) {
         </div>
       </section>
       <br />
-      <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/blog.js" />
+      <Footer />
     </div>
   );
 }

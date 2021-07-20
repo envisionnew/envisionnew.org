@@ -1,6 +1,6 @@
-import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Head from 'next/head';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 export default function Unavailable() {
   return (
@@ -23,7 +23,7 @@ export default function Unavailable() {
           Return Home
         </a>
       </div>
-      <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/404.js" />
+      <Footer />
     </div>
   );
 }

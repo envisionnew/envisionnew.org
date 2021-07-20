@@ -272,7 +272,7 @@ export default function About() {
         </section>
       </section>
       <br />
-      <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/about.js" />
+      <Footer />
     </div>
   );
 }

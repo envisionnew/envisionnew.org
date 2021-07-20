@@ -528,7 +528,7 @@ export default function Home() {
           </div>
         </section>
       </section>
-      <Footer link="https://github.com/envisionnew/envisionnew.org/edit/main/pages/index.js" />
+      <Footer />
     </div>
   );
 }
