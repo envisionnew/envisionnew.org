@@ -12,6 +12,11 @@ const volunteers = [
     image: 'saurish.JPG'
   },
   {
+    name: 'Varun Bommaji',
+    position: 'Secretary',
+    image: 'varun.jpeg'
+  },
+  {
     name: 'Vikram Dhillon',
     position: 'Director of Tutoring',
     image: 'vikram.jpg'
