@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export default function Footer({ link }) {
   return (
     <footer className="text-black body-font">
-      <div className="container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row">
+      <div className="container flex flex-col items-center px-5 py-4 mx-auto sm:flex-row">
         <a
           className="flex items-center justify-center font-medium title-font md:justify-start"
           href="/"
@@ -128,6 +128,17 @@ export default function Footer({ link }) {
             </svg>
           </a>
         </span>
+      </div>
+      <div className="container flex flex-col items-center px-4 pb-8 mx-auto md:px-5 sm:flex-row">
+        <a
+          className="flex items-center justify-center font-medium text-center md:justify-start"
+          href="/"
+        >
+          <span className="text-sm font-medium md:ml-3">
+            Project enVision U.S. is a PVSA certifying 501(c)(3) non-profit
+            organization.
+          </span>
+        </a>
       </div>
     </footer>
   );
