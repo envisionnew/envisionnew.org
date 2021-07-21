@@ -7,8 +7,8 @@ import { NextSeo } from 'next-seo';
 const events = [
   {
     name: 'Project enVision U.S. Hackathon',
-    blurb: 'Join us on a beginner-friendly hackathon sponsored by Google.',
-    dates: 'July 31st to August 1st',
+    blurb: 'Mark your calendars for a beginner-friendly hackathon.',
+    dates: 'September 1st to September 3rd',
     subject: 'Computer Science and Astronomy',
     location: 'Online!',
     instructors: 'Parth Paliwal, Saurish Srivastava',
