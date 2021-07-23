@@ -3,11 +3,6 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import React from 'react';
 import { NextSeo } from 'next-seo';
-import styled from 'styled-components';
-
-const Highlight = styled.span`
-  background-color: #0af5f4;
-`;
 
 const programs = [
   {
@@ -37,6 +32,11 @@ const programs = [
   },
   {
     name: 'Management Platform',
+    availability: 'Available',
+    unavailability: 'Unvailable'
+  },
+  {
+    name: 'Access to Stream.Club (free Zoom premium!)',
     availability: 'Available',
     unavailability: 'Unvailable'
   },
