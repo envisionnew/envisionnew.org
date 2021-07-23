@@ -12,7 +12,7 @@
     "@mdx-js/react": "1.6.22",
     "@next/mdx": "10.2.0",
     "@tailwindcss/typography": "^0.4.0",
-    "date-fns": "^2.21.3",
+    "date-fns": "^2.23.0",
     "flickity": "^2.2.2",
     "gray-matter": "^4.0.3",
     "mailgun-js": "^0.22.0",
