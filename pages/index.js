@@ -69,7 +69,7 @@ export default function Home() {
                 <div className="flex flex-wrap -m-4 text-center">
                   <div className="w-1/3 p-4">
                     <h2 className="text-4xl font-medium text-black title-font sm:text-5xl">
-                      <CountUp end={1200} redraw={true}>
+                      <CountUp end={2000} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />
@@ -82,7 +82,7 @@ export default function Home() {
                   </div>
                   <div className="w-1/3 p-4">
                     <h2 className="text-4xl font-medium text-black title-font sm:text-5xl">
-                      <CountUp end={15} redraw={true}>
+                      <CountUp end={25} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />
