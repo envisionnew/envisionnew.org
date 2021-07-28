@@ -16,7 +16,7 @@
     "flickity": "^2.2.2",
     "gray-matter": "^4.0.3",
     "mailgun-js": "^0.22.0",
-    "mdx-prism": "0.3.3",
+    "mdx-prism": "0.3.4",
     "next": "10.2.0",
     "next-mdx-remote": "^2.1.4",
     "next-seo": "^4.24.0",
