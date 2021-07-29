@@ -23,6 +23,11 @@ export default function Learn() {
             'Get the opportunity to take free classes in a variety of different subjects!',
           site_name: 'Project enVision U.S.'
         }}
+        twitter={{
+          handle: '@envisionnew',
+          site: '@envisionnew',
+          cardType: 'summary_large_image'
+        }}
       />
       <Head>
         <title>Learn | Project enVision</title>

@@ -48,6 +48,11 @@ export default function Events() {
             "Find out the events that we're hosting – constantly updated!",
           site_name: 'Project enVision U.S.'
         }}
+        twitter={{
+          handle: '@envisionnew',
+          site: '@envisionnew',
+          cardType: 'summary_large_image'
+        }}
       />
       <Head>
         <title>Events | Project enVision</title>

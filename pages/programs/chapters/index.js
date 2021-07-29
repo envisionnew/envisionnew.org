@@ -60,6 +60,11 @@ export default function Inspire() {
             'Want to start a chapter with Project enVision U.S.? Learn more information here.',
           site_name: 'Project enVision U.S.'
         }}
+        twitter={{
+          handle: '@envisionnew',
+          site: '@envisionnew',
+          cardType: 'summary_large_image'
+        }}
       />
       <Head>
         <title>Chapters | Project enVision</title>

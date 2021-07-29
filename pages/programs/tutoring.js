@@ -22,6 +22,11 @@ export default function Tutoring() {
           description: 'Get free tutoring by successful high school students.',
           site_name: 'Project enVision U.S.'
         }}
+        twitter={{
+          handle: '@envisionnew',
+          site: '@envisionnew',
+          cardType: 'summary_large_image'
+        }}
       />
       <Head>
         <title>Tutoring | Project enVision</title>

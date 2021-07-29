@@ -34,6 +34,11 @@ export default function Home() {
             'Project enVision U.S. is a 501(c)-3 nonprofit organization dedicated to providing educational services to students everywhere.',
           site_name: 'Project enVision U.S.'
         }}
+        twitter={{
+          handle: '@envisionnew',
+          site: '@envisionnew',
+          cardType: 'summary_large_image'
+        }}
       />
       <Head>
         <title>Project enVision U.S.</title>

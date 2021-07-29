@@ -61,6 +61,11 @@ export default function Inspire() {
             'Get free and accessible help to start your own non-profit.',
           site_name: 'Project enVision U.S.'
         }}
+        twitter={{
+          handle: '@envisionnew',
+          site: '@envisionnew',
+          cardType: 'summary_large_image'
+        }}
       />
       <Head>
         <title>Inspire | Project enVision</title>
