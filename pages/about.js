@@ -250,7 +250,7 @@ export default function About() {
                     I want to be a volunteer, what's the time commitment?
                   </h3>
                   <p class="pt-3 value-text text-md text-gray-200 fkrr1">
-                    We recommend volunteers to be active for 3+ hours a week to
+                    We recommend volunteers to be active for 2+ hours a week to
                     keep up with and ensure the success of Project enVision
                     programs. This number changes depending on your role as a
                     volunteer.
@@ -265,8 +265,8 @@ export default function About() {
                     Once you have applied to be a volunteer or tutor, one of the
                     executive directors at Project enVision will read through
                     your application and set up a meeting with you. In this call
-                    (hosted over Zoom/Slack), you will be asked questions about
-                    your application and your general interest in Project
+                    (hosted over Zoom/Discord), you will be asked questions
+                    about your application and your general interest in Project
                     enVision. Once this call is over, we'll let you know
                     decisions immediately!
                   </p>

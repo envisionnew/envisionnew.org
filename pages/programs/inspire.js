@@ -2,9 +2,10 @@ import Head from 'next/head';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import React from 'react';
+import Image from 'next/image';
 import { NextSeo } from 'next-seo';
 
-const programs = [
+const benefits = [
   {
     name: '501(c)(3) Status',
     availability: 'Available',
@@ -47,6 +48,30 @@ const programs = [
   }
 ];
 
+const organizations = [
+  {
+    name: 'Ataraxia',
+    description:
+      'Ataraxia is a non-profit organization dedicated to providing adequate digital resources to promote neurodiversity within our communities, while striving to create a tangible material effect',
+    image: 'ataraxia',
+    link: 'https://ataraxia.envisionnew.org'
+  },
+  {
+    name: 'Crown Education Challenge',
+    description:
+      'The Crown Education Challenge was started in 2020 during the COVID-19 pandemic. They were inspired to respond to the countless school closures worldwide that caused over 1.5 billion students to be out of school.',
+    image: 'crowneducationchallenge',
+    link: 'https://crowneducationchallenge.org'
+  },
+  {
+    name: 'Closing the Divide',
+    description:
+      'ClosingTheDivide has opened up numerous initiatives and hosted numerous events to raise money while engaging with the youth in the community to close the digital divide.',
+    image: 'closingthedivide',
+    link: 'https://closingthedivide.foundation'
+  }
+];
+
 export default function Inspire() {
   return (
     <div className="max-h-full text-black">
@@ -73,14 +98,13 @@ export default function Inspire() {
       <Header />
       <section class="text-gray-600 body-font bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 animate-gradient-x">
         <div class="max-w-5xl pt-52 pb-40 mx-auto">
-          <h1 class="text-80 text-center leading-tight font-bold title-font text-black mb-10">
+          <h1 class="text-4xl md:text-7xl text-center leading-tight font-bold title-font text-black mb-10">
             Create the next big thing.
           </h1>
-          <h2 class="text-2xl mx-4 font-4 title-font pb-11 text-gray-700 text-center">
+          <h2 class="md:text-2xl text-xl mx-4 font-4 title-font pb-12 text-gray-700 text-center">
             Project enVision Inspire is dedicated to supporting
-            <br />
-            grassroot organizations in making an{' '}
-            <span className="underline">impact</span>.
+            <br className="hidden md:block" /> grassroot organizations in making
+            an <span className="underline">impact</span>.
           </h2>
           <div className="text-center">
             <a
@@ -133,23 +157,23 @@ export default function Inspire() {
                     </tr>
                   </thead>
                   <tbody className="bg-white divide-y divide-gray-200">
-                    {programs.map((programs) => (
+                    {benefits.map((benefit) => (
                       <tr>
                         <td className="px-6 py-4 whitespace-nowrap">
                           <div className="flex items-center">
                             <div className="text-sm font-medium text-gray-900">
-                              {programs.name}
+                              {benefit.name}
                             </div>
                           </div>
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap">
                           <span className="inline-flex px-2 text-sm font-semibold leading-5 text-green-800 bg-green-100 rounded-full">
-                            {programs.availability}
+                            {benefit.availability}
                           </span>
                         </td>
                         <td className="px-6 py-4 text-sm text-gray-500 whitespace-nowrap">
                           <span className="inline-flex px-2 text-sm font-semibold leading-5 text-red-800 bg-red-100 rounded-full">
-                            {programs.unavailability}
+                            {benefit.unavailability}
                           </span>
                         </td>
                       </tr>
@@ -173,7 +197,7 @@ export default function Inspire() {
           </div>
         </div>
         <br></br>
-        <p className="mx-auto text-xl font-normal leading-relaxed text-center text-black fs521 lg:w-2/3">
+        <p className="mx-6 text-xl font-normal leading-relaxed text-center text-black md:mx-auto fs521 lg:w-2/3">
           Here are a few of the organizations that are incubated through Project
           enVision U.S.{' '}
           <a
@@ -184,29 +208,30 @@ export default function Inspire() {
           </a>
         </p>
         <div className="max-w-6xl pt-16 pb-24 mx-auto fsac4">
-          <div class="ktq4 border-4 border-indigo-300">
-            <img src="/images/ataraxia.png"></img>
-            <h3 class="pt-3 text-center font-semibold text-lg text-white">
-              Ataraxia
-            </h3>
-            <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-              Ataraxia is a non-profit organization dedicated to providing
-              adequate digital resources to promote neurodiversity within our
-              communities, while striving to create a tangible material effect.
-            </p>
-          </div>
-          <div class="ktq4 border-4 border-indigo-300	">
-            <img src="/images/crowneducationchallenge.png"></img>
-            <h3 class="pt-3 text-center font-semibold text-lg text-white">
-              Crown Education Challenge
-            </h3>
-            <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-              The Crown Education Challenge was started in 2020 during the
-              COVID-19 pandemic. They were inspired to respond to the countless
-              school closures worldwide that caused over 1.5 billion students to
-              be out of school.
-            </p>
-          </div>
+          {organizations.map((org) => (
+            <div class="ktq4 border-4 border-pink-300">
+              <Image
+                src={`/images/${org.image}.png`}
+                width="2325"
+                height="1650"
+                alt={org.name}
+                layout="responsive"
+              />
+              <div className="pt-4 text-center">
+                <a
+                  href={`${org.link}/?utm_source=envisionnew.org`}
+                  target="_blank"
+                  rel="envisionnew.org"
+                  class="text-center hover:text-gray-300 font-semibold underline text-lg text-white"
+                >
+                  {org.name}
+                </a>
+              </div>
+              <p class="pt-2 value-text text-md text-gray-300 fkrr1">
+                {org.description}
+              </p>
+            </div>
+          ))}
         </div>
       </section>
       {/* <section class="text-black body-font">
