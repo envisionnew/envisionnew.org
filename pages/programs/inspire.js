@@ -54,7 +54,7 @@ const organizations = [
     description:
       'Ataraxia is a non-profit organization dedicated to providing adequate digital resources to promote neurodiversity within our communities, while striving to create a tangible material effect',
     image: 'ataraxia',
-    link: 'https://ataraxia.envisionnew.org'
+    link: 'https://ataraxiahealth.org'
   },
   {
     name: 'Crown Education Challenge',
