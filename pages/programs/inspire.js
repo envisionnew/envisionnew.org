@@ -79,7 +79,7 @@ export default function Inspire() {
           <h2 class="text-2xl mx-4 font-4 title-font pb-11 text-gray-700 text-center">
             Project enVision Inspire is dedicated to supporting
             <br />
-            grassroot organizations to make an{' '}
+            grassroot organizations in making an{' '}
             <span className="underline">impact</span>.
           </h2>
           <div className="text-center">
@@ -190,9 +190,9 @@ export default function Inspire() {
               Ataraxia
             </h3>
             <p class="pt-2 value-text text-md text-gray-200 fkrr1">
-              Ataraxia is a non-profit organization incubated by Project
-              enVision U.S. with a mission to improve the mental health of our
-              homeless population.
+              Ataraxia is a non-profit organization dedicated to providing
+              adequate digital resources to promote neurodiversity within our
+              communities, while striving to create a tangible material effect.
             </p>
           </div>
           <div class="ktq4 border-4 border-indigo-300	">
@@ -224,29 +224,6 @@ export default function Inspire() {
         <p className="mx-auto text-xl font-normal leading-relaxed text-center text-black fs521 lg:w-2/3">
           **INFO**
         </p> */}
-      <section class="relative mb-20">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-          <h1 class="mb-5 text-3xl font-medium text-black md:text-5xl lg:text-5xl">
-            Subscribe to our newsletter
-          </h1>
-          <h1 class="mb-9 text-xl font-semibold text-gray-600">
-            Enter your email address and get our newsletters straight away.
-          </h1>
-          <input
-            type="email"
-            placeholder="john@smith.com"
-            name="email"
-            autocomplete="email"
-            class="border border-gray-600 w-3/4 lg:w-1/4 pr-2 pl-2 py-3 mt-2 rounded-md text-gray-800 font-semibold focus:ring-2 focus:outline-none focus:border-transparent focus:ring-fuchsia-300 hover:border-gray-700"
-          />{' '}
-          <a
-            class="inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium hover:text-white hover:bg-black text-black bg-transparent border rounded-lg bg-white"
-            href="/"
-          >
-            <span class="justify-center">Subscribe</span>
-          </a>
-        </div>
-      </section>
       {/* </section> */}
       <Footer />
     </div>
