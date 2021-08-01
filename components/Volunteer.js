@@ -1,17 +1,17 @@
 export default function Volunteer() {
   return (
-    <div className="container max-w-5xl py-16 mx-auto">
+    <div className="container max-w-5xl py-4 mx-auto">
       <div className="mx-auto md:w-2/3">
         <form
-          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdY_gg4sqEcInV1-I89wTS9Emk5iLGSgf6F4o_OBGWbYUA8zQ/formResponse"
+          action="https://docs.google.com/forms/d/178H2S6xBjw4WB-AhlVyanhp9atvJnqK7Jo4SiydYSWo/formResponse"
           method="post"
         >
           <div className="flex flex-wrap -m-2">
-            <div className="w-1/2 p-2 lg:w-1/3">
+            <div className="w-1/2 p-2">
               <div className="relative">
                 <label
-                  for="contactName"
-                  className="font-semibold leading-7 text-black text-md"
+                  htmlFor="contactName"
+                  className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                 >
                   Full Name <span className="text-red-500">*</span>
                 </label>
@@ -19,17 +19,17 @@ export default function Volunteer() {
                   type="text"
                   id="contactName"
                   placeholder="John Smith"
-                  name="entry.693459177"
+                  name="entry.1666910483"
                   required
-                  className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
+                  className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-opacity-50 border border-gray-400 rounded outline-none bg-white-skills dark:text-gray-400 dark:bg-black dark:focus:border-gray-300 dark:border-gray-custom focus:border-black focus:bg-white"
                 ></input>
               </div>
             </div>
-            <div className="w-1/2 p-2 lg:w-1/3">
+            <div className="w-1/2 p-2">
               <div className="relative">
                 <label
-                  for="contactEmail"
-                  className="font-semibold leading-7 text-black text-md"
+                  htmlFor="contactEmail"
+                  className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                 >
                   Email <span className="text-red-500">*</span>
                 </label>
@@ -37,97 +37,97 @@ export default function Volunteer() {
                   type="email"
                   id="contactEmail"
                   placeholder="john@smith.com"
-                  name="entry.1340103720"
+                  name="entry.1988154992"
                   required
-                  className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
+                  className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-opacity-50 border border-gray-400 rounded outline-none bg-white-skills dark:text-gray-400 dark:bg-black dark:focus:border-gray-300 dark:border-gray-custom focus:border-black focus:bg-white"
                 ></input>
               </div>
             </div>
-            <div className="w-1/2 p-2 lg:w-2/9">
+            <div className="w-1/2 p-2 lg:w-1/4">
               <div className="relative">
                 <label
-                  for="contactNumber"
-                  className="font-semibold leading-7 text-black text-md"
+                  htmlFor="contactNumber"
+                  className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                 >
-                  Number <span className="text-red-500">*</span>
+                  Number
                 </label>
                 <input
                   type="text"
                   id="contactNumber"
-                  name="name"
+                  name="entry.1246873698"
                   required
                   placeholder="000-000-0000"
-                  className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
+                  className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-opacity-50 border border-gray-400 rounded outline-none bg-white-skills dark:text-gray-400 dark:bg-black dark:focus:border-gray-300 dark:border-gray-custom focus:border-black focus:bg-white"
                 ></input>
               </div>
             </div>
-            <div className="w-1/2 p-2 lg:w-1/9">
+            <div className="w-1/2 p-2 lg:w-1/5">
               <div className="relative">
                 <label
-                  for="contactAge"
-                  className="font-semibold leading-7 text-black text-md"
+                  htmlFor="contactAge"
+                  className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                 >
                   Age <span className="text-red-500">*</span>
                 </label>
                 <input
                   type="number"
                   id="contactAge"
-                  name="entry.261996454"
+                  name="entry.343281526"
                   placeholder="16"
                   required
-                  className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
+                  className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-opacity-50 border border-gray-400 rounded outline-none bg-white-skills dark:text-gray-400 dark:bg-black dark:focus:border-gray-300 dark:border-gray-custom focus:border-black focus:bg-white"
                 ></input>
               </div>
             </div>
+            <div className="w-full p-2 lg:w-55">
+              <div className="relative">
+                <label
+                  htmlFor="contactDiscord"
+                  className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
+                >
+                  Discord Handle <span className="text-red-500">*</span>
+                </label>
+                <input
+                  id="contactDiscord"
+                  placeholder="johnsmith#8080"
+                  name="entry.1285128019"
+                  required
+                  className="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-opacity-50 border border-gray-400 rounded outline-none bg-white-skills dark:text-gray-400 dark:bg-black dark:focus:border-gray-300 dark:border-gray-custom focus:border-black focus:bg-white"
+                ></input>
+              </div>
+            </div>
+
             <div className="w-full p-2">
               <div className="relative">
                 <label
-                  for="contactWhy"
-                  className="font-semibold leading-7 text-black text-md"
+                  htmlFor="contactWhy"
+                  className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                 >
                   Why do you want to join Project enVision?{' '}
                   <span className="text-red-500">*</span>
                 </label>
                 <textarea
                   id="contactWhy"
-                  name="entry.104252260"
+                  name="entry.42834851"
                   required
-                  placeholder="Tell us why you want to join Project enVision!"
-                  className="w-full px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none resize-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-28"
+                  placeholder="Tell us why you want to join Project enVision! What are your strengths and where do you want to help out?"
+                  className="w-full px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-opacity-50 border border-gray-400 rounded outline-none bg-white-skills dark:text-gray-400 dark:bg-black dark:focus:border-gray-300 dark:border-gray-custom focus:border-black focus:bg-white h-28"
                 ></textarea>
               </div>
             </div>
             <div className="w-full p-2">
               <div className="relative">
                 <label
-                  for="message"
-                  className="font-semibold leading-7 text-black text-md"
-                >
-                  What do you hope to gain from Project enVision?{' '}
-                  <span className="text-red-500">*</span>
-                </label>
-                <textarea
-                  id="contactMessage"
-                  name="entry.1053869924"
-                  required
-                  placeholder="Tell us what you hope to learn or gain from joining Project enVision!"
-                  className="w-full h-24 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none resize-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
-                ></textarea>
-              </div>
-            </div>
-            <div className="w-full p-2">
-              <div className="relative">
-                <label
-                  for="extraMessage"
-                  className="font-semibold leading-7 text-black text-md"
+                  htmlFor="extraMessage"
+                  className="font-semibold leading-7 text-gray-800 dark:text-gray-200 text-md"
                 >
                   Anything else we should know about you?
                 </label>
                 <textarea
                   id="extraMessage"
-                  name="entry.1257924638"
+                  name="entry.1595805614"
                   placeholder="Tell us anything else we should know about you!"
-                  className="w-full h-32 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-white bg-opacity-50 border border-gray-300 rounded outline-none resize-none focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
+                  className="w-full h-24 px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-opacity-50 border border-gray-400 rounded outline-none bg-white-skills dark:text-gray-400 dark:bg-black dark:focus:border-gray-300 dark:border-gray-custom focus:border-black focus:bg-white"
                 ></textarea>
               </div>
             </div>
@@ -135,7 +135,7 @@ export default function Volunteer() {
               <button
                 type="submit"
                 aria-label="submit"
-                className="flex px-8 py-2 mx-auto text-lg text-black transition delay-300 bg-white border-2 rounded hover:bg-black hover:text-white"
+                className="flex px-8 py-2 mx-auto text-lg text-white transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-800 dark:text-gray-200 dark:bg-white"
               >
                 Apply
               </button>

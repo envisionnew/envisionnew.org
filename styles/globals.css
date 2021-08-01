@@ -98,6 +98,18 @@ a {
   margin: 0.75rem;
 }
 
+.gray-scale-svg {
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  transition: 0.4s;
+}
+
+.gray-scale-svg:hover {
+  filter: none;
+  -webkit-filter: none;
+  transition: 0.4s;
+}
+
 .fkrr1 {
   font-family: 'Inter', sans-serif;
 }
