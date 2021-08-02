@@ -138,10 +138,10 @@ export default function Subscribe() {
             <SuccessMessage>{form.message}</SuccessMessage>
           ) : (
             <p className="text-sm text-gray-800">
-              {`${
+              {/* {`${
                 subscriberCount > 0 ? subscriberCount.toLocaleString() : '-'
               } subscribers – `}
-              1 issue
+              1 issue */}
             </p>
           )}
         </div>
