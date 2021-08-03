@@ -152,7 +152,7 @@ export default function Home() {
         <Sponsors />
         <Subscribe />
         <section id="volunteer" className="text-gray-600 body-font">
-          <div className="container px-5 mx-auto">
+          <div className="container px-5 pb-10 mx-auto">
             <div className="text-center">
               <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
                 Volunteer

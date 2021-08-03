@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { NextSeo } from 'next-seo';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import BlogPost from '../components/BlogPost';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import BlogPost from '../../components/BlogPost';
 import Head from 'next/head';
-import { getAllFilesFrontMatter } from '../lib/mdx';
+import { getAllFilesFrontMatter } from '../../lib/mdx';
 
 export default function Blog({ posts }) {
   const [searchValue, setSearchValue] = useState('');
@@ -45,10 +45,12 @@ export default function Blog({ posts }) {
             <br className="hidden lg:block"></br>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center max-w-3xl mx-5 md:mx-auto lg:mx-auto">
-          {filteredBlogPosts.map((frontMatter) => (
-            <BlogPost key={frontMatter.title} {...frontMatter} />
-          ))}
+        <div className="flex flex-col items-center justify-center max-w-3xl mx-5 mb-10 -mt-5 md:mx-auto lg:mx-auto">
+          <ul className="divide-y divide-gray-200">
+            {filteredBlogPosts.map((frontMatter) => (
+              <BlogPost key={frontMatter.title} {...frontMatter} />
+            ))}
+          </ul>
         </div>
       </section>
       <br />

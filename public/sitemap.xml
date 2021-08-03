@@ -9,10 +9,6 @@
   </url>
 
   <url>
-    <loc>https://envisionnew.org/blog</loc>
-  </url>
-
-  <url>
     <loc>https://envisionnew.org/contact</loc>
   </url>
 
@@ -25,7 +21,15 @@
   </url>
 
   <url>
+    <loc>https://envisionnew.org/lol</loc>
+  </url>
+
+  <url>
     <loc>https://envisionnew.org/blog/[slug]</loc>
+  </url>
+
+  <url>
+    <loc>https://envisionnew.org/blog/index</loc>
   </url>
 
   <url>

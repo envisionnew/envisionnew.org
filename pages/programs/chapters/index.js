@@ -19,7 +19,8 @@ const people = [
     email: 'saurish@envisionnew.org',
     apply: false,
     link: '#',
-    image: '/images/saurish_profile.JPG'
+    image:
+      'https://www.saurish.com/_next/image?url=%2Fimages%2Fme.webp&w=1080&q=75'
   },
   {
     name: 'Aditi Umapathy',

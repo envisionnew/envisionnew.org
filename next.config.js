@@ -32,7 +32,7 @@ module.exports = {
         source: '/volunteer',
         destination: '/#volunteer',
         permanent: true
-      },
+      }
     ];
   },
   webpack: (config, { dev, isServer }) => {
