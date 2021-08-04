@@ -31,13 +31,16 @@ export default function Footer() {
           className="flex items-center justify-center font-medium title-font md:justify-start"
           href="https://vercel.com/?utm_source=envisionnew&utm_campaign=oss"
         >
+          <span className="sr-only">Vercel Logo</span>
           <img
             className="h-8 mb-2 ml-0 md:mb-0 lg:mb-0 md:ml-5"
+            alt="Vercel Sponsorship Logo"
             src="/images/powered-by-vercel.svg"
           />
         </a>
         <span className="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start">
           <a aria-label="mail" href="mailto:support@envisionnew.org">
+            <span className="sr-only">Mail</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5"
@@ -58,6 +61,7 @@ export default function Footer() {
             className="ml-3"
             href="https://twitter.com/envisionnew"
           >
+            <span className="sr-only">Twitter</span>
             <svg
               fill="currentColor"
               strokeLinecap="round"
@@ -74,6 +78,7 @@ export default function Footer() {
             className="ml-3"
             href="https://instagram.com/project.envision"
           >
+            <span className="sr-only">Instagram</span>
             <svg
               fill="none"
               stroke="currentColor"
@@ -92,6 +97,7 @@ export default function Footer() {
             className="ml-3"
             href="https://www.linkedin.com/company/projectenvision"
           >
+            <span className="sr-only">Linkedin</span>
             <svg
               fill="currentColor"
               stroke="currentColor"
@@ -113,6 +119,7 @@ export default function Footer() {
             className="ml-3"
             href="https://github.com/envisionnew/"
           >
+            <span className="sr-only">GitHub</span>
             <svg
               data-v-54e46119=""
               width="30"

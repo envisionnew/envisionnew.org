@@ -123,10 +123,10 @@ export default function Home() {
               <Link href="/about">
                 <a
                   className="inline-flex items-center py-3 mb-8 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 bg-gradient-to-r from-blue-500 to-blue-800 text-md md:mt-0 focus:shadow-outline"
-                  aria-label="learn more"
+                  aria-label="about-us"
                 >
                   <div className="flex text-lg">
-                    <span className="justify-center">Learn More</span>
+                    <span className="justify-center">About Us</span>
                   </div>
                 </a>
               </Link>

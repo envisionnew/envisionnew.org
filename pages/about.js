@@ -11,7 +11,7 @@ const volunteers = [
     name: 'Saurish Srivastava',
     position: 'President & Executive Director',
     website: 'https://saurish.com',
-    image: 'saurish.JPG'
+    image: 'saurish.jpg'
   },
   {
     name: 'Varun Bommaji',
@@ -56,7 +56,7 @@ const volunteers = [
   {
     name: 'Aditi Umapathy',
     position: 'Georgia Chapter Lead',
-    image: 'aditi.jpg'
+    image: 'aditi.jpeg'
   }
 ];
 
@@ -116,11 +116,12 @@ export default function About() {
                 We're building a <span className="underline">community</span>.
               </h2>
             </div>
-            <p className="max-w-md mx-auto mb-10 text-lg text-gray-600 md:text-lg">
-              Project enVision has been a leading 501(c)(3) non-profit
-              organization since 2015. By creating relationships with students,
-              schools, and local politicians, through different programs, we
-              envision a community where learning is free and accessible.
+            <p className="max-w-xl mx-auto mb-10 text-xl text-gray-600 md:text-2xl">
+              Project enVision has been a leading PVSA certifying 501(c)(3)
+              non-profit organization since 2015. By creating relationships with
+              students, schools, and local politicians, through different
+              programs, we envision a community where learning is free and
+              accessible.
             </p>
           </div>
           <div className="max-w-xl px-4 pb-12 mx-auto sm:px-6 lg:max-w-6xl lg:px-8">
@@ -133,7 +134,11 @@ export default function About() {
                       : 'w-full rounded shadow-xl md:w-6/12 md:order-1'
                   }
                 >
-                  <img src={category.image} className="rounded-lg" />
+                  <img
+                    alt={`${category.name} banner`}
+                    src={category.image}
+                    className="rounded-lg"
+                  />
                 </div>
                 <div className="flex flex-col w-full mx-1 mt-8 mb-1 space-y-3 overflow-auto sm:mt-3 md:w-5/12">
                   <h2 className="mb-5 text-2xl font-semibold text-center text-gray-800 sm:text-left md:text-4xl">
@@ -154,7 +159,7 @@ export default function About() {
               <h2 className="mb-4 text-3xl font-semibold tracking-normal text-black sm:text-5xl sm:leading-none md:leading-tight">
                 Meet the Team
               </h2>
-              <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
+              <p className="mx-auto text-base text-xl leading-relaxed text-gray-500 xl:w-2/4 lg:w-3/4">
                 Our team consists of members all across the nation. These
                 volunteers help make the events at Project enVision possible.
               </p>
@@ -170,12 +175,12 @@ export default function About() {
                           alt={`Image of ${volunteer.name}`}
                           className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-80"
                           src={`/images/${volunteer.image}`}
-                        ></img>
+                        />
                         <div className="w-full">
                           <a
                             className={
                               volunteer.website
-                                ? 'underline hover:text-blue-200'
+                                ? 'underline hover:text-gray-300'
                                 : 'cursor-text'
                             }
                             href={
@@ -186,7 +191,7 @@ export default function About() {
                               {volunteer.name}
                             </h2>
                           </a>
-                          <h3 className="mb-3 text-gray-500">
+                          <h3 className="mb-3 text-gray-600">
                             {volunteer.position}
                           </h3>
                         </div>
@@ -208,7 +213,7 @@ export default function About() {
                 <h2 className="mb-4 text-3xl font-semibold tracking-normal text-black sm:text-5xl sm:leading-none md:leading-tight">
                   Frequently Asked Questions
                 </h2>
-                <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
+                <p className="mx-auto text-base text-xl leading-relaxed text-gray-500 xl:w-2/4 lg:w-3/4">
                   Let us help answer the most common questions you might have.
                 </p>
                 <div className="flex justify-center mt-6">
