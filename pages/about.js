@@ -1,7 +1,9 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import React from 'react';
+import Link from 'next/link';
 import { NextSeo } from 'next-seo';
 
 const volunteers = [
@@ -58,6 +60,30 @@ const volunteers = [
   }
 ];
 
+const information = [
+  {
+    name: 'Mission',
+    description:
+      'Our mission is to build a connected community by facilitating learning and, while targetting accessibility and bonding. Our volunteers are commited to this mission and strengthening our community, together.',
+    index: true,
+    image: '/about/mission.jpg'
+  },
+  {
+    name: 'COVID-19 Response',
+    description:
+      'Since March, Project enVision U.S. has actively been engaging with underprivileged communites and helping the transition from in-person to distanced learning. Project enVision: Learn and Tutoring have moved online, and schedules of these programs can be viewed on our programs section.',
+    index: false,
+    image: '/about/covid.jpg'
+  },
+  {
+    name: 'History',
+    description:
+      'Project enVision U.S. was founded in 2015 and since then, has been providing volunteer and educational services to young people everywhere. Our programs and entities have positively impacted hundreds of kids and strengthened our community. These programs can be viewed on our programs section.',
+    index: true,
+    image: '/about/history.jpg'
+  }
+];
+
 export default function About() {
   return (
     <div className="max-h-full text-black bg-white">
@@ -82,127 +108,70 @@ export default function About() {
         <title>About | Project enVision</title>
       </Head>
       <Header />
-      <section className="relative text-gray-600 body-font">
-        <div className="container px-5 pt-24 pb-16 mx-auto">
-          <div className="flex flex-col w-full mb-12 text-center">
-            <h1 className="mb-6 text-6xl font-semibold text-black title-font">
-              About
-            </h1>
-            <br className="hidden lg:block"></br>
-            <p className="mx-auto text-base text-xl font-semibold leading-relaxed text-left text-gray-900 lg:w-1/2">
-              Project enVision is a 501(c)(3) non-profit organization dedicated
-              to the <span className="underline">community</span>. By creating
-              relationships with students, schools, and local politicians,
-              through different programs, we envision a community where learning
-              is <i>free</i> and <i>accessible</i>.
-              <br className="hidden lg:block"></br>
-              <br className="hidden lg:block"></br>
-              The COVID-19 pandemic has impacted everyone, especially those in
-              lower income communities. To achieve our mission of building a
-              connected community, Project enVision has prioritized the
-              underserved communities through our tutor sessions and innovative
-              STEM classes to ensure a targeted learning curriculum committed to
-              their success.
-            </p>
-          </div>
-        </div>
-        <section className="mt-10 text-gray-600 body-font">
-          <div className="container px-5 mx-auto">
-            <div className="mb-20 text-center">
-              <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
-                About
-              </span>
-              <h2 className="mb-4 font-medium text-black sm:text-5xl title-font">
+      <section id="about" className="relative text-gray-600 body-font">
+        <section id="features" className="py-12">
+          <div className="max-w-xl px-4 py-12 mx-auto sm:px-6 lg:max-w-6xl lg:px-8">
+            <div className="text-center">
+              <h2 className="mt-12 mb-8 text-3xl font-semibold tracking-normal text-black sm:text-5xl sm:leading-none md:leading-tight">
                 We're building a <span className="underline">community</span>.
               </h2>
-              <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
-                Project enVision U.S. has been a leading non-profit since 2015.
-              </p>
-              <div className="flex justify-center mt-6">
-                <div className="inline-flex w-16 h-1 bg-black rounded-full"></div>
-              </div>
-              <div className="container px-5 py-16 mx-auto">
-                <div className="flex flex-wrap -m-4">
-                  <div className="p-4 lg:w-1/3 md:w-1/2">
-                    <div className="flex flex-col items-center h-full text-center">
-                      <div className="w-full">
-                        <h2 className="text-xl font-medium text-black title-font">
-                          Mission
-                        </h2>
-                        <p className="mt-2 mb-4 text-lg">
-                          Our mission is to build a connected community by
-                          facilitating learning, while targetting accessibility
-                          and bonding. Our volunteers are commited to this
-                          mission and strengthening our community, together.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="p-4 lg:w-1/3 md:w-1/2">
-                    <div className="flex flex-col items-center h-full text-center">
-                      <div className="w-full">
-                        <h2 className="text-xl font-medium text-black title-font">
-                          COVID-19 Response
-                        </h2>
-                        <p className="mt-2 mb-4 text-lg">
-                          Since March, Project enVision U.S. has actively been
-                          engaging with underprivileged communites and helping
-                          the transition from in-person to distanced learning.
-                          Project enVision: Learn and Tutoring have moved
-                          online, and schedules of these programs can be viewed
-                          on our programs section.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="p-4 lg:w-1/3 md:w-1/2">
-                    <div className="flex flex-col items-center h-full text-center">
-                      <div className="w-full">
-                        <h2 className="text-xl font-medium text-black title-font">
-                          History
-                        </h2>
-                        <p className="mt-2 mb-4 text-lg">
-                          Project enVision U.S. was founded in 2015 and since
-                          then, has been providing volunteer and educational
-                          services to young people everywhere. Our programs and
-                          entities have positively impacted hundreds of kids and
-                          strengthened our community. These programs can be
-                          viewed on our programs section.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+            </div>
+            <p className="max-w-md mx-auto mb-10 text-lg text-gray-600 md:text-lg">
+              Project enVision has been a leading 501(c)(3) non-profit
+              organization since 2015. By creating relationships with students,
+              schools, and local politicians, through different programs, we
+              envision a community where learning is free and accessible.
+            </p>
+          </div>
+          <div className="max-w-xl px-4 pb-12 mx-auto sm:px-6 lg:max-w-6xl lg:px-8">
+            {information.map((category) => (
+              <div className="flex flex-wrap mb-8 md:justify-between md:items-center">
+                <div
+                  className={
+                    category.index
+                      ? 'w-full rounded shadow-xl md:w-6/12'
+                      : 'w-full rounded shadow-xl md:w-6/12 md:order-1'
+                  }
+                >
+                  <img src={category.image} className="rounded-lg" />
+                </div>
+                <div className="flex flex-col w-full mx-1 mt-8 mb-1 space-y-3 overflow-auto sm:mt-3 md:w-5/12">
+                  <h2 className="mb-5 text-2xl font-semibold text-center text-gray-800 sm:text-left md:text-4xl">
+                    {category.name}
+                  </h2>
+                  <p className="text-lg prose">{category.description}</p>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
         </section>
-        <section className="mt-10 text-gray-600 body-font">
+        <section id="team" className="text-gray-600 body-font">
           <div className="container px-5 mx-auto">
             <div className="mb-20 text-center">
               <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
                 Team
               </span>
-              <h2 className="mb-4 font-medium text-black sm:text-5xl title-font">
-                Meet the Team.
+              <h2 className="mb-4 text-3xl font-semibold tracking-normal text-black sm:text-5xl sm:leading-none md:leading-tight">
+                Meet the Team
               </h2>
               <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
-                These are the volunteers who make everything possible!
+                Our team consists of members all across the nation. These
+                volunteers help make the events at Project enVision possible.
               </p>
-              <div class="flex mt-6 justify-center">
-                <div class="w-16 h-1 rounded-full bg-white inline-flex"></div>
+              <div className="flex justify-center mt-6">
+                <div className="inline-flex w-16 h-1 bg-white rounded-full"></div>
               </div>
-              <div class="container px-5 py-16 mx-auto">
-                <div class="flex flex-wrap -m-4">
+              <div className="container px-5 py-16 mx-auto">
+                <div className="flex flex-wrap -m-4">
                   {volunteers.map((volunteer) => (
-                    <div class="p-4 lg:w-1/4 md:w-1/2">
-                      <div class="h-full flex flex-col items-center text-center">
+                    <div className="p-4 lg:w-1/4 md:w-1/2">
+                      <div className="flex flex-col items-center h-full text-center">
                         <img
                           alt={`Image of ${volunteer.name}`}
-                          class="flex-shrink-0 rounded-lg w-full h-80 object-cover object-center mb-4"
+                          className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-80"
                           src={`/images/${volunteer.image}`}
                         ></img>
-                        <div class="w-full">
+                        <div className="w-full">
                           <a
                             className={
                               volunteer.website
@@ -213,11 +182,11 @@ export default function About() {
                               volunteer.website ? 'https://saurish.com' : null
                             }
                           >
-                            <h2 class="title-font font-medium text-lg text-black">
+                            <h2 className="text-lg font-medium text-black title-font">
                               {volunteer.name}
                             </h2>
                           </a>
-                          <h3 class="text-gray-500 mb-3">
+                          <h3 className="mb-3 text-gray-500">
                             {volunteer.position}
                           </h3>
                         </div>
@@ -229,50 +198,95 @@ export default function About() {
             </div>
           </div>
         </section>
-        <section className="mt-10 text-gray-600 body-font">
-          <div className="container px-5 mx-auto">
-            <div className="mb-20 text-center">
-              <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
-                FAQ
-              </span>
-              <h2 className="mb-4 font-medium text-black sm:text-4xl title-font">
-                Frequently Asked Questions
-              </h2>
-              <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
-                Let us help answer the most common questions you might have.
-              </p>
-              <div className="flex justify-center mt-6">
-                <div className="inline-flex w-16 h-1 bg-black rounded-full"></div>
-              </div>
-              <div className="max-w-4xl pt-10 mx-auto fsac4">
-                <div class="ktq4">
-                  <h3 class="font-semibold text-center text-2xl text-white">
-                    I want to be a volunteer, what's the time commitment?
-                  </h3>
-                  <p class="pt-3 value-text text-md text-gray-200 fkrr1">
-                    We recommend volunteers to be active for 2+ hours a week to
-                    keep up with and ensure the success of Project enVision
-                    programs. This number changes depending on your role as a
-                    volunteer.
-                  </p>
-                </div>
-                <div class="ktq4">
-                  <h3 class="font-semibold text-center text-2xl text-white">
-                    Still along the lines of volunteering: what happens after I
-                    apply?
-                  </h3>
-                  <p class="pt-3 value-text text-md text-gray-200 fkrr1">
-                    Once you have applied to be a volunteer or tutor, one of the
-                    executive directors at Project enVision will read through
-                    your application and set up a meeting with you. In this call
-                    (hosted over Zoom/Discord), you will be asked questions
-                    about your application and your general interest in Project
-                    enVision. Once this call is over, we'll let you know
-                    decisions immediately!
-                  </p>
+        <section id="faq" className="px-4 py-5 sm:py-20">
+          <div className="max-w-xl px-4 mx-auto sm:px-6 lg:max-w-6xl lg:px-8">
+            <div className="pb-20 mx-auto max-w-7xl">
+              <div className="max-w-2xl mx-auto text-center">
+                <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
+                  FAQ
+                </span>
+                <h2 className="mb-4 text-3xl font-semibold tracking-normal text-black sm:text-5xl sm:leading-none md:leading-tight">
+                  Frequently Asked Questions
+                </h2>
+                <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
+                  Let us help answer the most common questions you might have.
+                </p>
+                <div className="flex justify-center mt-6">
+                  <div className="inline-flex w-16 h-1 bg-black rounded-full"></div>
                 </div>
               </div>
             </div>
+            <dl className="space-y-10 text-base lg:space-y-0 lg:grid lg:grid-cols-4 lg:gap-8">
+              <div>
+                <dt>
+                  <span className="flex items-center justify-center w-8 h-8 font-medium text-pink-700 bg-pink-100 rounded-full">
+                    1
+                  </span>
+                  <p className="mt-5 font-medium leading-6 text-gray-900">
+                    What positions are available and where can I help?
+                  </p>
+                </dt>
+                <dd className="mt-2 text-gray-600">
+                  In order of priority, we are currently looking for volunteers
+                  who can help out in the following fields/positions: Research,
+                  Debate, Tutoring, Learn, Chapters, and Inspire.
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  <span className="flex items-center justify-center w-8 h-8 font-medium text-pink-700 bg-pink-100 rounded-full">
+                    2
+                  </span>
+                  <p className="mt-5 font-medium leading-6 text-gray-900">
+                    I'm not located in San Jose – how can I help?
+                  </p>
+                </dt>
+                <dd className="mt-2 text-gray-600">
+                  Not a problem! First check if there is a{' '}
+                  <Link href="/programs/chapters">
+                    <a className="text-blue-600 hover:underline hover:text-blue-800 visited:text-purple-600">
+                      chapter
+                    </a>
+                  </Link>{' '}
+                  located in your area/region. If there is, please reach out to
+                  the chapter lead to see how you can help out. If not, Saurish
+                  will schedule a call with you to discuss places where your
+                  skills can be utilized remotely!
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  <span className="flex items-center justify-center w-8 h-8 font-medium text-pink-700 bg-pink-100 rounded-full">
+                    3
+                  </span>
+                  <p className="mt-5 font-medium leading-6 text-gray-900">
+                    What's the time commitment as a volunteer?
+                  </p>
+                </dt>
+                <dd className="mt-2 text-gray-600">
+                  We recommend at least 2 hours a week, although this number can
+                  vary based on your <span className="font-semibold">role</span>{' '}
+                  in the organization.
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  <span className="flex items-center justify-center w-8 h-8 font-medium text-pink-700 bg-pink-100 rounded-full">
+                    4
+                  </span>
+                  <p className="mt-5 font-medium leading-6 text-gray-900">
+                    What happens after I apply?
+                  </p>
+                </dt>
+                <dd className="mt-2 text-gray-600">
+                  Once you have applied to be a volunteer/tutor, one of the
+                  executive directors will reach out to you & set up a meeting.
+                  In this call (hosted over Zoom/Discord), we will ask questions
+                  about your application and your role in Project enVision U.S.
+                  We will let you know our decisions immediately.
+                </dd>
+              </div>
+            </dl>
           </div>
         </section>
       </section>

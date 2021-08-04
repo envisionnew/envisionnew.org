@@ -11,7 +11,7 @@ export default function BlogLayout({ children, frontMatter }) {
       </Head>
       <Header />
       <article className="relative text-gray-600">
-        <div className="container max-w-3xl px-5 mx-auto mt-12 pt-28">
+        <div className="container max-w-3xl px-5 mx-auto pt-28">
           <div className="xl:divide-y xl:divide-gray-200">
             <header className="pt-6 xl:pb-6">
               <div className="space-y-1 text-center">

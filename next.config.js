@@ -32,6 +32,11 @@ module.exports = {
         source: '/volunteer',
         destination: '/#volunteer',
         permanent: true
+      },
+      {
+        source: '/discord',
+        destination: 'https://discord.gg/Gu5Q5PUNj2',
+        permanent: true
       }
     ];
   },

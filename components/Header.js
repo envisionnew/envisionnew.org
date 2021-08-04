@@ -48,20 +48,20 @@ export default function Header() {
         >
           <nav className="flex flex-wrap items-center justify-center font-semibold text-md md:ml-auto pl-7">
             <Link href="/">
-              <a className="mr-6 hover:text-gray-900">Home</a>
+              <a className="mr-6 hover:text-gray-500">Home</a>
             </Link>
             <Link href="/about">
-              <a className="mr-1 hover:text-gray-900">About</a>
+              <a className="mr-1 hover:text-gray-500">About</a>
             </Link>
             <div className="relative">
               <button
                 type="button"
-                className="flex items-center px-5 py-3 font-semibold transition duration-150 ease-in-out hover:text-gray-900'
+                className="flex items-center px-5 py-3 font-semibold transition duration-150 ease-in-out hover:text-gray-500'
                   "
                 onMouseEnter={() => (setFlyer(!flyer), setFlyerTwo(false))}
               >
                 <Link href="/#programs">
-                  <a className="hover:text-gray-900">Programs</a>
+                  <a className="hover:text-gray-500">Programs</a>
                 </Link>
                 <svg
                   className={
@@ -132,22 +132,25 @@ export default function Header() {
               </div>
             </div>
             <Link href="/events">
-              <a className="mr-6 hover:text-gray-900">Events</a>
+              <a className="mr-6 hover:text-gray-500">Events</a>
             </Link>
             <Link href="/#volunteer">
-              <a className="mr-6 hover:text-gray-900">Volunteer</a>
+              <a className="mr-6 hover:text-gray-500">Volunteer</a>
+            </Link>
+            <Link href="/discord">
+              <a className="mr-6 hover:text-gray-500">Discord</a>
             </Link>
             <Link href="/contact">
-              <a className="mr-6 hover:text-gray-900">Contact</a>
+              <a className="mr-6 hover:text-gray-500">Contact</a>
             </Link>
             <Link href="/blog">
-              <a className="mr-6 hover:text-gray-900">Blog</a>
+              <a className="mr-6 hover:text-gray-500">Blog</a>
             </Link>
           </nav>
           <a href="https://donorbox.org/project-envision">
             <button
               aria-label="donate"
-              className="px-4 py-2 mt-2 font-semibold text-gray-900 transition duration-500 ease-in-out transform rounded-lg text-md bg-gradient-to-r from-purple-200 via-pink-300 to-red-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+              className="px-4 py-2 mt-2 font-semibold text-gray-900 transition duration-500 ease-in-out transform rounded-lg text-md bg-gradient-to-r from-purple-200 via-pink-300 to-red-300 md:mt-0 md:ml-4 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
             >
               Donate
             </button>
