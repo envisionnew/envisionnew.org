@@ -3,11 +3,6 @@ import Header from '../../../components/Header';
 import Footer from '../../../components/Footer';
 import React from 'react';
 import { NextSeo } from 'next-seo';
-import styled from 'styled-components';
-
-const Highlight = styled.span`
-  background-color: #0af5f4;
-`;
 
 const people = [
   {
@@ -19,8 +14,7 @@ const people = [
     email: 'saurish@envisionnew.org',
     apply: false,
     link: '#',
-    image:
-      'https://www.saurish.com/_next/image?url=%2Fimages%2Fme.webp&w=1080&q=75'
+    image: '/images/saurish_profile.JPG'
   },
   {
     name: 'Aditi Umapathy',
@@ -31,7 +25,7 @@ const people = [
     email: 'aditi.umapathy@envisionnew.org',
     apply: false,
     link: '/programs/chapters/augusta',
-    image: '/images/aditi.jpg'
+    image: '/images/aditi_profile.jpeg'
   },
   {
     name: 'Want to see your name here? ',
