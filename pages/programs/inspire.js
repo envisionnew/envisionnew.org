@@ -62,13 +62,6 @@ const organizations = [
       'The Crown Education Challenge was started in 2020 during the COVID-19 pandemic. They were inspired to respond to the countless school closures worldwide that caused over 1.5 billion students to be out of school.',
     image: 'crowneducationchallenge',
     link: 'https://crowneducationchallenge.org'
-  },
-  {
-    name: 'Closing the Divide',
-    description:
-      'ClosingTheDivide has opened up numerous initiatives and hosted numerous events to raise money while engaging with the youth in the community to close the digital divide.',
-    image: 'closingthedivide',
-    link: 'https://closingthedivide.foundation'
   }
 ];
 
