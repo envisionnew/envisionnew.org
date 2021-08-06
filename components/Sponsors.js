@@ -62,15 +62,20 @@ export default function Sponsors() {
                     alt="Intel Logo"
                   />
                 </div>
-              </div>
-            </div>
-            <div className="grid grid-cols-1 mb-24 -mt-4 md:-mt-10 md:mb-32">
-              <div className="flex justify-center col-span-1">
-                <img
-                  className="h-8 mt-2 md"
-                  src="/logos/streamclub.svg"
-                  alt="Stream Club Logo"
-                />
+                <div className="flex justify-center col-span-1 md:col-span-3 lg:col-span-1">
+                  <img
+                    className="h-8 mt-2 md"
+                    src="/logos/streamclub.svg"
+                    alt="Stream Club Logo"
+                  />
+                </div>
+                <div className="flex justify-center col-span-1 md:col-span-3 lg:col-span-1">
+                  <img
+                    className="mt-2.5 ml-8 h-8"
+                    src="/logos/closingthedivide.png"
+                    alt="Closing The Divide Logo"
+                  />
+                </div>
               </div>
             </div>
           </div>
