@@ -6,6 +6,15 @@ import React from 'react';
 import Link from 'next/link';
 import { NextSeo } from 'next-seo';
 
+const advisors = [
+  {
+    name: 'Rushil Srivastava',
+    website: 'https:rushilsrivastava.com',
+    image: 'rushil.jpeg',
+    bio: 'Co-Founder at Simplify; University of California, Berkeley'
+  }
+];
+
 const volunteers = [
   {
     name: 'Saurish Srivastava',
@@ -164,7 +173,7 @@ export default function About() {
                 volunteers help make the events at Project enVision possible.
               </p>
               <div className="flex justify-center mt-6">
-                <div className="inline-flex w-16 h-1 bg-white rounded-full"></div>
+                <div className="inline-flex w-16 h-1 bg-black rounded-full"></div>
               </div>
               <div className="container px-5 py-16 mx-auto">
                 <div className="flex flex-wrap -m-4">
@@ -177,23 +186,65 @@ export default function About() {
                           src={`/images/${volunteer.image}`}
                         />
                         <div className="w-full">
-                          <a
-                            className={
-                              volunteer.website
-                                ? 'underline hover:text-gray-300'
-                                : 'cursor-text'
-                            }
-                            href={
-                              volunteer.website ? 'https://saurish.com' : null
-                            }
-                          >
+                          {volunteer.website ? (
+                            <a
+                              className="underline hover:text-gray-300"
+                              href={volunteer.website}
+                            >
+                              <h2 className="text-lg font-medium text-black title-font">
+                                {volunteer.name}
+                              </h2>
+                            </a>
+                          ) : (
                             <h2 className="text-lg font-medium text-black title-font">
                               {volunteer.name}
                             </h2>
-                          </a>
+                          )}
                           <h3 className="mb-3 text-gray-600">
                             {volunteer.position}
                           </h3>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <h2 className="mb-4 text-2xl font-semibold tracking-normal text-black sm:text-4xl sm:leading-none md:leading-tight">
+                Our Advisors
+              </h2>
+              <p className="mx-auto text-base text-xl leading-relaxed text-gray-500 xl:w-2/4 lg:w-3/4">
+                These are the people that overlook the organization and ensure
+                that our activities are making a profound impact.
+              </p>
+              <div className="flex justify-center mt-6">
+                <div className="inline-flex w-16 h-1 bg-black rounded-full"></div>
+              </div>
+              <div className="container px-5 py-16 mx-auto">
+                <div className="flex flex-wrap -m-4">
+                  {advisors.map((advisor) => (
+                    <div className="p-4 lg:w-1/4 md:w-1/2">
+                      <div className="flex flex-col items-center h-full text-center">
+                        <img
+                          alt={`Image of ${advisor.name}`}
+                          className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-80"
+                          src={`/images/${advisor.image}`}
+                        />
+                        <div className="w-full">
+                          {advisor.website ? (
+                            <a
+                              className="underline hover:text-gray-300"
+                              href={advisor.website}
+                            >
+                              <h2 className="text-lg font-medium text-black title-font">
+                                {advisor.name}
+                              </h2>
+                            </a>
+                          ) : (
+                            <h2 className="text-lg font-medium text-black title-font">
+                              {advisor.name}
+                            </h2>
+                          )}
+                          <h3 className="mb-3 text-gray-600">{advisor.bio}</h3>
                         </div>
                       </div>
                     </div>
