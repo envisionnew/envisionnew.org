@@ -178,7 +178,7 @@ export default function About() {
               <div className="container px-5 py-16 mx-auto">
                 <div className="flex flex-wrap -m-4">
                   {volunteers.map((volunteer) => (
-                    <div className="p-4 lg:w-1/4 md:w-1/2">
+                    <div className="p-4 lg:w-1/4 md:w-1/2" key={volunteer}>
                       <div className="flex flex-col items-center h-full text-center">
                         <img
                           alt={`Image of ${volunteer.name}`}
@@ -222,7 +222,7 @@ export default function About() {
               <div className="container px-5 py-16 mx-auto">
                 <div className="flex flex-wrap -m-4">
                   {advisors.map((advisor) => (
-                    <div className="p-4 lg:w-1/4 md:w-1/2">
+                    <div className="p-4 lg:w-1/4 md:w-1/2" key={advisor}>
                       <div className="flex flex-col items-center h-full text-center">
                         <img
                           alt={`Image of ${advisor.name}`}
