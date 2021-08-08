@@ -70,7 +70,8 @@ module.exports = {
         teal: colors.teal,
         rose: colors.rose,
         lightBlue: colors.lightBlue,
-        lime: colors.lime
+        lime: colors.lime,
+        'brand-pink': '#FF78BA'
       }
     }
   },

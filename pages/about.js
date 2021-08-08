@@ -20,52 +20,69 @@ const volunteers = [
     name: 'Saurish Srivastava',
     position: 'President & Executive Director',
     website: 'https://saurish.com',
-    image: 'saurish.JPG'
+    image: 'saurish.JPG',
+    bio: 'Junior at Evergreen Valley High School'
   },
   {
     name: 'Varun Bommaji',
     position: 'Secretary',
-    image: 'varun.jpeg'
+    image: 'varun.jpeg',
+    bio: 'Junior at Evergreen Valley High School'
   },
   {
     name: 'Vikram Dhillon',
     position: 'Director of Tutoring',
-    image: 'vikram.jpg'
+    image: 'vikram.jpg',
+    bio: 'Junior at Evergreen Valley High School'
+  },
+  {
+    name: 'Alessia Seroff',
+    position: 'Director of Lotus Collective',
+    website: 'https://www.linkedin.com/in/alessia-seroff-a15bb7177/',
+    image: 'alessia.jpeg',
+    bio: 'Senior at New York University'
   },
   {
     name: 'Parth Paliwal',
     position: 'Director of Computer Science',
-    image: 'parth.jpeg'
+    image: 'parth.jpeg',
+    bio: 'Junior at Evergreen Valley High School'
   },
   {
     name: 'Garima Upadhyay',
     position: 'Director of Marketing',
-    image: 'garima.jpg'
+    image: 'garima.jpg',
+    bio: 'Junior at American High School'
   },
   {
     name: 'Amaya Khan',
     position: 'Director of Public Relations',
-    image: 'amaya.jpeg'
+    image: 'amaya.jpeg',
+    bio: 'Junior at Evergreen Valley High School'
   },
   {
     name: 'Ankit Kapoor',
     position: 'Director of Outreach',
-    image: 'ankit.jpeg'
+    image: 'ankit.jpeg',
+    bio: 'Senior at Evergreen Valley High School'
   },
   {
     name: 'Ayush Agarwal',
     position: 'Director of Debate',
-    image: 'ayush-2.jpeg'
+    image: 'ayush-2.jpeg',
+    bio: 'Junior at BASIS Independent Silicon Valley'
   },
   {
     name: 'Rishi Singh',
     position: 'Director of Robotics',
-    image: 'rishi.jpeg'
+    image: 'rishi.jpeg',
+    bio: 'Junior at Evergreen Valley High School'
   },
   {
     name: 'Aditi Umapathy',
     position: 'Georgia Chapter Lead',
-    image: 'aditi.jpeg'
+    image: 'aditi.jpeg',
+    bio: 'BASIS Independent Silicon Valley'
   }
 ];
 
@@ -200,8 +217,11 @@ export default function About() {
                               {volunteer.name}
                             </h2>
                           )}
-                          <h3 className="mb-3 text-gray-600">
+                          <h3 className="mb-1 text-gray-600">
                             {volunteer.position}
+                          </h3>
+                          <h3 className="mb-3 text-gray-400">
+                            {volunteer.bio}
                           </h3>
                         </div>
                       </div>
