@@ -41,7 +41,7 @@ module.exports = {
       {
         source: '/programs/project-lotus',
         destination: '/in-development',
-        permanent: false
+        permanent: true
       }
     ];
   },

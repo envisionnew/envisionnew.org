@@ -12,7 +12,7 @@ export default function Development() {
       <Header />
 
       <div className="flex flex-col justify-center mx-auto mt-32 mb-16 text-center max-w-2x1">
-        <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl">
+        <h1 className="mb-10 text-3xl font-bold tracking-tight text-black md:text-5xl">
           Unfortunately, this page is in development.
         </h1>
         <a
