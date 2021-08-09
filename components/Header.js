@@ -85,7 +85,7 @@ export default function Header() {
                 onMouseLeave={() => setFlyer(false)}
                 className={
                   flyer
-                    ? 'opacity-100 translate-y-0 transition ease-out duration-200 absolute z-10 -ml-4 mt-3 transform px-2 w-36 max-w-sm sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2'
+                    ? 'opacity-100 translate-y-0 transition ease-out duration-200 absolute z-10 -ml-4 mt-3 transform px-2 w-44 max-w-sm sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2'
                     : 'hidden opacity-0 translate-y-1 absolute z-10 -ml-4 mt-3 transform px-2 w-36 max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2'
                 }
               >
@@ -100,6 +100,15 @@ export default function Header() {
                         </div>
                       </a>
                     </Link>
+                    <Link href="/programs/chapters">
+                      <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
+                        <div className="ml-4">
+                          <p className="text-base font-medium text-black">
+                            Chapters
+                          </p>
+                        </div>
+                      </a>
+                    </Link>
                     <Link href="/programs/learn">
                       <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
                         <div className="ml-4">
@@ -109,20 +118,20 @@ export default function Header() {
                         </div>
                       </a>
                     </Link>
+                    <Link href="/programs/project-lotus">
+                      <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
+                        <div className="ml-4">
+                          <p className="text-base font-medium text-black">
+                            Project Lotus
+                          </p>
+                        </div>
+                      </a>
+                    </Link>
                     <Link href="/programs/tutoring">
                       <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
                         <div className="ml-4">
                           <p className="text-base font-medium text-black">
                             Tutoring
-                          </p>
-                        </div>
-                      </a>
-                    </Link>
-                    <Link href="/programs/chapters">
-                      <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
-                        <div className="ml-4">
-                          <p className="text-base font-medium text-black">
-                            Chapters
                           </p>
                         </div>
                       </a>
@@ -141,10 +150,10 @@ export default function Header() {
               <a className="mr-6 hover:text-gray-500">Discord</a>
             </Link>
             <Link href="/contact">
-              <a className="mr-6 hover:text-gray-500">Contact</a>
+              <a className="mt-4 mr-6 md:mt-0 hover:text-gray-500">Contact</a>
             </Link>
             <Link href="/blog">
-              <a className="mr-6 hover:text-gray-500">Blog</a>
+              <a className="mt-4 mr-6 md:mt-0 hover:text-gray-500">Blog</a>
             </Link>
           </nav>
           <a href="https://donorbox.org/project-envision">

@@ -37,7 +37,7 @@ const volunteers = [
   },
   {
     name: 'Alessia Seroff',
-    position: 'Director of Lotus Collective',
+    position: 'Director of Project Lotus',
     website: 'https://www.linkedin.com/in/alessia-seroff-a15bb7177/',
     image: 'alessia.jpeg',
     bio: 'Senior at New York University'
@@ -90,7 +90,7 @@ const information = [
   {
     name: 'Mission',
     description:
-      'Our mission is to build a connected community by facilitating learning and, while targetting accessibility and bonding. Our volunteers are commited to this mission and strengthening our community, together.',
+      'Our mission is to build a connected community by facilitating learning, while targetting accessibility and community bonding. Our volunteers are commited to this mission and strengthening our community, together.',
     index: true,
     image: '/about/mission.jpg'
   },

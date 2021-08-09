@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         source: '/programs/tutoring',
-        destination: '/',
+        destination: '/in-development',
         permanent: true
       },
       {
@@ -37,6 +37,11 @@ module.exports = {
         source: '/discord',
         destination: 'https://discord.gg/Gu5Q5PUNj2',
         permanent: true
+      },
+      {
+        source: '/programs/project-lotus',
+        destination: '/in-development',
+        permanent: false
       }
     ];
   },
