@@ -71,8 +71,7 @@ module.exports = {
         teal: colors.teal,
         rose: colors.rose,
         lightBlue: colors.lightBlue,
-        sky: colors.sky,
-        'blue-link': '#3B719F'
+        sky: colors.sky
       }
     }
   },

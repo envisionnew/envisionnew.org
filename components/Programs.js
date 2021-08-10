@@ -29,7 +29,7 @@ export default function Programs() {
                   ></img>
                   <div className="w-full">
                     <Link href="/programs/inspire">
-                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-link title-font hover:underline">
+                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-600 title-font hover:underline">
                         Project enVision Inspire
                       </a>
                     </Link>
@@ -50,7 +50,7 @@ export default function Programs() {
                   ></img>
                   <div className="w-full">
                     <Link href="/programs/learn">
-                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-link title-font hover:underline">
+                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-600 title-font hover:underline">
                         Project enVision Learn
                       </a>
                     </Link>
@@ -70,7 +70,7 @@ export default function Programs() {
                   ></img>
                   <div className="w-full">
                     <Link href="#">
-                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-link hover:text-blue-200 title-font hover:underline">
+                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-600 hover:text-blue-200 title-font hover:underline">
                         Project enVision Tutoring
                       </a>
                     </Link>
@@ -90,7 +90,7 @@ export default function Programs() {
                   ></img>
                   <div className="w-full">
                     <Link href="/programs/chapters">
-                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-link hover:underline">
+                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-600 hover:underline">
                         Project enVision Chapters
                       </a>
                     </Link>
@@ -110,11 +110,14 @@ export default function Programs() {
                     src="/images/lotus.svg"
                   ></img>
                   <div className="w-full">
-                    <Link href="/programs/lotus">
-                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-link title-font hover:underline">
-                        Project Lotus
-                      </a>
-                    </Link>
+                    {/* <Link href="/programs/lotus"> */}
+                    <a
+                      href="/programs/lotus"
+                      className="mb-5 text-2xl font-medium text-black hover:text-blue-600 title-font hover:underline"
+                    >
+                      Project Lotus
+                    </a>
+                    {/* </Link> */}
                     <p className="mb-2 text-lg">
                       Support group for trauma survivors, while targeting
                       substance abuse & creating educational opportunities for
