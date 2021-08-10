@@ -94,13 +94,13 @@ export default function ProjectLotus() {
     <div className="max-h-full text-black">
       <NextSeo
         title="Project Lotus | Project enVision U.S."
-        description="Project Lotus is an ."
+        description="Project Lotus is a support group for individuals who have experienced trauma."
         canonical="https://envisionnew.org/programs/chapters/"
         openGraph={{
           url: 'https://envisionnew.org/programs/chapters/',
-          title: 'Chapters | Project enVision U.S.',
+          title: 'Project Lotus | Project enVision U.S.',
           description:
-            'Want to start a chapter with Project enVision U.S.? Learn more information here.',
+            'Project Lotus is a support group for individuals who have experienced trauma.',
           site_name: 'Project enVision U.S.'
         }}
         twitter={{
