@@ -67,7 +67,7 @@ export default function Inspire() {
       <Header />
       <section class="text-gray-600 body-font bg-gradient-to-r from-rose-200 via-indigo-200 to-teal-100 animate-gradient-x">
         <div class="max-w-5xl pt-52 pb-40 mx-auto">
-          <h1 class="text-80 text-center leading-tight font-bold title-font text-black mb-10">
+          <h1 class="text-80 text-center leading-tight font-bold text-black mb-10">
             Start a chapter.
           </h1>
           <h2 class="text-2xl mx-4 font-4 title-font pb-11 text-gray-700 text-center">

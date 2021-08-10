@@ -39,7 +39,7 @@ module.exports = {
         permanent: true
       },
       {
-        source: '/programs/project-lotus',
+        source: '/programs/lotus',
         destination: '/in-development',
         permanent: true
       }

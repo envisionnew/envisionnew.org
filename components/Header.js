@@ -118,7 +118,7 @@ export default function Header() {
                         </div>
                       </a>
                     </Link>
-                    <Link href="/programs/project-lotus">
+                    <Link href="/programs/lotus">
                       <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
                         <div className="ml-4">
                           <p className="text-base font-medium text-black">
