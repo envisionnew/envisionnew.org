@@ -38,11 +38,6 @@ module.exports = {
         destination: 'https://discord.gg/Gu5Q5PUNj2',
         permanent: true
       },
-      {
-        source: '/programs/lotus',
-        destination: '/in-development',
-        permanent: true
-      }
     ];
   },
   webpack: (config, { dev, isServer }) => {
