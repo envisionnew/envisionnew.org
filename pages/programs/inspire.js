@@ -91,7 +91,7 @@ export default function Inspire() {
       <Header />
       <section class="text-gray-600 body-font bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 animate-gradient-x">
         <div class="max-w-5xl pt-52 pb-40 mx-auto">
-          <h1 class="text-4xl md:text-7xl text-center leading-tight font-bold title-font text-black mb-10">
+          <h1 class="text-4xl md:text-7xl text-center leading-tight font-bold text-black mb-10">
             Create the next big thing.
           </h1>
           <h2 class="md:text-2xl text-xl mx-4 font-4 title-font pb-12 text-gray-700 text-center">

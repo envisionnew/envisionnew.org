@@ -66,12 +66,13 @@ module.exports = {
           900: '#191919'
         },
         fuchsia: colors.fuchsia,
+        violet: colors.violet,
         orange: colors.orange,
         teal: colors.teal,
         rose: colors.rose,
         lightBlue: colors.lightBlue,
-        lime: colors.lime,
-        'brand-pink': '#FF78BA'
+        sky: colors.sky,
+        'blue-link': '#3B719F'
       }
     }
   },

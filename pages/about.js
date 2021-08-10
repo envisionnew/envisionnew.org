@@ -82,7 +82,7 @@ const volunteers = [
     name: 'Aditi Umapathy',
     position: 'Georgia Chapter Lead',
     image: 'aditi.jpeg',
-    bio: 'BASIS Independent Silicon Valley'
+    bio: 'Junior at Lakeside High School'
   }
 ];
 

@@ -26,26 +26,6 @@ a {
   border-color: #302f30;
 }
 
-@font-face {
-  font-family: 'AvenirNextW10-Bold';
-  src: url('//db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.eot');
-  src: url('//db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.eot?#iefix')
-      format('embedded-opentype'),
-    url('//db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.woff2')
-      format('woff2'),
-    url('//db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.woff')
-      format('woff'),
-    url('//db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.ttf')
-      format('truetype'),
-    url('//db.onlinewebfonts.com/t/e5c490a944bc2b2746f0c851501e46c7.svg#AvenirNextW10-Bold')
-      format('svg');
-}
-
-.Avenir {
-  font-family: AvenirNextW10-Bold;
-  font-display: swap;
-}
-
 .grr {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -114,11 +94,6 @@ a {
   font-family: 'Inter', sans-serif;
 }
 
-.text-dotted {
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: #364fc7;
-}
 .text-wavy {
   text-decoration-line: underline;
   text-decoration-style: wavy;
@@ -177,20 +152,6 @@ a.badge:focus {
 }
 .py-xl {
   margin: 0rem 0 0;
-}
-
-.text-dotted-adaptive {
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-}
-
-.text-dotted-adaptive:hover {
-  text-decoration-color: #364fc7;
-}
-
-.text-dotted-adaptive-nohover {
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
 }
 
 .fsac4 {
