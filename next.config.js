@@ -42,6 +42,11 @@ module.exports = {
         source: '/programs/lotus',
         destination: '/in-development',
         permanent: true
+      },
+      {
+        source: '/programs/carbon',
+        destination: '/in-development',
+        permanent: true
       }
     ];
   },

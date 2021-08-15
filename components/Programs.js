@@ -102,8 +102,8 @@ export default function Programs() {
                   </div>
                 </div>
               </div>
-              <div className="w-full p-4">
-                <div className="flex flex-col items-center w-1/4 h-full mx-auto text-center">
+              <div className="p-4 md:w-1/2">
+                <div className="flex flex-col items-center w-1/2 h-full mx-auto text-center">
                   <img
                     alt="team"
                     className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
@@ -113,7 +113,7 @@ export default function Programs() {
                     {/* <Link href="/programs/lotus"> */}
                     <a
                       href="/programs/lotus"
-                      className="mb-5 text-2xl font-medium text-black hover:text-blue-600 title-font hover:underline"
+                      className="mb-5 text-2xl font-medium text-black hover:text-blue-600 hover:underline"
                     >
                       Project Lotus
                     </a>
@@ -122,6 +122,29 @@ export default function Programs() {
                       Support group for trauma survivors, while targeting
                       substance abuse & creating educational opportunities for
                       the general public.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="p-4 md:w-1/2">
+                <div className="flex flex-col items-center w-1/2 h-full mx-auto text-center">
+                  <img
+                    alt="team"
+                    className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                    src="/images/globalwarming.svg"
+                  ></img>
+                  <div className="w-full">
+                    {/* <Link href="/programs/carbon"> */}
+                    <a
+                      href="/programs/carbon"
+                      className="mb-5 text-2xl font-medium text-black hover:text-blue-600 hover:underline"
+                    >
+                      Project Carbon
+                    </a>
+                    {/* </Link> */}
+                    <p className="mb-2 text-lg">
+                      Taking a stance on the impacts of global warming by
+                      digital activism and political movements.
                     </p>
                   </div>
                 </div>
