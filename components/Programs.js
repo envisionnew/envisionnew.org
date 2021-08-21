@@ -103,7 +103,7 @@ export default function Programs() {
                 </div>
               </div>
               <div className="p-4 md:w-1/2">
-                <div className="flex flex-col items-center w-1/2 h-full mx-auto text-center">
+                <div className="flex flex-col items-center w-full h-full mx-auto text-center md:w-1/2">
                   <img
                     alt="team"
                     className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
@@ -127,7 +127,7 @@ export default function Programs() {
                 </div>
               </div>
               <div className="p-4 md:w-1/2">
-                <div className="flex flex-col items-center w-1/2 h-full mx-auto text-center">
+                <div className="flex flex-col items-center w-full h-full mx-auto text-center md:w-1/2">
                   <img
                     alt="team"
                     className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
