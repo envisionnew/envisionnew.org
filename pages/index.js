@@ -133,7 +133,7 @@ export default function Home() {
               <br className="sm:hidden" />
               <Link href="/donate">
                 <a
-                  className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent bg-black rounded px-7 md:ml-11 hover:bg-gray-900"
+                  className="inline-flex items-center py-3 mb-8 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent bg-black rounded px-7 md:ml-11 hover:bg-gray-900"
                   aria-label="donate"
                 >
                   <div className="flex text-lg">
@@ -145,7 +145,7 @@ export default function Home() {
               <Link href="/about">
                 <a
                   className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 md:ml-11 text-md md:mt-0 hover:text-white bg-buttonPurple hover:bg-buttonBlue"
-                  aria-label="about-us"
+                  aria-label="discord"
                 >
                   <div className="flex text-lg">
                     <span className="justify-center">Discord</span>
