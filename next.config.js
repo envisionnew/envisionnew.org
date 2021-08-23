@@ -34,6 +34,11 @@ module.exports = {
         permanent: true
       },
       {
+        source: '/donate',
+        destination: 'https://donorbox.org/project-envision',
+        permanent: true
+      },
+      {
         source: '/discord',
         destination: 'https://discord.gg/Gu5Q5PUNj2',
         permanent: true

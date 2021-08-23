@@ -27,12 +27,14 @@ const volunteers = [
     name: 'Varun Bommaji',
     position: 'Secretary',
     image: 'varun.jpeg',
+    website: 'https://instagram.com/varunbommaji',
     bio: 'Junior at Evergreen Valley High School'
   },
   {
     name: 'Vikram Dhillon',
     position: 'Director of Tutoring',
     image: 'vikram.jpg',
+    website: 'https://instagram.com/dhill0n_vikram',
     bio: 'Junior at Evergreen Valley High School'
   },
   {
@@ -46,6 +48,7 @@ const volunteers = [
     name: 'Parth Paliwal',
     position: 'Director of Computer Science',
     image: 'parth.jpeg',
+    website: 'https://instagram.com/parthpaliwalofficial',
     bio: 'Junior at Evergreen Valley High School'
   },
   {
@@ -58,25 +61,36 @@ const volunteers = [
     name: 'Amaya Khan',
     position: 'Director of Public Relations',
     image: 'amaya.jpeg',
+    website: 'https://instagram.com/amayakhan0220',
     bio: 'Junior at Evergreen Valley High School'
   },
   {
     name: 'Ankit Kapoor',
     position: 'Director of Outreach',
     image: 'ankit.jpeg',
+    website: 'https://instagram.com/a3kitxkapoor',
     bio: 'Senior at Evergreen Valley High School'
   },
   {
     name: 'Ayush Agarwal',
     position: 'Director of Debate',
     image: 'ayush-2.jpeg',
+    website: 'https://instagram.com/ayudaagarwal',
     bio: 'Junior at BASIS Independent Silicon Valley'
   },
   {
     name: 'Rishi Singh',
     position: 'Director of Robotics',
     image: 'rishi.jpeg',
+    website: 'https://www.instagram.com/rishi.19',
     bio: 'Junior at Evergreen Valley High School'
+  },
+  {
+    name: 'Kshitij Teotia',
+    position: 'Director of Project Carbon',
+    website: 'https://www.instagram.com/kshitij.teotia/',
+    image: 'kshitij.jpeg',
+    bio: 'Sophomore at Evergreen Valley High School'
   },
   {
     name: 'Aditi Umapathy',

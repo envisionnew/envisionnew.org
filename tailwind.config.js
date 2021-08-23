@@ -71,7 +71,9 @@ module.exports = {
         teal: colors.teal,
         rose: colors.rose,
         lightBlue: colors.lightBlue,
-        sky: colors.sky
+        sky: colors.sky,
+        buttonPurple: '#6859ff',
+        buttonBlue: '#4353FF'
       }
     }
   },

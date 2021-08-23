@@ -119,10 +119,10 @@ export default function Home() {
                 </div>
               </div>
             </section>
-            <div className="mt-6 ml-6 text-center">
+            <div className="mt-6 text-center">
               <Link href="/about">
                 <a
-                  className="inline-flex items-center py-3 mb-8 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 bg-gradient-to-r from-blue-500 to-blue-800 text-md md:mt-0 focus:shadow-outline"
+                  className="inline-flex items-center py-3 mb-8 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 bg-buttonBlue hover:bg-buttonPurple"
                   aria-label="about-us"
                 >
                   <div className="flex text-lg">
@@ -131,15 +131,27 @@ export default function Home() {
                 </a>
               </Link>
               <br className="sm:hidden" />
-              <a
-                className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent bg-black rounded px-7 lg:ml-11 md:ml-11 text-md md:mt-0 hover:text-white hover:bg-black focus:shadow-outline"
-                aria-label="donate"
-                href="https://donorbox.org/project-envision"
-              >
-                <div className="flex text-lg">
-                  <span className="justify-center">Donate</span>
-                </div>
-              </a>
+              <Link href="/donate">
+                <a
+                  className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent bg-black rounded px-7 md:ml-11 hover:bg-gray-900"
+                  aria-label="donate"
+                >
+                  <div className="flex text-lg">
+                    <span className="justify-center">Donate</span>
+                  </div>
+                </a>
+              </Link>
+              <br className="sm:hidden" />
+              <Link href="/about">
+                <a
+                  className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 md:ml-11 text-md md:mt-0 hover:text-white bg-buttonPurple hover:bg-buttonBlue"
+                  aria-label="about-us"
+                >
+                  <div className="flex text-lg">
+                    <span className="justify-center">Discord</span>
+                  </div>
+                </a>
+              </Link>
             </div>
           </div>
         </div>

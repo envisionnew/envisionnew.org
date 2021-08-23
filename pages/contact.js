@@ -181,6 +181,16 @@ export default function Contact() {
                   <p className="my-5 leading-normal">
                     San Jose, California, United States
                   </p>
+                  <Link href="/about">
+                    <a
+                      className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 text-md md:mt-0 hover:text-white bg-buttonPurple hover:bg-buttonBlue"
+                      aria-label="about-us"
+                    >
+                      <div className="flex text-lg">
+                        <span className="justify-center">Discord</span>
+                      </div>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </form>

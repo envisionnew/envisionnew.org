@@ -130,6 +130,18 @@ export default function Header() {
                       </div>
                     </a>
                     {/* </Link> */}
+                    {/* <Link href="/programs/lotus"> */}
+                    <a
+                      href="/programs/carbon"
+                      className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04"
+                    >
+                      <div className="ml-4">
+                        <p className="text-base font-medium text-black">
+                          Project Carbon
+                        </p>
+                      </div>
+                    </a>
+                    {/* </Link> */}
                     <Link href="/programs/tutoring">
                       <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
                         <div className="ml-4">
@@ -148,9 +160,6 @@ export default function Header() {
             </Link>
             <Link href="/#volunteer">
               <a className="mr-6 hover:text-gray-500">Volunteer</a>
-            </Link>
-            <Link href="/discord">
-              <a className="mr-6 hover:text-gray-500">Discord</a>
             </Link>
             <Link href="/contact">
               <a className="mt-4 mr-6 md:mt-0 hover:text-gray-500">Contact</a>
