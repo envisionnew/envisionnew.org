@@ -184,7 +184,7 @@ export default function Contact() {
                   </p>
                   <Link href="/about">
                     <a
-                      className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 text-md md:mt-0 hover:text-white bg-buttonPurple hover:bg-buttonBlue"
+                      className="inline-flex items-center py-2.5 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent rounded px-6 md:mt-0 hover:text-white bg-buttonPurple hover:bg-buttonBlue"
                       aria-label="about-us"
                     >
                       <div className="flex text-lg">
