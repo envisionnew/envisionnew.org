@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import { NextSeo } from 'next-seo';
 import React from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
+import Link from 'next/link';
 
 export default function Contact() {
   const [email, setEmail] = React.useState('');
