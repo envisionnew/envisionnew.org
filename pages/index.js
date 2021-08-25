@@ -122,7 +122,7 @@ export default function Home() {
             <div className="mt-6 text-center">
               <Link href="/about">
                 <a
-                  className="inline-flex items-center py-3 mb-8 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 bg-buttonBlue hover:bg-buttonPurple"
+                  className="inline-flex items-center py-3 mb-8 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 bg-buttonPurple hover:bg-buttonDiscord"
                   aria-label="about-us"
                 >
                   <div className="flex text-lg">
@@ -142,9 +142,9 @@ export default function Home() {
                 </a>
               </Link>
               <br className="sm:hidden" />
-              <Link href="/about">
+              <Link href="/discord">
                 <a
-                  className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 md:ml-11 text-md md:mt-0 hover:text-white bg-buttonPurple hover:bg-buttonBlue"
+                  className="inline-flex items-center py-3 font-semibold text-white transition duration-500 ease-in-out transform bg-transparent rounded px-7 md:ml-11 text-md md:mt-0 hover:text-white bg-buttonDiscord hover:bg-buttonPurple"
                   aria-label="discord"
                 >
                   <div className="flex text-lg">

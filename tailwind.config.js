@@ -72,8 +72,8 @@ module.exports = {
         rose: colors.rose,
         lightBlue: colors.lightBlue,
         sky: colors.sky,
-        buttonPurple: '#6859ff',
-        buttonBlue: '#4353FF'
+        buttonPurple: '#8585ff',
+        buttonDiscord: '#5865F2'
       }
     }
   },

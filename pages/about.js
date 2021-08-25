@@ -93,6 +93,12 @@ const volunteers = [
     bio: 'Sophomore at Evergreen Valley High School'
   },
   {
+    name: 'Mihir Shevade',
+    position: 'Director of Math',
+    image: 'mihir.png',
+    bio: 'Junior at Evergreen Valley High School'
+  },
+  {
     name: 'Aditi Umapathy',
     position: 'Georgia Chapter Lead',
     image: 'aditi.jpeg',
@@ -214,7 +220,7 @@ export default function About() {
                         <img
                           alt={`Image of ${volunteer.name}`}
                           className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-80"
-                          src={`/images/${volunteer.image}`}
+                          src={`/images/volunteers/${volunteer.image}`}
                         />
                         <div className="w-full">
                           {volunteer.website ? (
@@ -261,7 +267,7 @@ export default function About() {
                         <img
                           alt={`Image of ${advisor.name}`}
                           className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-80"
-                          src={`/images/${advisor.image}`}
+                          src={`/images/advisors/${advisor.image}`}
                         />
                         <div className="w-full">
                           {advisor.website ? (

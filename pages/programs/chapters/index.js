@@ -14,7 +14,7 @@ const people = [
     email: 'saurish@envisionnew.org',
     apply: false,
     link: '#',
-    image: '/images/saurish_profile.JPG'
+    image: '/images/volunteers/saurish_profile.JPG'
   },
   {
     name: 'Aditi Umapathy',
@@ -25,7 +25,7 @@ const people = [
     email: 'aditi.umapathy@envisionnew.org',
     apply: false,
     link: '/programs/chapters/augusta',
-    image: '/images/aditi_profile.jpeg'
+    image: '/images/volunteers/aditi_profile.jpeg'
   },
   {
     name: 'Want to see your name here? ',
