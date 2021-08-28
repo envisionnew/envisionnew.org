@@ -29,7 +29,7 @@ export default function Programs() {
                   ></img>
                   <div className="w-full">
                     <Link href="/programs/inspire">
-                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-600 title-font hover:underline">
+                      <a className="mb-5 text-2xl font-medium text-black underline md:no-underline outer-glow title-font">
                         Project enVision Inspire
                       </a>
                     </Link>
@@ -50,7 +50,7 @@ export default function Programs() {
                   ></img>
                   <div className="w-full">
                     <Link href="/programs/learn">
-                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-600 title-font hover:underline">
+                      <a className="mb-5 text-2xl font-medium text-black underline md:no-underline outer-glow title-font">
                         Project enVision Learn
                       </a>
                     </Link>
@@ -70,7 +70,7 @@ export default function Programs() {
                   ></img>
                   <div className="w-full">
                     <Link href="#">
-                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-600 hover:text-blue-200 title-font hover:underline">
+                      <a className="mb-5 text-2xl font-medium text-black underline md:no-underline outer-glow title-font">
                         Project enVision Tutoring
                       </a>
                     </Link>
@@ -90,7 +90,7 @@ export default function Programs() {
                   ></img>
                   <div className="w-full">
                     <Link href="/programs/chapters">
-                      <a className="mb-5 text-2xl font-medium text-black hover:text-blue-600 hover:underline">
+                      <a className="mb-5 text-2xl font-medium text-black underline md:no-underline outer-glow title-font">
                         Project enVision Chapters
                       </a>
                     </Link>
@@ -113,7 +113,7 @@ export default function Programs() {
                     {/* <Link href="/programs/lotus"> */}
                     <a
                       href="/programs/lotus"
-                      className="mb-5 text-2xl font-medium text-black hover:text-blue-600 hover:underline"
+                      className="mb-5 text-2xl font-medium text-black underline md:no-underline outer-glow title-font"
                     >
                       Project Lotus
                     </a>
@@ -137,7 +137,7 @@ export default function Programs() {
                     {/* <Link href="/programs/carbon"> */}
                     <a
                       href="/programs/carbon"
-                      className="mb-5 text-2xl font-medium text-black hover:text-blue-600 hover:underline"
+                      className="mb-5 text-2xl font-medium text-black underline md:no-underline outer-glow title-font"
                     >
                       Project Carbon
                     </a>
