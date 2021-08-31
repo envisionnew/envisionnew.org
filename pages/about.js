@@ -73,10 +73,17 @@ const volunteers = [
   },
   {
     name: 'Ayush Agarwal',
-    position: 'Director of Debate',
+    position: 'Co-Director of Debate',
     image: 'ayush-2.jpeg',
     website: 'https://instagram.com/ayudaagarwal',
     bio: 'Junior at BASIS Independent Silicon Valley'
+  },
+  {
+    name: 'Rikin Ladwa',
+    position: 'Co-Director of Debate',
+    image: '',
+    website: 'https://www.instagram.com/rikinladwaa/',
+    bio: 'Junior at Evergreen Valley High School'
   },
   {
     name: 'Rishi Singh',

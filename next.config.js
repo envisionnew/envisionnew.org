@@ -52,6 +52,11 @@ module.exports = {
         source: '/programs/carbon',
         destination: '/in-development',
         permanent: true
+      },
+      {
+        source: '/programs/debate',
+        destination: '/in-development',
+        permanent: true
       }
     ];
   },
