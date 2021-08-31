@@ -109,22 +109,48 @@ const volunteers = [
 const information = [
   {
     name: 'Mission',
-    description:
-      'Our mission is to build a connected community by facilitating learning, while targetting accessibility and community bonding. Our volunteers are commited to this mission and strengthening our community, together.',
+    description: (
+      <p>
+        Our mission is to build a connected community by facilitating{' '}
+        <span className="font-semibold">learning</span>, while targetting{' '}
+        <span className="font-semibold">accessibility</span> and community{' '}
+        <span className="font-semibold">bonding</span>. Our volunteers are
+        commited to this mission and strengthening our community, together.
+      </p>
+    ),
     index: true,
     image: '/about/mission.jpg'
   },
   {
     name: 'COVID-19 Response',
-    description:
-      'Since March, Project enVision U.S. has actively been engaging with underprivileged communites and helping the transition from in-person to distanced learning. Project enVision: Learn and Tutoring have moved online, and schedules of these programs can be viewed on our programs section.',
+    description: (
+      <p>
+        Since March of 2020, Project enVision U.S. has actively been engaging
+        with underprivileged communites and helping the transition from
+        in-person to distanced learning. Project enVision: Learn and Tutoring
+        have moved online, and we have also introduced Project Lotus, a program
+        to help the mental health of our community. These programs can be viewed
+        on our <Link href="/#programs">programs section.</Link>
+      </p>
+    ),
     index: false,
     image: '/about/covid.jpg'
   },
   {
     name: 'History',
-    description:
-      'Project enVision U.S. was founded in 2015 and since then, has been providing volunteer and educational services to young people everywhere. Our programs and entities have positively impacted hundreds of kids and strengthened our community. These programs can be viewed on our programs section.',
+    description: (
+      <p>
+        Project enVision U.S. was founded in{' '}
+        <span className="font-semibold">2015</span> and since then, has been
+        providing volunteer and educational services to young people everywhere.
+        Our programs and entities have positively impacted{' '}
+        <span className="font-semibold">thousands</span> of kids and
+        strengthened our community. Please visit our{' '}
+        <Link href="/#programs">programs section</Link> or{' '}
+        <Link href="/programs/inspire">incubated organizations</Link> to learn
+        more.
+      </p>
+    ),
     index: true,
     image: '/about/history.jpg'
   }
