@@ -81,7 +81,7 @@ const volunteers = [
   {
     name: 'Rikin Ladwa',
     position: 'Co-Director of Debate',
-    image: '',
+    image: 'rikin.jpeg',
     website: 'https://www.instagram.com/rikinladwaa/',
     bio: 'Junior at Evergreen Valley High School'
   },
