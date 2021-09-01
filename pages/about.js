@@ -32,9 +32,16 @@ const volunteers = [
   },
   {
     name: 'Vikram Dhillon',
-    position: 'Director of Tutoring',
+    position: 'Co-Director of Tutoring',
     image: 'vikram.jpg',
     website: 'https://instagram.com/dhill0n_vikram',
+    bio: 'Junior at Evergreen Valley High School'
+  },
+  {
+    name: 'Kunal Dhillon',
+    position: 'Co-Director of Tutoring',
+    image: 'kunal.jpeg',
+    website: 'https://www.instagram.com/kunaldhillon7/',
     bio: 'Junior at Evergreen Valley High School'
   },
   {
@@ -98,6 +105,13 @@ const volunteers = [
     website: 'https://www.instagram.com/kshitij.teotia/',
     image: 'kshitij.jpeg',
     bio: 'Sophomore at Evergreen Valley High School'
+  },
+  {
+    name: 'Shuchir Harsha',
+    position: 'Co-Director of Project Carbon',
+    website: 'http://instagram.com/shuchirh',
+    image: 'shuchir.jpeg',
+    bio: 'Junior at Evergreen Valley High School'
   },
   {
     name: 'Mihir Shevade',
@@ -199,8 +213,8 @@ export default function About() {
               Project enVision has been a leading PVSA certifying 501(c)(3)
               non-profit organization since 2015. By creating relationships with
               students, schools, and local politicians, through different
-              programs, we envision a community where learning is free and
-              accessible.
+              programs, we <span className="font-semibold">envision</span> a
+              community where learning is free and accessible.
             </p>
           </div>
           <div className="max-w-xl px-4 pb-12 mx-auto sm:px-6 lg:max-w-6xl lg:px-8">

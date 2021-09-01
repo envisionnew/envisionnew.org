@@ -129,18 +129,6 @@ export default function Header() {
                     </Link>
                     {/* <Link href="/programs/lotus"> */}
                     <a
-                      href="/programs/debate"
-                      className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04"
-                    >
-                      <div className="ml-4">
-                        <p className="text-base font-medium text-black">
-                          Debate
-                        </p>
-                      </div>
-                    </a>
-                    {/* </Link> */}
-                    {/* <Link href="/programs/lotus"> */}
-                    <a
                       href="/programs/lotus"
                       className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04"
                     >
@@ -151,7 +139,7 @@ export default function Header() {
                       </div>
                     </a>
                     {/* </Link> */}
-                    {/* <Link href="/programs/lotus"> */}
+                    {/* <Link href="/programs/carbon"> */}
                     <a
                       href="/programs/carbon"
                       className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04"
