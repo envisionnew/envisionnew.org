@@ -47,9 +47,6 @@ export default function Header() {
           }
         >
           <nav className="flex flex-wrap items-center justify-center font-semibold text-md md:ml-auto pl-7">
-            <Link href="/">
-              <a className="mr-6 hover:text-gray-500">Home</a>
-            </Link>
             <Link href="/about">
               <a className="mr-1 hover:text-gray-500">About</a>
             </Link>

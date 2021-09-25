@@ -4,6 +4,7 @@ import Typing from '../components/Typing';
 import Mission from '../components/Mission';
 import Testimony from '../components/Testimony';
 import Programs from '../components/Programs';
+import Incubated from '../components/Incubated';
 import Sponsors from '../components/Sponsors';
 import Subscribe from '../components/Subscribe';
 import Volunteer from '../components/Volunteer';
@@ -79,7 +80,7 @@ export default function Home() {
                 <div className="flex flex-wrap -m-4 text-center">
                   <div className="w-1/3 p-4">
                     <h2 className="text-4xl font-medium text-black title-font sm:text-5xl">
-                      <CountUp end={2000} redraw={true}>
+                      <CountUp end={2500} redraw={true}>
                         {({ countUpRef, start }) => (
                           <VisibilitySensor onChange={start} delayedCall>
                             <span ref={countUpRef} />
@@ -161,22 +162,23 @@ export default function Home() {
         <Mission />
         <Testimony />
         <Programs />
+        <Incubated />
         <Sponsors />
         <Subscribe />
         <section id="volunteer" className="text-gray-600 body-font">
           <div className="container px-5 pb-10 mx-auto">
             <div className="text-center">
               <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
-                Volunteer
+                Join
               </span>
               <h2 className="mb-4 text-3xl font-medium text-black md:text-5xl lg:text-5xl">
                 Interested in Volunteering?
               </h2>
               <p className="mx-auto text-base text-xl leading-relaxed xl:w-2/4 lg:w-3/4 text-gray-500s">
                 Project enVision is looking for committed and talented students
-                willing to devote their time towards helping us make a
-                difference. Students can earn volunteer hours for their time and
-                efforts.
+                willing to devote their time towards helping us make a{' '}
+                <span className="font-semibold">difference</span>. Students will
+                earn volunteer hours for their time and efforts.
               </p>
               <div className="flex justify-center mt-6">
                 <div className="inline-flex w-16 h-1 mb-5 bg-black rounded-full"></div>

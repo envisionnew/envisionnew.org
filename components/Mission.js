@@ -85,8 +85,8 @@ export default function Mission() {
                       Strengthening Communities
                     </h2>
                     <p className="mt-2 mb-4 text-lg">
-                      We work closely with politicians and leaders to strengthen
-                      relationships within communities.
+                      We work closely with local leaders and community members
+                      to strengthen relationships within communities.
                     </p>
                   </div>
                 </div>
