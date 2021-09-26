@@ -87,7 +87,7 @@ export default function ProjectLearn() {
         <title>Project Learn | Project enVision</title>
       </Head>
       <Header />
-      <section class="text-gray-600 body-font bg-gradient-to-r from-rose-200 via-violet-100 to-orange-200 animate-gradient-x">
+      <section class="text-gray-600 body-font bg-gradient-to-r from-lightBlue-200 via-violet-100 to-pink-200 animate-gradient-x">
         <div class="max-w-5xl pt-52 pb-40 mx-auto">
           <h1 class="max-w-xl px-4 mx-auto mt-8 text-3xl md:text-6xl font-black text-center leading-tight text-gray-800">
             Learning done
