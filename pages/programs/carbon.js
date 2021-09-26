@@ -24,7 +24,7 @@ export default function Tutoring() {
         }}
       />
       <Head>
-        <title>Tutoring | Project enVision</title>
+        <title>Project Carbon | Project enVision</title>
       </Head>
       <Header />
       <div className="flex flex-col justify-center mx-auto mt-32 mb-16 text-center max-w-2x1">
