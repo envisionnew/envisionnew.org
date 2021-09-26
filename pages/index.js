@@ -13,18 +13,8 @@ import Footer from '../components/Footer';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import { NextSeo } from 'next-seo';
-import styled from 'styled-components';
 import React from 'react';
 import Link from 'next/link';
-
-const Border = styled.span`
-  border-left: 0.1rem solid black;
-  height: 1.25rem;
-  margin-left: 1rem;
-  @media (max-width: 768px) {
-    border-left: 0.1rem black;
-  }
-`;
 
 export default function Home() {
   return (

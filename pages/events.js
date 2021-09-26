@@ -8,12 +8,12 @@ const events = [
   {
     name: 'Project enVision U.S. Hackathon',
     blurb: 'Mark your calendars for a beginner-friendly hackathon.',
-    dates: 'September 1st to September 3rd',
-    subject: 'Computer Science and Astronomy',
-    location: 'Online!',
+    dates: 'TBA',
+    subject: 'TBA',
+    location: 'Both in-person & online!',
     instructors: 'Parth Paliwal, Saurish Srivastava',
     about:
-      'A beginner-friendly (and advanced!) hackathon with monetary prizes. Join us to explore the intersection between astronomy and computer science!',
+      'A beginner-friendly (and advanced!) hackathon with monetary prizes.',
     link: '',
     filename: 'flyer.pdf',
     filepath: '/events/hackathon.pdf'
@@ -21,7 +21,7 @@ const events = [
   {
     name: 'Speech and Debate Camp',
     blurb: "Get better at debate with a camp taught by the nation's best.",
-    dates: 'July 5th to July 9th',
+    dates: 'July 5th to July 9th 2021',
     subject: 'Speech/Debate',
     location: 'Online!',
     instructors: 'Ayush Agarwal, Florence Zhu, Daleep Pannu',

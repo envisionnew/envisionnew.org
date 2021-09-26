@@ -88,11 +88,38 @@ export default function Header() {
               >
                 <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-white ring-opacity-5">
                   <div className="relative grid gap-6 px-2 py-6 bg-white sm:gap-8 ">
-                    <Link href="/programs/inspire">
+                    <Link href="/programs/learn">
                       <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
                         <div className="ml-4">
                           <p className="text-base font-medium text-black">
-                            Inspire
+                            Learn
+                          </p>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/programs/tutor">
+                      <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
+                        <div className="ml-4">
+                          <p className="text-base font-medium text-black">
+                            Tutor
+                          </p>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/programs/lotus">
+                      <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
+                        <div className="ml-4">
+                          <p className="text-base font-medium text-black">
+                            Lotus
+                          </p>
+                        </div>
+                      </a>
+                    </Link>
+                    <Link href="/programs/carbon">
+                      <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
+                        <div className="ml-4">
+                          <p className="text-base font-medium text-black">
+                            Carbon
                           </p>
                         </div>
                       </a>
@@ -106,48 +133,6 @@ export default function Header() {
                         </div>
                       </a>
                     </Link>
-                    <Link href="/programs/learn">
-                      <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
-                        <div className="ml-4">
-                          <p className="text-base font-medium text-black">
-                            Learn
-                          </p>
-                        </div>
-                      </a>
-                    </Link>
-                    <Link href="/programs/tutoring">
-                      <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
-                        <div className="ml-4">
-                          <p className="text-base font-medium text-black">
-                            Tutoring
-                          </p>
-                        </div>
-                      </a>
-                    </Link>
-                    {/* <Link href="/programs/lotus"> */}
-                    <a
-                      href="/programs/lotus"
-                      className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04"
-                    >
-                      <div className="ml-4">
-                        <p className="text-base font-medium text-black">
-                          Project Lotus
-                        </p>
-                      </div>
-                    </a>
-                    {/* </Link> */}
-                    {/* <Link href="/programs/carbon"> */}
-                    <a
-                      href="/programs/carbon"
-                      className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04"
-                    >
-                      <div className="ml-4">
-                        <p className="text-base font-medium text-black">
-                          Project Carbon
-                        </p>
-                      </div>
-                    </a>
-                    {/* </Link> */}
                   </div>
                 </div>
               </div>

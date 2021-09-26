@@ -3,11 +3,6 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import React from 'react';
 import { NextSeo } from 'next-seo';
-import styled from 'styled-components';
-
-const Highlight = styled.span`
-  background-color: #0af5f4;
-`;
 
 export default function Tutoring() {
   return (

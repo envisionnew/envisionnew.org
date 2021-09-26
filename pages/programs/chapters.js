@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Header from '../../../components/Header';
-import Footer from '../../../components/Footer';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import React from 'react';
 import { NextSeo } from 'next-seo';
 
@@ -13,7 +13,7 @@ const people = [
     role: 'Lead',
     email: 'saurish@envisionnew.org',
     apply: false,
-    link: '#',
+    link: '/',
     image: '/images/volunteers/saurish_profile.JPG'
   },
   {
@@ -101,7 +101,7 @@ export default function Inspire() {
           </div>
         </div>
         <br></br>
-        <p className="mx-4 text-xl font-normal leading-relaxed text-center text-black md:mx-auto lg:w-2/5">
+        <p className="mx-4 text-xl font-normal leading-relaxed text-center text-gray-700 md:mx-auto lg:w-2/5">
           We're ecstatic you want to join us in our mission of spreading
           accessible education everywhere, while making our community a better
           place. Project enVision U.S. can provide you with the resources to
@@ -110,12 +110,13 @@ export default function Inspire() {
           chapter grow – all at zero cost to you. We're looking for committed
           and passionate members of the community to help us.
           <br />
+          <br />
           So,{' '}
           <a
-            className="text-blue-500 underline"
+            className="font-medium text-black underline"
             href="https://psyw68ikrb1.typeform.com/to/mJjeHhlq"
           >
-            wanna get involved?
+            want to get involved?
           </a>
         </p>
         {/* <div className="pb-12 mt-10 bg-white sm:pb-16">
@@ -154,7 +155,7 @@ export default function Inspire() {
           </div>
         </div> */}
       </section>
-      <section className="max-w-5xl pt-20 pb-24 mx-auto">
+      <section className="max-w-5xl pt-12 pb-24 mx-auto">
         <div className="container px-5 mx-auto mb-16">
           <div className="mb-8 text-center">
             <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
