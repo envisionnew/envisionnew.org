@@ -24,11 +24,6 @@ module.exports = {
         permanent: true
       },
       {
-        source: '/programs/tutoring',
-        destination: '/in-development',
-        permanent: true
-      },
-      {
         source: '/volunteer',
         destination: '/#volunteer',
         permanent: true
@@ -41,16 +36,6 @@ module.exports = {
       {
         source: '/discord',
         destination: 'https://discord.gg/Gu5Q5PUNj2',
-        permanent: true
-      },
-      {
-        source: '/programs/lotus',
-        destination: '/in-development',
-        permanent: true
-      },
-      {
-        source: '/programs/carbon',
-        destination: '/in-development',
         permanent: true
       }
     ];
