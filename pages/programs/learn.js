@@ -291,7 +291,7 @@ export default function ProjectLearn() {
                 </span>
               </h3>
               <p className="mb-2 text-lg">
-                An image of instructors Saurish Srivastava teaching his Web
+                An image of instructor Saurish Srivastava teaching his Web
                 Development course.
               </p>
             </div>
