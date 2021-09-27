@@ -21,28 +21,28 @@ const volunteers = [
     position: 'President & Executive Director',
     website: 'https://saurish.com',
     image: 'saurish.JPG',
-    bio: 'Junior at Evergreen Valley High School'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Varun Bommaji',
     position: 'Secretary',
     image: 'varun.jpeg',
     website: 'https://instagram.com/varunbommaji',
-    bio: 'Junior at Evergreen Valley High School'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Vikram Dhillon',
     position: 'Co-Director of Tutoring',
     image: 'vikram.jpg',
     website: 'https://instagram.com/dhill0n_vikram',
-    bio: 'Junior at Evergreen Valley High School'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Kunal Dhillon',
     position: 'Co-Director of Tutoring',
     image: 'kunal.jpeg',
     website: 'https://www.instagram.com/kunaldhillon7/',
-    bio: 'Junior at Evergreen Valley High School'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Alessia Seroff',
@@ -56,27 +56,27 @@ const volunteers = [
     position: 'Director of Computer Science',
     image: 'parth.jpeg',
     website: 'https://instagram.com/parthpaliwalofficial',
-    bio: 'Junior at Evergreen Valley High School'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Garima Upadhyay',
     position: 'Director of Marketing',
     image: 'garima.jpg',
-    bio: 'Junior at American High School'
+    bio: 'Junior at American HS'
   },
   {
     name: 'Amaya Khan',
     position: 'Director of Public Relations',
     image: 'amaya.jpeg',
     website: 'https://instagram.com/amayakhan0220',
-    bio: 'Junior at Evergreen Valley High School'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Ankit Kapoor',
     position: 'Director of Outreach',
     image: 'ankit.jpeg',
     website: 'https://instagram.com/a3kitxkapoor',
-    bio: 'Senior at Evergreen Valley High School'
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Ayush Agarwal',
@@ -90,40 +90,40 @@ const volunteers = [
     position: 'Co-Director of Debate',
     image: 'rikin.jpeg',
     website: 'https://www.instagram.com/rikinladwaa/',
-    bio: 'Junior at Evergreen Valley High School'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Rishi Singh',
     position: 'Director of Robotics',
     image: 'rishi.jpeg',
     website: 'https://www.instagram.com/rishi.19',
-    bio: 'Junior at Evergreen Valley High School'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Kshitij Teotia',
     position: 'Director of Project Carbon',
     website: 'https://www.instagram.com/kshitij.teotia/',
     image: 'kshitij.jpeg',
-    bio: 'Sophomore at Evergreen Valley High School'
+    bio: 'Sophomore at Evergreen Valley HS'
   },
   {
     name: 'Shuchir Harsha',
     position: 'Co-Director of Project Carbon',
     website: 'http://instagram.com/shuchirh',
     image: 'shuchir.jpeg',
-    bio: 'Junior at Evergreen Valley High School'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Mihir Shevade',
     position: 'Director of Math',
     image: 'mihir.png',
-    bio: 'Junior at Evergreen Valley High School'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Aditi Umapathy',
     position: 'Georgia Chapter Lead',
     image: 'aditi.jpeg',
-    bio: 'Junior at Lakeside High School'
+    bio: 'Junior at Lakeside HS'
   }
 ];
 

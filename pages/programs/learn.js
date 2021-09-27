@@ -111,7 +111,7 @@ export default function ProjectLearn() {
           </h2>
           <div className="text-center">
             <Link href="#courses">
-              <a className="inline-block px-5 py-4 mt-2 mt-16 text-sm font-semibold tracking-wider text-white uppercase bg-gray-800 rounded-md shadow focus:outline-none focus:shadow-outline hover:bg-gray-700 active:bg-gray-600">
+              <a className="inline-block px-5 py-4 mt-8 text-sm font-semibold tracking-wider text-white uppercase bg-gray-800 rounded-md shadow focus:outline-none focus:shadow-outline hover:bg-gray-700 active:bg-gray-600">
                 View courses
               </a>
             </Link>
