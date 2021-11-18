@@ -51,7 +51,7 @@
     "rehype": "11.0.0",
     "remark-frontmatter": "3.0.0",
     "remark-parse": "9.0.0",
-    "remark-stringify": "9.0.1",
+    "remark-stringify": "10.0.2",
     "tailwindcss": "^2.1.2",
     "unified": "9.2.1",
     "unist-util-visit": "3.0.1"
