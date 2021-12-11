@@ -59,12 +59,6 @@ const volunteers = [
     bio: 'Junior at Evergreen Valley HS'
   },
   {
-    name: 'Garima Upadhyay',
-    position: 'Director of Marketing',
-    image: 'garima.jpg',
-    bio: 'Junior at American HS'
-  },
-  {
     name: 'Amaya Khan',
     position: 'Director of Public Relations',
     image: 'amaya.jpeg',
