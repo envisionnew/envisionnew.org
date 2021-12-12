@@ -110,7 +110,8 @@ const volunteers = [
   {
     name: 'Mihir Shevade',
     position: 'Director of Math',
-    image: 'mihir.png',
+    website: 'https://www.instagram.com/mihirs_ev/',
+    image: 'mihir.jpg',
     bio: 'Junior at Evergreen Valley HS'
   },
   {
