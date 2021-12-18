@@ -9,9 +9,9 @@ const events = [
     name: 'Project enVision Cloud Computing',
     blurb:
       'Project enVision U.S. is joining the EVHS Cloud Computing Club to host a free cloud computing lessons this winter holidays.',
-    dates: 'TBA',
-    subject: 'TBA',
-    location: 'Both in-person & online!',
+    dates: 'Monday, December 27 - Thursday, December 30 (4 days)',
+    subject: 'CS',
+    location: 'Online',
     instructors: 'Parth Paliwal, Amaan Mahammad, Mihir Shevade',
     about: (
       <p>
