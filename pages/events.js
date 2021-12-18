@@ -6,31 +6,53 @@ import { NextSeo } from 'next-seo';
 
 const events = [
   {
-    name: 'Project enVision U.S. Hackathon',
-    blurb: 'Mark your calendars for a beginner-friendly hackathon.',
+    name: 'Project enVision Cloud Computing',
+    blurb:
+      'Project enVision U.S. is joining the EVHS Cloud Computing Club to host a free cloud computing lessons this winter holidays.',
     dates: 'TBA',
     subject: 'TBA',
     location: 'Both in-person & online!',
-    instructors: 'Parth Paliwal, Saurish Srivastava',
-    about:
-      'A beginner-friendly (and advanced!) hackathon with monetary prizes.',
-    link: '',
-    filename: 'flyer.pdf',
-    filepath: '/events/hackathon.pdf'
+    instructors: 'Parth Paliwal, Amaan Mahammad, Mihir Shevade',
+    about: (
+      <p>
+        We will be covering the basics of cloud computing by exploring the AWS
+        Educate Program and cover some hands-on practice.
+        <br />
+        <br />
+        <strong>What is the "Cloud"?</strong>
+        <br />
+        <br />
+        Ever wonder how large companies such as Apple and Microsoft are able to
+        keep their websites running with millions of users. Since the
+        traditional ways of buying data centers are becoming costly for both
+        companies and the regular people, the cloud is becoming their home.
+        Cloud computing is a simple way to host an application by simply renting
+        services for much more affordable costs. It consists of Servers,
+        Databases, Storages, Firewalls, DNS, Analytics, and many other
+        interesting and useful services. Cloud computing is used in a lot of
+        professions other than CS such as business, healthcare, teaching,
+        accounting, law, etc.
+      </p>
+    ),
+    link:
+      'https://docs.google.com/forms/d/e/1FAIpQLSeuki5lC-ZJD2BnBXHHO530AZ9qMfWCjT09bZrGJaGH7E5J_w/viewform?usp=sf_link',
+    filename: 'n/a',
+    filepath: ''
   },
   {
     name: 'Speech and Debate Camp',
-    blurb: "Get better at debate with a camp taught by the nation's best.",
-    dates: 'July 5th to July 9th 2021',
+    blurb:
+      'Project enVision U.S. will be hosting a free speech and debate camp this holiday break from December 27th to December 30th.',
+    dates: 'Monday, December 27 - Thursday, December 30 (4 days)',
     subject: 'Speech/Debate',
     location: 'Online!',
-    instructors: 'Ayush Agarwal, Florence Zhu, Daleep Pannu',
+    instructors: 'Saurish Srivastava, Rikin Ladwa, Srikar Eranky',
     about:
-      'A concatenation of labs, history lectures, argument-building drills, speaking drills, speeches, rebuttal redoes, etc.',
+      'We will be covering the basics of good research skills, good public speaking skills (ethos, pathos, & logos), argumentation (claim, warrant, impact), and Lincoln-Douglas Debate. Please note that although this camp delves into Lincoln Douglas, the skills learned can be utilized in other debate events, and in quotidian life.',
     link:
-      'https://docs.google.com/forms/d/e/1FAIpQLSdywhU0uwv7kKkMYxWmlwyW88T7-kJ4FuEYJGD-_5CibAgFYA/viewform?usp=sf_link',
-    filename: 'syllabus.pdf',
-    filepath: '/learn/syllabus/speechdebate.pdf'
+      'https://docs.google.com/forms/d/e/1FAIpQLSciawW4EE1vrG_IRr4kHXbvju9csHCOGIngy7rdARqGu77KJg/viewform',
+    filename: 'n/a',
+    filepath: ''
   }
 ];
 
