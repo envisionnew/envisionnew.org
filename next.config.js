@@ -37,6 +37,18 @@ module.exports = {
         source: '/discord',
         destination: 'https://discord.gg/Gu5Q5PUNj2',
         permanent: true
+      },
+      {
+        source: '/s&dcamp',
+        destination:
+          'https://docs.google.com/forms/d/e/1FAIpQLSciawW4EE1vrG_IRr4kHXbvju9csHCOGIngy7rdARqGu77KJg/viewform?usp=sf_link',
+        permanent: true
+      },
+      {
+        source: '/cloudcomputingcamp',
+        destination:
+          'https://docs.google.com/forms/d/e/1FAIpQLSeuki5lC-ZJD2BnBXHHO530AZ9qMfWCjT09bZrGJaGH7E5J_w/viewform?usp=sf_link',
+        permanent: true
       }
     ];
   },
