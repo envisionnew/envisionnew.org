@@ -45,7 +45,7 @@ const volunteers = [
     name: 'Saurish Srivastava',
     position: 'Volunteer',
     website: 'https://saurish.com',
-    image: 'saurish.JPG',
+    image: 'saurish.jpeg',
     bio: 'Junior at Evergreen Valley HS'
   }
 ];
