@@ -98,7 +98,7 @@ export default function Subscribe() {
   };
 
   return (
-    <section id="volunteer" className="text-gray-600 body-font">
+    <section id="subscribe" className="text-gray-600 body-font">
       <div className="container px-5 pt-4 pb-24 mx-auto">
         <div className="text-center">
           <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
