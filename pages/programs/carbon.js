@@ -7,10 +7,16 @@ import { NextSeo } from 'next-seo';
 
 const advisors = [
   {
-    name: 'Alessia Seroff',
-    website: 'https://www.linkedin.com/in/alessia-seroff-a15bb7177/',
-    image: 'alessia.jpeg',
-    bio: 'Psychology Major @ New York University'
+    name: 'Saurish Srivastava',
+    website: 'https://saurish.com',
+    image: 'saurish.jpeg',
+    bio: 'President @ Project enVision U.S.'
+  },
+  {
+    name: 'Parth Paliwal',
+    website: 'https://www.instagram.com/parthpaliwalofficial/',
+    image: 'parth.jpeg',
+    bio: 'Director of CS @ Project enVision U.S.'
   }
 ];
 
@@ -47,12 +53,12 @@ export default function ProjectCarbon() {
   return (
     <div className="max-h-full text-black">
       <NextSeo
-        title="Project Lotus | Project enVision U.S."
+        title="Project Carbon | Project enVision U.S."
         description="Fighting Climate Change With Computer Science"
         canonical="https://envisionnew.org/programs/carbon/"
         openGraph={{
           url: 'https://envisionnew.org/programs/carbon/',
-          title: 'Project Lotus | Project enVision U.S.',
+          title: 'Project Carbon | Project enVision U.S.',
           description:
             'Project Carbon uses computer science concepts and ideals to accurately visualize, research, and educate others on climate change related topics plaguing the world.',
           site_name: 'Project enVision U.S.'
@@ -64,7 +70,7 @@ export default function ProjectCarbon() {
         }}
       />
       <Head>
-        <title>Project Lotus | Project enVision</title>
+        <title>Project Carbon | Project enVision</title>
       </Head>
       <Header />
       <section class="text-gray-600 body-font bg-gradient-to-r from-rose-200 via-violet-100 to-orange-200 animate-gradient-x">
@@ -92,13 +98,12 @@ export default function ProjectCarbon() {
             With Computer Science.
           </h1>
           <h2 class="md:text-2xl text-xl mx-4 font-4 title-font mt-12 pb-12 text-gray-700 text-center">
-            Project Carbon uses{' '}
-            <br className="hidden md:block" />
-            <span className="italic">computer science concepts</span> and ideals to accurately visualize,
-
+            Project Carbon uses <br className="hidden md:block" />
+            <span className="italic">computer science concepts</span> and ideals
+            to accurately visualize,
             <br className="hidden md:block" /> research, and educate others on
-             climate change related topics 
-            <br className="hidden md:block" />  plaguing the world.
+            climate change related topics
+            <br className="hidden md:block" /> plaguing the world.
           </h2>
           <div className="text-center">
             <Link href="#learn-more">
@@ -122,14 +127,15 @@ export default function ProjectCarbon() {
               Our Mission
             </h2>
             <p className="mx-auto text-base text-xl leading-relaxed text-gray-500 xl:w-2/4 lg:w-3/4">
-              According to the United Nations, global temperatures are likely
-              to rise 1.5 degrees celsius in the next 2 decades. Project Carbon
-              is fighting to combat this problem and others like it through
-              visualizing climate change and {' '}
-              <span className="font-semibold">environmental data.</span> Moreover, Project 
-              Carbon is working on deeply researching different problems that
-              affect the environment along with partnering with specialists to
-              analyze and draw conclusions about data.
+              According to the United Nations, global temperatures are likely to
+              rise 1.5 degrees celsius in the next 2 decades. Project Carbon is
+              fighting to combat this problem and others like it through
+              visualizing climate change and{' '}
+              <span className="font-semibold">environmental data.</span>{' '}
+              Moreover, Project Carbon is working on deeply researching
+              different problems that affect the environment along with
+              partnering with specialists to analyze and draw conclusions about
+              data.
             </p>
             <div className="flex justify-center mt-6">
               <div className="inline-flex w-16 h-1 bg-black rounded-full"></div>
@@ -139,10 +145,10 @@ export default function ProjectCarbon() {
         <br />
         <p className="mx-4 text-xl font-normal leading-relaxed text-center text-black md:mx-auto lg:w-2/5">
           Project Carbon additionally hopes to educate the community regarding
-          different issues that are{' '} 
-          <span className="font-semibold">under the radar</span> and not picked 
+          different issues that are{' '}
+          <span className="font-semibold">under the radar</span> and not picked
           up by mainstream media. Moreover, it hopes to reach out to a{' '}
-          <span className="font-semibold">young audience</span> who are 
+          <span className="font-semibold">young audience</span> who are
           interested in making efforts to save the planet and give them a chance
           to help.
         </p>
@@ -166,8 +172,7 @@ export default function ProjectCarbon() {
         </div>
         <br />
         <p className="mx-4 text-xl font-normal leading-relaxed text-center text-black md:mx-auto lg:w-2/5">
-          <span className="font-bold">Note: </span>our national sessions have
-          not begun yet.
+          <span className="font-bold">Note: </span>our work has not begun yet.
         </p>
         <div className="pb-12 mt-10 bg-white sm:pb-16">
           <div className="relative">
@@ -180,7 +185,7 @@ export default function ProjectCarbon() {
                       People Impacted
                     </dt>
                     <dd className="order-1 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-violet-500 to-orange-600">
-                      1
+                      10
                     </dd>
                   </div>
                   <div className="flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r">
@@ -196,7 +201,7 @@ export default function ProjectCarbon() {
                       Mentors
                     </dt>
                     <dd className="order-1 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-violet-500 to-orange-600">
-                      1
+                      2
                     </dd>
                   </div>
                 </dl>
@@ -337,7 +342,7 @@ export default function ProjectCarbon() {
                 ))}
               </div>
             </div>
-            {/* <h2 className="mb-4 text-2xl font-semibold tracking-normal text-black sm:text-4xl sm:leading-none md:leading-tight">
+            <h2 className="mb-4 text-2xl font-semibold tracking-normal text-black sm:text-4xl sm:leading-none md:leading-tight">
               Our Advisors
             </h2>
             <p className="mx-auto text-base text-xl leading-relaxed text-gray-500 xl:w-2/4 lg:w-3/4">
@@ -355,7 +360,7 @@ export default function ProjectCarbon() {
                       <img
                         alt={`Image of ${advisor.name}`}
                         className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-80"
-                        src={`/images/advisors/${advisor.image}`}
+                        src={`/images/volunteers/${advisor.image}`}
                       />
                       <div className="w-full">
                         {advisor.website ? (
@@ -378,7 +383,7 @@ export default function ProjectCarbon() {
                   </div>
                 ))}
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
