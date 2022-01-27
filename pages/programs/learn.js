@@ -121,6 +121,9 @@ export default function ProjectLearn() {
       <section id="courses" class="mt-12 mb-12 text-black body-font">
         <div className="container px-5 mx-auto mb-6">
           <div className="mb-8 text-center">
+            <br />
+            <br />
+            <br />
             <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
               Courses
             </span>

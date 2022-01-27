@@ -28,24 +28,17 @@ const events = [
 
 const volunteers = [
   {
-    name: 'Alessia Seroff',
+    name: 'Kshitij Teotia',
     position: 'Director of Project Lotus',
-    website: 'https://www.linkedin.com/in/alessia-seroff-a15bb7177/',
-    image: 'alessia.jpeg',
-    bio: 'Senior at New York University'
+    website: 'https://instagram.com/kshitij.teotia',
+    image: 'kshitij.jpeg',
+    bio: 'Sophomore at Evergreen Valley HS'
   },
   {
-    name: 'Amaya Khan',
-    position: 'High School Lead of Project Lotus',
-    website: 'https://instagram.com/amayakhannn',
-    image: 'amaya.jpeg',
-    bio: 'Junior at Evergreen Valley HS'
-  },
-  {
-    name: 'Saurish Srivastava',
-    position: 'Volunteer',
-    website: 'https://saurish.com',
-    image: 'saurish.jpeg',
+    name: 'Shuchir Harsha',
+    position: 'Director of Project Lotus',
+    website: 'https://instagram.com/shuchirh',
+    image: 'shuchir.jpeg',
     bio: 'Junior at Evergreen Valley HS'
   }
 ];
@@ -55,13 +48,13 @@ export default function ProjectCarbon() {
     <div className="max-h-full text-black">
       <NextSeo
         title="Project Lotus | Project enVision U.S."
-        description="Project Lotus is a targeted at creating a national support group for teenagers with mental health issues, traumatic experiences, and substance abuse experiences, while continuously striving to educate the general public."
-        canonical="https://envisionnew.org/programs/lotus/"
+        description="Fighting Climate Change With Computer Science"
+        canonical="https://envisionnew.org/programs/carbon/"
         openGraph={{
-          url: 'https://envisionnew.org/programs/lotus/',
+          url: 'https://envisionnew.org/programs/carbon/',
           title: 'Project Lotus | Project enVision U.S.',
           description:
-            'Project Lotus is a targeted at creating a national support group for teenagers with mental health issues, traumatic experiences, and substance abuse experiences, while continuously striving to educate the general public.',
+            'Project Carbon uses computer science concepts and ideals to accurately visualize, research, and educate others on climate change related topics plaguing the world.',
           site_name: 'Project enVision U.S.'
         }}
         twitter={{
@@ -77,9 +70,9 @@ export default function ProjectCarbon() {
       <section class="text-gray-600 body-font bg-gradient-to-r from-rose-200 via-violet-100 to-orange-200 animate-gradient-x">
         <div class="max-w-5xl pt-52 pb-40 mx-auto">
           <h1 class="max-w-xl px-4 mx-auto mt-8 text-3xl md:text-6xl font-black text-center leading-tight text-gray-800">
-            A{' '}
+            Fighting{' '}
             <div className="relative inline-block">
-              <span className="relative z-10">support</span>
+              <span className="relative z-10">Climate</span>
               <div className="absolute bottom-0 left-0 right-0 h-4 md:left-7">
                 <img
                   className="-mt-0.5 md:-mt-3"
@@ -87,25 +80,30 @@ export default function ProjectCarbon() {
                 />
               </div>
             </div>{' '}
-            group for individuals with mental health issues.
+            <div className="relative inline-block">
+              <span className="relative z-10">Change</span>
+              <div className="absolute bottom-0 left-0 right-0 h-4 md:left-7">
+                <img
+                  className="-mt-0.5 md:-mt-3"
+                  src="https://blogody.com/img/marker-pink.png"
+                />
+              </div>
+            </div>{' '}
+            With Computer Science.
           </h1>
           <h2 class="md:text-2xl text-xl mx-4 font-4 title-font mt-12 pb-12 text-gray-700 text-center">
-            Project Lotus is a targeted at creating a{' '}
+            Project Carbon uses{' '}
             <br className="hidden md:block" />
-            <span className="italic">national support group</span> for teenagers
-            with
-            <br className="hidden md:block" />
-            mental health issues, traumatic experiences,
-            <br className="hidden md:block" /> and substance abuse experiences,
-            while
-            <br className="hidden md:block" />
-            continuously striving to <span className="italic">educate</span> the
-            general public.
+            <span className="italic">computer science concepts</span> and ideals to accurately visualize,
+
+            <br className="hidden md:block" /> research, and educate others on
+             climate change related topics 
+            <br className="hidden md:block" />  plaguing the world.
           </h2>
           <div className="text-center">
             <Link href="#learn-more">
               <a className="inline-block px-5 py-4 mt-8 text-sm font-semibold tracking-wider text-white uppercase bg-gray-800 rounded-md shadow focus:outline-none focus:shadow-outline hover:bg-gray-700 active:bg-gray-600">
-                Find out more
+                Check it out
               </a>
             </Link>
           </div>
@@ -114,19 +112,24 @@ export default function ProjectCarbon() {
       <section id="learn-more" class="mt-12 mb-20 text-black body-font">
         <div className="container px-5 mx-auto mb-6">
           <div className="mb-8 text-center">
+            <br />
+            <br />
+            <br />
             <span className="px-3 py-2.5 mb-3 rounded-10 badge badge-success-soft">
               Vision
             </span>
             <h2 className="mb-4 text-3xl font-semibold tracking-normal text-black sm:text-5xl sm:leading-none md:leading-tight">
-              Our Vision
+              Our Mission
             </h2>
             <p className="mx-auto text-base text-xl leading-relaxed text-gray-500 xl:w-2/4 lg:w-3/4">
-              Project Lotus is a national support group for mental health
-              issues, with a strong emphasis on{' '}
-              <span className="font-semibold">survivors</span> – whether it be
-              substance abuse, sexual assault, or domestic abuse. We also
-              educate the general public about certain conditions and
-              hierarchies which could produce these conditions.
+              According to the United Nations, global temperatures are likely
+              to rise 1.5 degrees celsius in the next 2 decades. Project Carbon
+              is fighting to combat this problem and others like it through
+              visualizing climate change and {' '}
+              <span className="font-semibold">environmental data.</span> Moreover, Project 
+              Carbon is working on deeply researching different problems that
+              affect the environment along with partnering with specialists to
+              analyze and draw conclusions about data.
             </p>
             <div className="flex justify-center mt-6">
               <div className="inline-flex w-16 h-1 bg-black rounded-full"></div>
@@ -135,35 +138,13 @@ export default function ProjectCarbon() {
         </div>
         <br />
         <p className="mx-4 text-xl font-normal leading-relaxed text-center text-black md:mx-auto lg:w-2/5">
-          COVID-19 has had a devastating impact on the mental health of many –
-          especially teenagers. The lack of face-to-face interactions, as well
-          as the myriad of adapations that teenagers endured and persevered
-          through, all had a drastic effect. Project Lotus is a{' '}
-          <span className="font-semibold">national</span> support group for
-          mental health issues – with a large focus on{' '}
-          <span className="font-semibold">survivors</span> – in order to attempt
-          to relieve the impacts of these conditions and build an empathic
-          community.
-          <br />
-          <br />
-          We understand that discussing traumatic experiences can be painful and
-          triggering, but they can also be{' '}
-          <span className="font-semibold">beneficial</span> and{' '}
-          <span className="font-semibold">therapeutic</span> for individuals.
-          Everyone should be heard and has a right to be heard. We want to build
-          a community that listens with no judgement, and helps the individual
-          through the process of deliberation, which has been scientifically
-          proven to have a profound impact on individuals.
-          <br />
-          <br />
-          We're striving to create an interconnected community that embodies{' '}
-          <span className="font-semibold">empathy</span>. We achieve this by
-          facilitating events that inform the general public about the{' '}
-          <span className="font-semibold">causes</span> and{' '}
-          <span className="font-semibold">impact</span> of such mental health
-          conditions (especially in the context of trauma). We hope this can
-          create an urgency to begin understanding the reality of mental health
-          conditions, trauma, and sexual misconduct.
+          Project Carbon additionally hopes to educate the community regarding
+          different issues that are{' '} 
+          <span className="font-semibold">under the radar</span> and not picked 
+          up by mainstream media. Moreover, it hopes to reach out to a{' '}
+          <span className="font-semibold">young audience</span> who are 
+          interested in making efforts to save the planet and give them a chance
+          to help.
         </p>
       </section>
       <section id="impact" class="mt-12 mb-12 text-black body-font">
@@ -196,7 +177,7 @@ export default function ProjectCarbon() {
                 <dl className="bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3">
                   <div className="flex flex-col p-6 text-center border-b border-gray-100 sm:border-0 sm:border-r">
                     <dt className="order-2 mt-4 text-lg font-medium leading-6 text-gray-500">
-                      Meetings Held
+                      People Impacted
                     </dt>
                     <dd className="order-1 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-violet-500 to-orange-600">
                       1
@@ -204,7 +185,7 @@ export default function ProjectCarbon() {
                   </div>
                   <div className="flex flex-col p-6 text-center border-t border-b border-gray-100 sm:border-0 sm:border-l sm:border-r">
                     <dt className="order-2 mt-4 text-lg font-medium leading-6 text-gray-500">
-                      People Impacted
+                      Volunteers
                     </dt>
                     <dd className="order-1 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-violet-500 to-orange-600">
                       5
@@ -212,7 +193,7 @@ export default function ProjectCarbon() {
                   </div>
                   <div className="flex flex-col p-6 text-center border-t border-gray-100 sm:border-0 sm:border-l">
                     <dt className="order-2 mt-4 text-lg font-medium leading-6 text-gray-500">
-                      Communities Reached
+                      Mentors
                     </dt>
                     <dd className="order-1 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-violet-500 to-orange-600">
                       1
