@@ -73,17 +73,17 @@ const volunteers = [
     bio: 'Senior at Evergreen Valley HS'
   },
   {
-    name: 'Ayush Agarwal',
-    position: 'Co-Director of Debate',
-    image: 'ayush-2.jpeg',
-    website: 'https://instagram.com/ayudaagarwal',
-    bio: 'Junior at BASIS Independent Silicon Valley'
-  },
-  {
     name: 'Rikin Ladwa',
     position: 'Co-Director of Debate',
     image: 'rikin.jpeg',
     website: 'https://www.instagram.com/rikinladwaa/',
+    bio: 'Junior at Evergreen Valley HS'
+  },
+  {
+    name: 'Srikar Eranky',
+    position: 'Co-Director of Debate',
+    image: 'srikar.jpeg',
+    website: 'https://www.instagram.com/srikar_eranky/',
     bio: 'Junior at Evergreen Valley HS'
   },
   {
