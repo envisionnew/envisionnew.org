@@ -46,6 +46,18 @@ const volunteers = [
     website: 'https://instagram.com/shuchirh',
     image: 'shuchir.jpeg',
     bio: 'Junior at Evergreen Valley HS'
+  },
+  {
+    name: 'Nitish Omprakash',
+    position: 'Volunteer',
+    image: 'nitish.jpeg',
+    bio: 'Sophomore at Evergreen Valley HS'
+  },
+  {
+    name: 'Sanjith Raman',
+    position: 'Volunteer',
+    image: 'sanjith.jpeg',
+    bio: 'Sophomore at Evergreen Valley HS'
   }
 ];
 
@@ -73,7 +85,7 @@ export default function ProjectCarbon() {
         <title>Project Carbon | Project enVision</title>
       </Head>
       <Header />
-      <section class="text-gray-600 body-font bg-gradient-to-r from-rose-200 via-violet-100 to-orange-200 animate-gradient-x">
+      <section class="text-gray-600 body-font bg-gradient-to-r from-fuchsia-200 via-green-200 to-rose-200 animate-gradient-x">
         <div class="max-w-5xl pt-52 pb-40 mx-auto">
           <h1 class="max-w-xl px-4 mx-auto mt-8 text-3xl md:text-6xl font-black text-center leading-tight text-gray-800">
             Fighting{' '}
