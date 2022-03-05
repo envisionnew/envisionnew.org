@@ -119,6 +119,18 @@ const volunteers = [
     position: 'Georgia Chapter Lead',
     image: 'aditi.jpeg',
     bio: 'Junior at Lakeside HS'
+  },
+  {
+    name: 'Nitish Omprakash',
+    position: 'Volunteer at Project Carbon',
+    image: 'nitish.jpeg',
+    bio: 'Sophomore at Evergreen Valley HS'
+  },
+  {
+    name: 'Sanjith Raman',
+    position: 'Volunteer at Project Carbon',
+    image: 'sanjith.jpeg',
+    bio: 'Sophomore at Evergreen Valley HS'
   }
 ];
 
