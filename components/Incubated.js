@@ -26,6 +26,33 @@ const organizations = [
     ),
     image: 'crowneducationchallenge',
     link: 'https://crowneducationchallenge.org?utm_source=envisionnew.org'
+  },
+  {
+    name: 'Project Carbon',
+    description: (
+      <p className="mb-2 text-lg">
+        Project Carbon uses computer science concepts and ideals to accurately
+        visualize, research, and educate others on climate change related topics
+        plaguing the world.
+      </p>
+    ),
+    image: 'projectcarbon',
+    link:
+      'https://envisionnew.org/programs/project-carbon?utm_source=envisionnew.org'
+  },
+  {
+    name: 'Project Lotus',
+    description: (
+      <p className="mb-2 text-lg">
+        Project Lotus is a targeted at creating a national support group for
+        teenagers with mental health issues, traumatic experiences, and
+        substance abuse experiences, while continuously striving to educate the
+        general public.
+      </p>
+    ),
+    image: 'projectlotus',
+    link:
+      'https://envisionnew.org/programs/project-carbon?utm_source=envisionnew.org'
   }
 ];
 
