@@ -131,6 +131,12 @@ const volunteers = [
     position: 'Volunteer at Project Carbon',
     image: 'sanjith.jpeg',
     bio: 'Sophomore at Evergreen Valley HS'
+  },
+  {
+    name: 'Eshaan Kappa',
+    position: 'Volunteer at Project Carbon',
+    image: 'eshaan.jpeg',
+    bio: 'Sophomore at Evergreen Valley HS'
   }
 ];
 

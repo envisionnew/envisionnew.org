@@ -58,6 +58,12 @@ const volunteers = [
     position: 'Volunteer',
     image: 'sanjith.jpeg',
     bio: 'Sophomore at Evergreen Valley HS'
+  },
+  {
+    name: 'Eshaan Kappa',
+    position: 'Volunteer',
+    image: 'eshaan.jpeg',
+    bio: 'Sophomore at Evergreen Valley HS'
   }
 ];
 
