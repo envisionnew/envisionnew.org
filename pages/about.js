@@ -133,7 +133,7 @@ const volunteers = [
     bio: 'Sophomore at Evergreen Valley HS'
   },
   {
-    name: 'Eshaan Kappa',
+    name: 'Eshaan Kaipa',
     position: 'Volunteer at Project Carbon',
     image: 'eshaan.jpeg',
     bio: 'Sophomore at Evergreen Valley HS'
