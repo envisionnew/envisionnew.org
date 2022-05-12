@@ -23,7 +23,7 @@ class MyDocument extends Document {
             async
             defer
             data-website-id="c12ed21f-f90d-4110-8f4f-403fa07f676f"
-            src="https://umami-production-e355.up.railway.app/umami.js"
+            src="https://umami.saurish.com/umami.js"
           ></script>
         </Head>
         <body>
