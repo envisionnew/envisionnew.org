@@ -9,7 +9,7 @@ import { NextSeo } from 'next-seo';
 const advisors = [
   {
     name: 'Rushil Srivastava',
-    website: 'https:rushilsrivastava.com',
+    website: 'https://rushilsrivastava.com',
     image: 'rushil.jpeg',
     bio: 'Co-Founder at Simplify; University of California, Berkeley'
   }
