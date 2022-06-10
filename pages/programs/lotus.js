@@ -28,25 +28,18 @@ const events = [
 
 const volunteers = [
   {
-    name: 'Alessia Seroff',
-    position: 'Director of Project Lotus',
-    website: 'https://www.linkedin.com/in/alessia-seroff-a15bb7177/',
-    image: 'alessia.jpeg',
-    bio: 'Senior at New York University'
-  },
-  {
     name: 'Amaya Khan',
     position: 'High School Lead of Project Lotus',
     website: 'https://instagram.com/amayakhannn',
     image: 'amaya.jpeg',
-    bio: 'Junior at Evergreen Valley HS'
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Saurish Srivastava',
     position: 'Volunteer',
     website: 'https://saurish.com',
     image: 'saurish.jpeg',
-    bio: 'Junior at Evergreen Valley HS'
+    bio: 'Senior at Evergreen Valley HS'
   }
 ];
 

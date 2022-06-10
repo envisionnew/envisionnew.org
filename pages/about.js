@@ -20,56 +20,42 @@ const volunteers = [
     name: 'Saurish Srivastava',
     position: 'President & Executive Director',
     website: 'https://saurish.com',
-    image: 'saurish.jpeg',
-    bio: 'Junior at Evergreen Valley HS'
+    image: 'saurish.JPG',
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Varun Bommaji',
     position: 'Secretary',
     image: 'varun.jpeg',
     website: 'https://instagram.com/varunbommaji',
-    bio: 'Junior at Evergreen Valley HS'
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Vikram Dhillon',
     position: 'Co-Director of Tutoring',
     image: 'vikram.jpg',
     website: 'https://instagram.com/dhill0n_vikram',
-    bio: 'Junior at Evergreen Valley HS'
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Kunal Dhillon',
     position: 'Co-Director of Tutoring',
     image: 'kunal.jpeg',
     website: 'https://www.instagram.com/kunaldhillon7/',
-    bio: 'Junior at Evergreen Valley HS'
-  },
-  {
-    name: 'Alessia Seroff',
-    position: 'Director of Project Lotus',
-    website: 'https://www.linkedin.com/in/alessia-seroff-a15bb7177/',
-    image: 'alessia.jpeg',
-    bio: 'Senior at New York University'
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Parth Paliwal',
     position: 'Director of Computer Science',
     image: 'parth.jpeg',
     website: 'https://instagram.com/parthpaliwalofficial',
-    bio: 'Junior at Evergreen Valley HS'
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Amaya Khan',
     position: 'Director of Public Relations',
     image: 'amaya.jpeg',
     website: 'https://instagram.com/amayakhan0220',
-    bio: 'Junior at Evergreen Valley HS'
-  },
-  {
-    name: 'Ankit Kapoor',
-    position: 'Director of Outreach',
-    image: 'ankit.jpeg',
-    website: 'https://instagram.com/a3kitxkapoor',
     bio: 'Senior at Evergreen Valley HS'
   },
   {
@@ -77,66 +63,66 @@ const volunteers = [
     position: 'Co-Director of Debate',
     image: 'rikin.jpeg',
     website: 'https://www.instagram.com/rikinladwaa/',
-    bio: 'Junior at Evergreen Valley HS'
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Srikar Eranky',
     position: 'Co-Director of Debate',
     image: 'srikar.jpeg',
     website: 'https://www.instagram.com/srikar_eranky/',
-    bio: 'Junior at Evergreen Valley HS'
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Rishi Singh',
     position: 'Director of Robotics',
     image: 'rishi.jpeg',
     website: 'https://www.instagram.com/rishi.19',
-    bio: 'Junior at Evergreen Valley HS'
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Kshitij Teotia',
     position: 'Director of Project Carbon',
     website: 'https://www.instagram.com/kshitij.teotia/',
     image: 'kshitij.jpeg',
-    bio: 'Sophomore at Evergreen Valley HS'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Shuchir Harsha',
     position: 'Co-Director of Project Carbon',
     website: 'http://instagram.com/shuchirh',
     image: 'shuchir.jpeg',
-    bio: 'Junior at Evergreen Valley HS'
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Mihir Shevade',
     position: 'Director of Math',
     website: 'https://www.instagram.com/mihirs_ev/',
     image: 'mihir.jpg',
-    bio: 'Junior at Evergreen Valley HS'
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Aditi Umapathy',
     position: 'Georgia Chapter Lead',
     image: 'aditi.jpeg',
-    bio: 'Junior at Lakeside HS'
+    bio: 'Senior at Lakeside HS'
   },
   {
     name: 'Nitish Omprakash',
     position: 'Volunteer at Project Carbon',
     image: 'nitish.jpeg',
-    bio: 'Sophomore at Evergreen Valley HS'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Sanjith Raman',
     position: 'Volunteer at Project Carbon',
     image: 'sanjith.jpeg',
-    bio: 'Sophomore at Evergreen Valley HS'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Eshaan Kaipa',
     position: 'Volunteer at Project Carbon',
     image: 'eshaan.jpeg',
-    bio: 'Sophomore at Evergreen Valley HS'
+    bio: 'Junior at Evergreen Valley HS'
   }
 ];
 

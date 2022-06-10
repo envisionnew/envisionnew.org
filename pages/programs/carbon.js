@@ -38,32 +38,32 @@ const volunteers = [
     position: 'Director of Project Lotus',
     website: 'https://instagram.com/kshitij.teotia',
     image: 'kshitij.jpeg',
-    bio: 'Sophomore at Evergreen Valley HS'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Shuchir Harsha',
     position: 'Director of Project Lotus',
     website: 'https://instagram.com/shuchirh',
     image: 'shuchir.jpeg',
-    bio: 'Junior at Evergreen Valley HS'
+    bio: 'Senior at Evergreen Valley HS'
   },
   {
     name: 'Nitish Omprakash',
     position: 'Volunteer',
     image: 'nitish.jpeg',
-    bio: 'Sophomore at Evergreen Valley HS'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Sanjith Raman',
     position: 'Volunteer',
     image: 'sanjith.jpeg',
-    bio: 'Sophomore at Evergreen Valley HS'
+    bio: 'Junior at Evergreen Valley HS'
   },
   {
     name: 'Eshaan Kaipa',
     position: 'Volunteer',
     image: 'eshaan.jpeg',
-    bio: 'Sophomore at Evergreen Valley HS'
+    bio: 'Junior at Evergreen Valley HS'
   }
 ];
 
